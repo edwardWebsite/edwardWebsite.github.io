@@ -1,0 +1,93 @@
+
+/*Container */
+.froncontainer {
+	width: 100%;
+	max-width: 800px;
+}
+
+
+.node {
+  fill: white;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+
+#graphTop p{
+	position: relative;
+	bottom: 0;
+	color:rgb(200,200,200);
+	
+}
+#graphTop {
+	overflow: visible;
+}
+
+
+/*Le texte de présentation*/
+.presentationText {
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 70px;
+	font-family:American Typewriter;
+
+}
+
+.presentationText p {
+	font-size: 18px;	
+}
+
+.presentationText > p > a {
+	color:steelblue;
+}
+.presentationText > p > a:hover {
+	color:blue;
+	text-decoration: none;
+}
+
+
+.buttons-about {
+	width: 100%;
+	padding-bottom: 70px;
+}
+.buttons-about a {
+	font-size: 20px;
+	border: solid 2px steelblue;
+	float: left;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-right: 20px;
+	border-radius: 5px;
+}
+
+.buttons-about a:hover {
+	text-decoration: none;
+}
+
+
+
+/*Section de contact*/
+#contactSection {
+	font-family:American Typewriter;
+	padding-bottom: 100px;
+	font-size: 20px;
+}
+#contactSection h1 {
+	font-size: 30px;
+
+}
+#contactSection a {
+	color: steelblue;
+}
+#contactSection a:hover {
+	color: blue;
+	text-decoration: none;
+}
+

@@ -1,0 +1,83 @@
+
+/*Container */
+.froncontainer {
+	width: 100%;
+	max-width: 800px;
+}
+
+
+.node {
+  fill: white;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+#graphTop p{
+	position: relative;
+	bottom: 0;
+	color:rgb(200,200,200);
+	
+}
+#graphTop {
+	overflow: visible;
+}
+
+
+/*News Post */
+.newsContainer {
+	width: 100%;
+	max-width: 800px;
+	background-color: rgb(235,235,235);
+	border-left: solid 3px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+
+.newScience {
+	border-left-color: red;
+}
+.newDesign {
+	border-left-color: blue;
+}
+
+.headerNew {
+	width: 100%;
+	padding-bottom: 70px;
+	font-family:American Typewriter;
+	-inkscape-font-specification:American Typewriter;
+}
+.headerNew h1 {
+	/*display: inline;*/
+	font-size: 20px;
+	float: left;
+}
+.headerNew h2 {
+	/*display: inline;*/
+	font-size: 20px;
+	float: right;
+}
+
+.newsContainer p {
+	font-size: 18px;
+	font-family:American Typewriter;
+	-inkscape-font-specification:American Typewriter;
+}
+
+
+.newsContainer a {
+	color: steelblue;
+}
+.newsContainer a:hover {
+	color: blue;
+	text-decoration: none;
+}
+
+
+
