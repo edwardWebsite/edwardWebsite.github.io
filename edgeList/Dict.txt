@@ -1,0 +1,22 @@
+0 : index.html
+1 : about.html
+2 : news.html
+3 : design.html
+4 : random.html
+5 : cv
+6 : ulaval.ca
+7 : dynamica.phy.ulaval.ca
+8 : louisDubé
+9 : github
+10 : courriel
+11 : jean-gab
+12 : Netsci
+13 : Zaragoza
+14 : Sergey
+15 : D3.js
+16 : iplopdev
+17 : Do a Logo
+18 : responsive logo
+19 : New2.html
+20 : wikipedia COllatz
+21 : collatz graph

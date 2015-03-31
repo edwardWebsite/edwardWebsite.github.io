@@ -44,4 +44,4 @@ def generateJason(edgelist, output):
 
 	Out.write("\n]\n}")
 
-generateJason("../edgeList/save42.txt",'./Save42.json')
+generateJason("../edgeList/edgeListWeb.txt",'./webEdge.json')
