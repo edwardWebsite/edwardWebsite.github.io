@@ -1,9 +1,15 @@
- $(function(){
-      $("#stage").load("./images/svgIntro.svg", function(response){
+
+ function put_svg(name){
+ 	$("#stage").load(name, function(response){
         $(this).addClass("svgLoaded");
 
         if (!response){
 
         }
+
     });
-});
+    
+ 
+
+ }	
+     
