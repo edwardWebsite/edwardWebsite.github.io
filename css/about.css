@@ -17,17 +17,24 @@
   stroke-opacity: .6;
 }
 
-
+#graphTop {
+	overflow: visible;
+}
 #graphTop p{
 	position: relative;
 	bottom: 0;
 	color:rgb(200,200,200);
 	
 }
-#graphTop {
-	overflow: visible;
-}
 
+#graphTop a {
+	float:right;
+	color:black;
+}
+#graphTop a:hover {
+	color:blue;
+	text-decoration: none;
+}
 
 /*Le texte de présentation*/
 .presentationText {
