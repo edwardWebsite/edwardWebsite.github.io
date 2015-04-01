@@ -70,8 +70,8 @@
 	width: 100%;
 	margin-left: 150px;
 	padding-top: 15px; 
-	font-family:American Typewriter;
-	-inkscape-font-specification:American Typewriter;
+	font-family:"American Typewriter";
+	-inkscape-font-specification:"American Typewriter";
 }
 .headerNew h1 {
 	/*display: inline;*/
@@ -87,8 +87,8 @@
 
 .newsContainer p {
 	font-size: 18px;
-	font-family:American Typewriter;
-	-inkscape-font-specification:American Typewriter;
+	font-family:"American Typewriter";
+	-inkscape-font-specification:"American Typewriter";
 }
 
 .helper {
@@ -116,8 +116,8 @@
 	width: 100%;
 	padding-top: 40px;
 	padding-bottom: 40px;
-	font-family:American Typewriter;
-	-inkscape-font-specification:American Typewriter;
+	font-family:"American Typewriter";
+	-inkscape-font-specification:"American Typewriter";
 }
 
 .presentationText p {

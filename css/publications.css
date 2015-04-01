@@ -79,8 +79,8 @@
 	width: 100%;
 	margin-left: 150px;
 	padding-top: 15px; 
-	font-family:American Typewriter;
-	-inkscape-font-specification:American Typewriter;
+	font-family:"American Typewriter";
+	-inkscape-font-specification:"American Typewriter";
 }
 .headerNew h1 {
 	/*display: inline;*/
@@ -96,7 +96,7 @@
 
 .newsContainer p {
 	font-size: 18px;
-	font-family:American Typewriter;
+	font-family:"American Typewriter";
 }
 
 .helper {
@@ -121,7 +121,7 @@
 
 /*Publication part*/
 .publication {
-	font-family: American Typewriter
+	font-family: "American Typewriter"
 }
 
 
@@ -174,12 +174,12 @@
 	padding-top: 30px;
 }
 .headerPubli h1 {
-	font-family: American Typewriter;
+	font-family: "American Typewriter";
 	font-size: 30px;
 	line-height: 10px;
 }
 .headerPubli h2 {
-	font-family: American Typewriter;
+	font-family: "American Typewriter";
 	font-size: 17px;
 }
 

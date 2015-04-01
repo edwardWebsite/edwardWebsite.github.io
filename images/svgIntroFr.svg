@@ -123,7 +123,7 @@
        x="570.56342"
        style="font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:Sans"
        xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#333333;font-family:American Typewriter;-inkscape-font-specification:American Typewriter"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#333333;font-family:'American Typewriter';-inkscape-font-specification:'American Typewriter'"
          id="randomText"
          y="1018.769"
          x="580.56342"
@@ -139,7 +139,7 @@
          sodipodi:role="line"
          x="102.30184"
          y="855.31982"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#333333;font-family:American Typewriter;-inkscape-font-specification:American Typewriter"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#333333;font-family:'American Typewriter';-inkscape-font-specification:'American Typewriter'"
          id="aboutText">
          bio</tspan></text>
     </a>
@@ -151,7 +151,7 @@
        x="282.23795"
        style="font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:Sans"
        xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#333333;font-family:American Typewriter;-inkscape-font-specification:American Typewriter"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#333333;font-family:'American Typewriter';-inkscape-font-specification:'American Typewriter'"
          y="750.14404"
          x="282.23795"
          id="newsText"
@@ -164,7 +164,7 @@
        x="412.34912"
        style="font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:Sans"
        xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#333333;font-family:American Typewriter;-inkscape-font-specification:American Typewriter"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#333333;font-family:'American Typewriter';-inkscape-font-specification:'American Typewriter'"
          y="936.34241"
          x="412.34912"
          sodipodi:role="line"
