@@ -157,7 +157,7 @@
          id="newsText"
          sodipodi:role="line">nouvelles</tspan></text>
     </a>
-    <a xlink:href="design.html">
+    <a xlink:href="publications.html">
     <text
        sodipodi:linespacing="125%" 
        y="936.34241"
@@ -170,7 +170,7 @@
          sodipodi:role="line"
           id="designText"
           href="./news.html"
-          >design</tspan></text>
+          >publications</tspan></text>
     </a>
     <path
        style="fill:url(#linearGradient4395);fill-opacity:1;stroke:none"

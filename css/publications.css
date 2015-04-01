@@ -1,0 +1,194 @@
+
+/*Container */
+.froncontainer {
+	width: 100%;
+	max-width: 800px;
+}
+
+
+.node {
+  fill: white;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+
+#graphTop p{
+	position: relative;
+	bottom: 0;
+	color:rgb(200,200,200);
+	
+}
+
+
+
+#imgNew img{
+	max-width: 800px;
+	max-height: 200px;
+}
+#imgNew {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+
+
+/*News Post */
+.newsContainer {
+	width: 100%;
+	max-width: 800px;
+	height: 120px;
+	background-color: rgb(235,235,235);
+	border-left: solid 3px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+.newsContainer:hover {
+	background-color: rgb(220,220,220);
+}
+
+#thumbnail {
+	float:left;
+	height: 120px;
+	width: 120px;
+	max-width: 120px;
+}
+#thumbnail img {
+	max-width: 100px;
+	max-height: 100px;
+	vertical-align: middle;
+
+}
+.newScience {
+	border-left-color: red;
+}
+.newDesign {
+	border-left-color: blue;
+}
+
+.headerNew {
+	height: 120px;
+	width: 100%;
+	margin-left: 150px;
+	padding-top: 15px; 
+	font-family:American Typewriter;
+	-inkscape-font-specification:American Typewriter;
+}
+.headerNew h1 {
+	/*display: inline;*/
+	font-size: 25px;
+	
+}
+.headerNew h2 {
+	/*display: inline;*/
+	font-size: 20px;
+	line-height: 0px;
+	color: rgb(150,150,150);
+}
+
+.newsContainer p {
+	font-size: 18px;
+	font-family:American Typewriter;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
+
+/*News Hy ref*/
+.hyrefNew {
+	color : black;
+}
+
+.hyrefNew:hover {
+	text-decoration:  none;
+	color: black;
+}
+
+
+
+/*Publication part*/
+.publication {
+	font-family: American Typewriter
+}
+
+
+.publication h1{
+	font-size: 20px;
+	line-height: 25px;
+	margin-bottom: -10px;
+}
+.publication h2{
+	font-size: 18px;
+	line-height:10px;
+	margin-bottom: -10px;
+}
+.publication h3{
+	font-size: 18px;
+	line-height: 20px;
+}
+.publication h4{
+	font-size: 18px;
+	line-height: 10px;
+}
+.imageArxiv {
+	max-height: 30px;
+	max-width: 30px;
+}
+
+.imageExternal {
+	color: steelblue;
+}
+.imageExternal:hover {
+	color: blue;
+}
+
+.powerpoint {
+	font-size: 33px;
+	margin-left: 9px;
+	color: steelblue;
+}
+.powerpoint:hover {
+	color:blue;
+}
+
+.media-left {
+	min-width: 80px;
+	text-align: center;
+}
+
+
+.headerPubli {
+	padding-top: 30px;
+}
+.headerPubli h1 {
+	font-family: American Typewriter;
+	font-size: 30px;
+	line-height: 10px;
+}
+.headerPubli h2 {
+	font-family: American Typewriter;
+	font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+

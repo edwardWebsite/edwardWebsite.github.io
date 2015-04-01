@@ -1,3 +1,6 @@
+def ro(node):
+	return str(int(node)-1)
+
 def generateJason(edgelist, output):
 	File = open(edgelist)
 	
@@ -6,8 +9,8 @@ def generateJason(edgelist, output):
 	DictNode = {}
 	for line in File:
 		nodes = line.split(' ')
-		nodeA = nodes[0].split("\n")[0]
-		nodeB = nodes[1].split("\n")[0]
+		nodeA = ro(nodes[0].split("\n")[0])
+		nodeB = ro(nodes[1].split("\n")[0])
 		try:
 			DictNode[nodeA] += 1
 		except:
@@ -44,4 +47,4 @@ def generateJason(edgelist, output):
 
 	Out.write("\n]\n}")
 
-generateJason("../edgeList/edgeListWeb.txt",'./webEdge.json')
+generateJason("../edgeList/karateclub",'./karate.json')

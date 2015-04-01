@@ -108,3 +108,20 @@
 	text-decoration:  none;
 	color: black;
 }
+
+
+
+
+.presentationText {
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-family:American Typewriter;
+	-inkscape-font-specification:American Typewriter;
+}
+
+.presentationText p {
+	font-size: 18px;	
+}
+
+

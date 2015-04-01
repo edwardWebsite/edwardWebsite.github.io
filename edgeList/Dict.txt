@@ -1,7 +1,7 @@
 0 : index.html
 1 : about.html
 2 : news.html
-3 : design.html
+3 : publications.html
 4 : random.html
 5 : cv
 6 : ulaval.ca
@@ -14,9 +14,14 @@
 13 : Zaragoza
 14 : Sergey
 15 : D3.js
-16 : iplopdev
-17 : Do a Logo
-18 : responsive logo
+16 : Do a Logo
+17 : responsive logo
+18 : Four awesome games
 19 : New2.html
 20 : wikipedia COllatz
 21 : collatz graph
+22 : arxiv HPA
+23 : extreme paper
+24 : hpa poster
+25 : hpa abstract
+26 : extreme poster
