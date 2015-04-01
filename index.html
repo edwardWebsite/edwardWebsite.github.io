@@ -14,7 +14,12 @@
   
   @font-face {
     font-family: "American Typewriter";
-    src: url("../police/americantype.ttf") 
+    src: url('./police/americantypewriter.eot'); /* IE9 Compat Modes */
+    src: url('./police/americantypewriter.eot?#iefix') format('embedded-opentype'),
+       url('./police/americantypewriter.woff2') format('woff2'),
+       url('./police/americantypewriter.woff') format('woff'), 
+       url('./police/americantypewriter.ttf')  format('truetype'), 
+       url('./police/americantypewriter.svg#svgFontName') format('svg'); /* Legacy iOS */
   }
   </style>
 
