@@ -19,7 +19,7 @@
 
 #imgNew img{
 	max-width: 800px;
-	max-height: 200px;
+	max-height: 250px;
 }
 #imgNew {
 	padding-top: 30px;
@@ -32,4 +32,16 @@
 .presentationText a:hover{
 	text-decoration: none;
 	color:blue;
+}
+
+
+/*The images in the gallery*/
+.gallery img {
+	display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery {
+	margin-bottom: 20px;
 }

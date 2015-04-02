@@ -25,3 +25,4 @@
 24 : hpa poster
 25 : hpa abstract
 26 : extreme poster
+27 : Symposium Dynamica (new1)

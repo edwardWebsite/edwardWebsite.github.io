@@ -1,5 +1,5 @@
 def ro(node):
-	return str(int(node)-1)
+	return str(int(node))
 
 def generateJason(edgelist, output):
 	File = open(edgelist)
@@ -47,4 +47,4 @@ def generateJason(edgelist, output):
 
 	Out.write("\n]\n}")
 
-generateJason("../edgeList/karateclub",'./karate.json')
+generateJason("../edgeList/edgeListWeb.txt",'./webEdge.json')
