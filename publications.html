@@ -77,7 +77,7 @@
   <div class="froncontainer publication center-block">
     <div class="media">
       <div class="media-left media-middle">
-        <a href="http://arxiv.org/abs/1312.0171">
+        <a href="http://arxiv.org/abs/1312.0171" data-toggle="tooltip" title="ArXiv">
           <img class="media-object imageArxiv center-block" src="./images/arxiv.gif" alt="...">
         </a>
 
@@ -108,7 +108,7 @@
   <div class="froncontainer publication center-block">
     <div class="media">
       <div class="media-left media-middle">
-        <a href="http://journals.ametsoc.org/doi/abs/10.1175/JHM-D-14-0020.1">
+        <a href="http://journals.ametsoc.org/doi/abs/10.1175/JHM-D-14-0020.1" data-toggle="tooltip" title="Full text">
           <i class="fa fa-external-link fa-2x imageExternal"> </i>
         </a>
       </div>
@@ -139,12 +139,12 @@
   <div class="froncontainer publication center-block">
     <div class="media">
       <div class="media-left media-middle">
-        <a class="powerpoint" href="./pdf/HeadLow_NS_15_CascadeV6.pdf">
+        <a class="powerpoint" href="./pdf/HeadLow_NS_15_CascadeV6.pdf" data-toggle="tooltip" title="Poster">
           <span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span>
         </a>
         <br>
         <br>
-        <a href="http://www.dynamica.phy.ulaval.ca/fileadmin/abs/netsci2015_abs_ed.pdf">
+        <a href="http://www.dynamica.phy.ulaval.ca/fileadmin/abs/netsci2015_abs_ed.pdf" data-toggle="tooltip" title="Abstract">
           <i class="fa fa-file-text fa-2x imageExternal"> </i>
         </a>
       </div>
@@ -174,12 +174,12 @@
   <div class="froncontainer publication center-block">
     <div class="media">
       <div class="media-left media-middle">
-        <a class="powerpoint" href="http://www.dynamica.phy.ulaval.ca/fileadmin/posters/netsci2014_poster_lhd.pdf">
+        <a class="powerpoint" href="http://www.dynamica.phy.ulaval.ca/fileadmin/posters/netsci2014_poster_lhd.pdf" data-toggle="tooltip" title="Poster">
           <span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span>
         </a>
         <br>
         <br>
-        <a href="http://www.dynamica.phy.ulaval.ca/fileadmin/abs/netsci2014_abs_lsd.pdf">
+        <a href="http://www.dynamica.phy.ulaval.ca/fileadmin/abs/netsci2014_abs_lsd.pdf" data-toggle="tooltip" title="Abstract">
           <i class="fa fa-file-text fa-2x imageExternal"> </i>
         </a>
       </div>
@@ -208,7 +208,7 @@
   <div class="froncontainer publication center-block">
     <div class="media">
       <div class="media-left media-middle">
-        <a class="powerpoint" href="../pdf/extremePrecPoster.pdf">
+        <a class="powerpoint" href="./pdf/extremePrecPoster.pdf" data-toggle="tooltip" title="Presentation">
           <span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span>
         </a>
        
@@ -317,6 +317,7 @@
   <!-- Scripts -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script src="js/forceNetwork.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
   <script src="http://d3js.org/d3.v3.min.js"></script> 
   <script type="text/javascript">create_graph("./jason/karate.json")</script>
   <script>
@@ -329,6 +330,13 @@
     ga('send', 'pageview');
 
   </script>
+
+  <script>
+  $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();   
+  });
+  </script>
+
 
   </body>
 </html>
