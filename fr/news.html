@@ -13,6 +13,10 @@
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <script src="../js/forceNetwork.js"></script>
 
+        <!-- PhotoSwipe -->
+    <link rel="stylesheet" href="../photoswipe/photoswipe.css">
+    <link rel="stylesheet" href="../photoswipe/default-skin/default-skin.css">
+   
   </head>
 
   <body>
@@ -49,6 +53,67 @@
     <p>
     Je suis dans la belle ville de Saragosse afin de participer à Netsci 2015! Je présente une <a href="../pdf/HeadLow_NS_15_CascadeV6.pdf">affiche</a> sur notre tout dernier projet concernant la dynamique binaire sur réseau.
     </p>
+
+    <!-- The two images -->
+    <div class="gallery">
+
+      <!-- Les figures -->
+      <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
+        <a href="../images/Saragosse/1.JPG" itemprop="contentUrl" data-size="1936x2592">
+          <img src="../images/Saragosse/1.JPG" itemprop="thumbnail" alt="Image description" />
+        </a>
+        <figcaption itemprop="caption description">Vue de l'appartement.</figcaption>
+         <hr>
+      </figure>
+     
+      <!-- Les figures -->
+      <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
+        <a href="../images/Saragosse/2.JPG" itemprop="contentUrl" data-size="2592x1936">
+          <img src="../images/Saragosse/2.JPG" itemprop="thumbnail" alt="Image description"  data-size="373x500"  />
+        </a>
+        <figcaption itemprop="caption description">World Trade Center Zaragoza</figcaption>
+        <hr>
+      </figure>
+
+      <!-- Les figures -->
+      <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
+        <a href="../images/Saragosse/3.JPG" itemprop="contentUrl" data-size="1936x2592">
+          <img src="../images/Saragosse/3.JPG" itemprop="thumbnail" alt="Image description"  data-size="373x500"  />
+        </a>
+       <figcaption itemprop="caption description">Une conférence</figcaption>
+        <hr>
+      </figure>
+
+      <!-- Les figures -->
+      <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
+        <a href="../images/Saragosse/4.JPG" itemprop="contentUrl" data-size="1936x2592">
+          <img src="../images/Saragosse/4.JPG" itemprop="thumbnail" alt="Image description"  data-size="373x500"  />
+        </a>
+        <figcaption itemprop="caption description">Belle petite rue.</figcaption>
+        <hr>
+      </figure>
+
+      <!-- Les figures -->
+      <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
+        <a href="../images/Saragosse/5.JPG" itemprop="contentUrl" data-size="1936x2592">
+          <img src="../images/Saragosse/5.JPG" itemprop="thumbnail" alt="Image description"  data-size="373x500"  />
+        </a>
+        <figcaption itemprop="caption description">L'homme avec un chien et un oiseau.</figcaption>
+        <hr>
+      </figure>
+
+      <!-- Les figures -->
+      <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
+        <a href="../images/Saragosse/6.JPG" itemprop="contentUrl" data-size="1936x2592">
+          <img src="../images/Saragosse/6.JPG" itemprop="thumbnail" alt="Image description"  data-size="373x500"  />
+        </a>
+        <figcaption itemprop="caption description">L'affiche!</figcaption>
+        <hr>
+      </figure>
+    </div>
+ 
+
+
   </div>
 
    <!-- Une  news -->
@@ -93,7 +158,77 @@
      Le site est prêt! Pour les intéressé(e)s, j'ai utilisé <a href="http://d3js.org">D3.js</a> pour créer les réseaux en haut des pages et la <a href="fr/random.html">Levy flight</a>. Les codes sont accessibles via l'outil développeur de votre navigateur alors n'hésitez pas à les prendre.
     </p>
   </div>
+   <!-- PhotoSwipe Part -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
+        <!-- Background of PhotoSwipe. 
+             It's a separate element, as animating opacity is faster than rgba(). -->
+        <div class="pswp__bg"></div>
+
+        <!-- Slides wrapper with overflow:hidden. -->
+        <div class="pswp__scroll-wrap">
+
+            <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+            <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+            <div class="pswp__ui pswp__ui--hidden">
+
+                <div class="pswp__top-bar">
+
+                    <!--  Controls are self-explanatory. Order can be changed. -->
+
+                    <div class="pswp__counter"></div>
+
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                    <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                    <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                    <!-- element will get class pswp__preloader--active when preloader is running -->
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                          <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div> 
+                </div>
+
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                </button>
+
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                </button>
+
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+
+              </div>
+
+            </div>
+  </div>
+  <script src="../photoswipe/photoswipe.min.js"></script>
+  <script src="../photoswipe/photoswipe-ui-default.min.js"></script>
+  <script src="../photoswipe/initPhotoSwipe.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      initPhotoSwipeFromDOM('.gallery');
+    });</script>
 
   <!-- Header -->
   <script type="text/javascript">create_graph("../jason/ieee14.jason")</script>
