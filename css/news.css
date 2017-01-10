@@ -26,7 +26,6 @@
 /*News Post */
 .newsContainer {
 	width: 100%;
-
 	max-width: 800px;
 	background-color: rgb(235,235,235);
 	border-left: solid 3px;
@@ -52,7 +51,7 @@
 .headerNew h1 {
 	/*display: inline;*/
 	font-size: 30px;
-	float: left;
+	text-align: left;
 	font-family: Helvetica;
 	font-weight: lighter;
 }
