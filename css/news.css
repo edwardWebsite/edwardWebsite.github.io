@@ -49,14 +49,14 @@
 	-inkscape-font-specification:"American Typewriter";
 }
 .headerNew h1 {
-	/*display: inline;*/
+	display: inline;
 	font-size: 30px;
-	text-align: left;
+	float:left;
 	font-family: Helvetica;
 	font-weight: lighter;
 }
 .headerNew h2 {
-	/*display: inline;*/
+	display: inline;
 	font-size: 20px;
 	float: right;
 }
