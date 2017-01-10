@@ -17,20 +17,21 @@
   <body>
 
   <!-- Top Image container -->
+
   <div class="froncontainer center-block" id="graphTop" >
-    <p style="float:left">The karate club<p>
-   <a href="./fr/publications.html" style="float:right">fr</a>
+    <p style="float:left; margin-left:60px;margin-top: 30px;">The karate club<p>
   </div>
 
 
+
   <!-- Le nom et le sous titre -->
-  <div class="froncontainer frontname center-block">
-    <div class="masthead" >
+  <div class="froncontainer center-block background-header">
+    <div class="masthead center-block" >
           <nav >
             <ul class="masthead-nav">
               <li ><a  href="./index.html">news</a></li>
               <li ><a href="./about.html">about</a></li>
-              <li><a style="color:rgb(200,200,200)" href="./publications.html">publications</a></li>
+              <li><a class="active-nav" href="./publications.html">publications</a></li>
               <li><a href="./random.html">random</a></li>
             </ul>
         </nav>
@@ -41,12 +42,12 @@
 
   <br>
 
-  <div class="froncontainer center-block headerPubli">
+  <div class="container-content center-block headerPubli">
       <h1>In preparation</h1>
   </div>
 
   <!-- Exact -->
-  <div class="froncontainer publication center-block">
+  <div class="container-content publication center-block">
     <div class="media">
       <div class="media-left media-middle">
      
@@ -75,12 +76,12 @@
 
   
 
-  <div class="froncontainer center-block headerPubli">
+  <div class="container-content center-block headerPubli">
       <h1>In peer-reviewed journals</h1>
   </div>
 
  <!-- HPA -->
-  <div class="froncontainer publication center-block">
+  <div class="container-content publication center-block">
     <div class="media">
       <div class="media-left media-middle">
 
@@ -109,7 +110,7 @@
 
 
   <!-- Extreme precipitations -->
-  <div class="froncontainer publication center-block">
+  <div class="container-content publication center-block">
     <div class="media">
       <div class="media-left media-middle">
         <a href="http://journals.ametsoc.org/doi/abs/10.1175/JHM-D-14-0020.1" data-toggle="tooltip" title="Full text">
@@ -135,12 +136,12 @@
   </div>
 
 
-  <div class="froncontainer center-block headerPubli">
+  <div class="container-content center-block headerPubli">
       <h1>Selected conference presentations</h1>
       <h2>Speaker are noted in bold</h2>
   </div>
   <!-- Exact Netsci 2015 -->
-  <div class="froncontainer publication center-block">
+  <div class="container-content publication center-block">
     <div class="media">
       <div class="media-left media-middle">
         <a class="powerpoint" href="./pdf/HeadLow_NS_15_CascadeV6.pdf" data-toggle="tooltip" title="Poster">
@@ -175,7 +176,7 @@
 
 
   <!-- Exact Netsci 2015 -->
-  <div class="froncontainer publication center-block">
+  <div class="container-content publication center-block">
     <div class="media">
       <div class="media-left media-middle">
         <a class="powerpoint" href="http://www.dynamica.phy.ulaval.ca/fileadmin/posters/netsci2015_poster_ogy.pdf" data-toggle="tooltip" title="Poster">
@@ -210,7 +211,7 @@
 
 
   <!-- HPA Netsci 2014 -->
-  <div class="froncontainer publication center-block">
+  <div class="container-content publication center-block">
     <div class="media">
       <div class="media-left media-middle">
         <a class="powerpoint" href="http://www.dynamica.phy.ulaval.ca/fileadmin/posters/netsci2014_poster_lhd.pdf" data-toggle="tooltip" title="Poster">
@@ -244,7 +245,7 @@
   </div>
 
   <!-- Extreme precipitations 2014 -->
-  <div class="froncontainer publication center-block">
+  <div class="container-content publication center-block">
     <div class="media">
       <div class="media-left media-middle">
         <a class="powerpoint" href="./pdf/extremePrecPoster.pdf" data-toggle="tooltip" title="Presentation">
@@ -274,7 +275,7 @@
   </div>
 
   <!-- CUPC 2013 -->
-  <div class="froncontainer publication center-block">
+  <div class="container-content publication center-block">
     <div class="media">
       <div class="media-left media-middle">
        
@@ -301,7 +302,7 @@
   </div>
 
   <!-- Poster 2014 -->
-  <div class="froncontainer publication center-block">
+  <div class="container-content publication center-block">
     <div class="media">
       <div class="media-left media-middle">
        
@@ -327,7 +328,7 @@
   </div>
 
   <!-- CUPC 2012 -->
-  <div class="froncontainer publication center-block">
+  <div class="container-content publication center-block">
     <div class="media">
       <div class="media-left media-middle">
      
@@ -358,7 +359,7 @@
   <script src="js/forceNetwork.js"></script>
   <script src="bootstrap/js/bootstrap.min.js"></script>
   <script src="http://d3js.org/d3.v3.min.js"></script> 
-  <script type="text/javascript">create_graph("./jason/karate.json")</script>
+  <script type="text/javascript">create_graph("./jason/karate.json", window.innerWidth)</script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

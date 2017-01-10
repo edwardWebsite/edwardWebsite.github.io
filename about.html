@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="E. Laurence">
     <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="./css/header.css" rel="stylesheet">
     <link href="./css/about.css" rel="stylesheet">
+    <link href="./css/header.css" rel="stylesheet">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     
 
@@ -16,18 +16,19 @@
 
   <body>
 
+
   <div class="froncontainer center-block" id="graphTop" >
-  <p style="float:left">This website<p>
-  <a href="./fr/about.html" style="float:right">fr</a>
+  <p style="float:left; margin-left:60px;margin-top: 30px;">This website<p>
   </div>
 
+
   <!-- Le nom et le sous titre -->
-  <div class="froncontainer frontname center-block">
-    <div class="masthead" >
+  <div class="froncontainer  center-block background-header">
+    <div class="masthead center-block" >
           <nav >
             <ul class="masthead-nav">
               <li ><a  href="./index.html">news</a></li>
-              <li ><a style="color:rgb(200,200,200)" href="./about.html">about</a></li>
+              <li ><a class="active-nav" href="./about.html">about</a></li>
               <li><a href="./publications.html">publications</a></li>
               <li><a href="./random.html">random</a></li>
             </ul>
@@ -36,13 +37,12 @@
   </div>
 
   <!-- Texte de présentation -->
-  <div class="froncontainer presentationText center-block">
-    <div class="buttons-about">
-      <a href="./pdf/cv_en.pdf">CV (en)</a>
-    </div>
-    <p>
-      Name : Edward Laurence
-    </p>
+  <div class="container-content presentationText center-block">
+    <!-- Profil picture -->
+    <img src="http://graph.facebook.com/590949425/picture?type=large" class="img-responsive center-block"></img>
+    <h1> Edward Laurence</h1>
+    <br>
+
     <p>
         I am currently pursuing a PhD's degree in theorical physics at <a href="https://www.ulaval.ca">Université Laval</a>, Qc, Canada. I am member of <a href="http://www.dynamica.phy.ulaval.ca">Dynamica</a> research group led by Pr. Louis J. Dubé. My research interests are principally dynamical processes on complex networks and hierarchical networks. 
     </p>
@@ -50,12 +50,15 @@
     <p>
         When I am not coding or doing science, I usually pratice violin. I am part of a local string orchestra and I play as a volunteer in a hospital. I have a keen interest in cooking, which help me keeping a healthy life. As an active person, I do sports on a daily basic; basketball, squash, swimming or jogging. Otherwise, I have a great passion for design.
     </p>
+    <div class="buttons-about">
+      <a href="./pdf/cv_en.pdf">CV (english)<br>Updated: 09/01/17</a> 
+    </div>
   </div>
 
 
   <!-- Contact -->
 
-  <div class="froncontainer center-block" id="contactSection">
+  <div class="container-content center-block" id="contactSection">
     <a href="https://github.com/laurencee9"><i class="fa fa-github"> Laurencee9</i></a><br>
     <a href="mailto:edward.laurence.1@ulaval.ca"><i class="fa fa-envelope"> edward.laurence.1@ulaval.ca</i></a>
   </div>
@@ -65,7 +68,7 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script src="js/forceNetwork.js"></script>
   <script src="http://d3js.org/d3.v3.min.js"></script> 
-  <script type="text/javascript">create_graph("./jason/webEdge.json")</script>
+  <script type="text/javascript">create_graph("./jason/webEdge.json", window.innerWidth)</script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

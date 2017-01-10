@@ -1,10 +1,4 @@
 
-/*Container */
-.froncontainer {
-	width: 100%;
-	max-width: 800px;
-}
-
 
 .node {
   fill: white;
@@ -90,7 +84,7 @@
 .headerNew h2 {
 	/*display: inline;*/
 	font-size: 20px;
-	line-height: 0px;
+	/*line-height: 20px;*/
 	color: rgb(150,150,150);
 }
 
@@ -127,21 +121,21 @@
 
 .publication h1{
 	font-size: 20px;
-	line-height: 25px;
+	/*line-height: 25px;*/
 	margin-bottom: -10px;
 }
 .publication h2{
 	font-size: 18px;
-	line-height:10px;
+	/*line-height:10px;*/
 	margin-bottom: -10px;
 }
 .publication h3{
 	font-size: 18px;
-	line-height: 20px;
+	/*line-height: 20px;*/
 }
 .publication h4{
 	font-size: 18px;
-	line-height: 10px;
+	/*line-height: 10px;*/
 }
 .imageArxiv {
 	max-height: 30px;
@@ -176,7 +170,7 @@
 .headerPubli h1 {
 	font-family: "American Typewriter";
 	font-size: 30px;
-	line-height: 10px;
+	/*line-height: 10px;*/
 }
 .headerPubli h2 {
 	font-family: "American Typewriter";

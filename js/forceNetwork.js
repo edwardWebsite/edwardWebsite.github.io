@@ -1,10 +1,10 @@
 
 
 
-function create_graph(name){
+function create_graph(name, width){
 
 
-  var width = 800,
+  var width = width,
       height = 300;
 
   var color = d3.scale.category20();
@@ -16,7 +16,8 @@ function create_graph(name){
 
   var svg = d3.select("#graphTop").append("svg")
       .attr("width", width)
-      .attr("height", height);
+      .attr("height", height)
+      .attr("class","svgDiv");
 
   d3.json(name, function(error, graph) {
     force

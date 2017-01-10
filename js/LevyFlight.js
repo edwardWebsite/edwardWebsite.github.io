@@ -7,8 +7,8 @@ function init_array(size, init_v) {
 }
 
 var GRID = 5,
-WALK_H = 200,
-WALK_W = 800,
+WALK_H = 170,
+WALK_W = window.innerWidth,
 PLOT_H = 1.5 * WALK_H / 2,
 POINT_R = 4,
 delay = 80,

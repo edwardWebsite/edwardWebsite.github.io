@@ -22,18 +22,17 @@
 
   <body>
 
-  <div class="froncontainer center-block" id="graphTop">
-  <p style="float:left">ieee 14 Network<p>
-  <a href="./fr/news.html" style="float:right">fr</a>
+  <div class="froncontainer center-block" id="graphTop" >
+    <p style="float:left; margin-left:60px;margin-top: 30px;">ieee 14 Network<p>
   </div>
 
 
   <!-- Le nom et le sous titre -->
-  <div class="froncontainer frontname center-block">
-    <div class="masthead" >
+  <div class="froncontainer frontname center-block background-header"  >
+    <div class="masthead center-block">
           <nav >
             <ul class="masthead-nav">
-              <li ><a style="color:rgb(200,200,200)" href="./index.html">news</a></li>
+              <li ><a class="active-nav" href="./index.html">news</a></li>
               <li ><a href="./about.html">about</a></li>
               <li><a href="./publications.html">publications</a></li>
               <li><a href="./random.html">random</a></li>
@@ -357,7 +356,7 @@
 
 
   <!-- Header -->
-  <script type="text/javascript">create_graph("./jason/ieee14.jason")</script>
+  <script type="text/javascript">create_graph("./jason/ieee14.jason", window.innerWidth)</script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
