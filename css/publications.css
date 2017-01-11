@@ -2,7 +2,7 @@
 
 .node {
   fill: white;
-  stroke: steelblue;
+  stroke: rgb(54,128,183);;
   stroke-width: 1.5px;
 }
 
@@ -143,7 +143,7 @@
 }
 
 .imageExternal {
-	color: steelblue;
+	color: rgb(54,128,183);;
 }
 .imageExternal:hover {
 	color: blue;
@@ -152,7 +152,7 @@
 .powerpoint {
 	font-size: 33px;
 	margin-left: 9px;
-	color: steelblue;
+	color: rgb(54,128,183);;
 }
 .powerpoint:hover {
 	color:blue;
@@ -166,6 +166,8 @@
 
 .headerPubli {
 	padding-top: 30px;
+	color: rgb(54,128,183);
+	/*background-color: #DDDDDD;*/
 }
 .headerPubli h1 {
 	font-family: "American Typewriter";
@@ -176,12 +178,25 @@
 	font-family: "American Typewriter";
 	font-size: 17px;
 }
+.mastheadpubli {
+	height: 40px;
+	background-color: none;
+	margin-top: -10px;
+	/*width: 100%;*/
+}
+.masthead-subnav  {
+	margin-top: -8px;
+	margin-right: -40px;
+	/*width: 100%;*/
+  
+}
+.masthead-subnav > li > a {
+	font-size: 14px;
+}
 
-
-
-
-
-
+.masthead-subnav > li {
+    width:100px;
+}
 
 
 

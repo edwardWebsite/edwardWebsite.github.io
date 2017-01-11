@@ -27,7 +27,7 @@
   <!-- Le nom et le sous titre -->
   <div class="froncontainer center-block background-header">
     <div class="masthead center-block" >
-          <nav >
+        <nav >
             <ul class="masthead-nav">
               <li ><a  href="./index.html">news</a></li>
               <li ><a href="./about.html">about</a></li>
@@ -37,46 +37,22 @@
         </nav>
     </div>
   </div>
-  <br>
-
-
-  <br>
-
-  <div class="container-content center-block headerPubli">
-      <h1>In preparation</h1>
-  </div>
-
-  <!-- Exact -->
-  <div class="container-content publication center-block">
-    <div class="media">
-      <div class="media-left media-middle">
-     
-
-      </div>
-      <div class="media-body">
-        <!-- title -->
-        <h1><i>
-         Exact analytical solution of binary dynamics on networks
-        </i></h1>
-        <!-- authors -->
-        <h2>
-          <b>E. Laurence</b>, J.-G. Young, S. Melnik and L. J. Dubé
-        </i></h1>
-       
-        <!-- the edition and bla bla -->
-        <h3>
-          Available soon
-        </h3>
-      </div>
+  <div class="container-fluid visible-lg visible-md visible-sm" style="  border-bottom: 1px solid #DDDDDD;" >
+      <div class="masthead center-block mastheadpubli" >
+        <nav>
+            <ul class="masthead-nav masthead-subnav">
+              <li ><a href="#peer-reviewed">Peer-reviewed</a></li>
+              <li ><a href="#preprint">Preprint</a></li>
+              <li><a href="#preparation">In preparation</a></li>
+              <li><a href="#conference">Conferences</a></li>
+            </ul>
+        </nav>
     </div>
-    <hr>
+
   </div>
-
-
-
   
-
-  <div class="container-content center-block headerPubli">
+ 
+  <div class="container-content center-block headerPubli" id="peer-reviewed">
       <h1>In peer-reviewed journals</h1>
   </div>
 
@@ -135,8 +111,98 @@
     <hr>
   </div>
 
+  <div class="container-content center-block headerPubli" id="preprint">
+      <h1>Preprint</h1>
+  </div>
 
-  <div class="container-content center-block headerPubli">
+
+   <!-- Stonge -->
+  <div class="container-content publication center-block">
+    <div class="media">
+      <div class="media-left media-middle">
+        <a href="https://arxiv.org/abs/1701.01740" data-toggle="tooltip" title="Full text">
+          <i class="fa fa-external-link fa-2x imageExternal"> </i>
+        </a>
+      </div>
+      <div class="media-body">
+        <!-- title -->
+        <h1><i>
+          Susceptible-infected-susceptible dynamics on the rewired configuration model
+        </i></h1>
+        <!-- authors -->
+        <h2>
+          G. St-Onge, J.-G. Young, <b>E. Laurence</b>, C. Murphy, and L. J. Dubé
+        </h2>
+        <!-- the edition and bla bla -->
+        <h3>
+          arXiv, <b>1701.01740</b> (2017)
+        </h3>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+
+  <!-- OGY -->
+  <div class="container-content publication center-block">
+    <div class="media">
+      <div class="media-left media-middle">
+        <a href="https://arxiv.org/abs/1701.00062" data-toggle="tooltip" title="Full text">
+          <i class="fa fa-external-link fa-2x imageExternal"> </i>
+        </a>
+      </div>
+      <div class="media-body">
+        <!-- title -->
+        <h1><i>
+          Finite size analysis of the detectability limit of the stochastic block
+  model
+        </i></h1>
+        <!-- authors -->
+        <h2>
+          J.-G. Young, P. Desrosiers, L. Hébert-Dufresne,<b> E. Laurence</b>, and L. J. Dubé
+        </h2>
+        <!-- the edition and bla bla -->
+        <h3>
+          arXiv, <b>1701.00062</b> (2016)
+        </h3>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+ 
+   <div class="container-content center-block headerPubli" id="preparation">
+      <h1>In preparation</h1>
+  </div>
+
+  <!-- Exact -->
+  <div class="container-content publication center-block">
+    <div class="media">
+      <div class="media-left media-middle">
+     
+
+      </div>
+      <div class="media-body">
+        <!-- title -->
+        <h1><i>
+         Exact analytical solution of binary dynamics on networks
+        </i></h1>
+        <!-- authors -->
+        <h2>
+          <b>E. Laurence</b>, J.-G. Young, S. Melnik and L. J. Dubé
+        </i></h1>
+       
+        <!-- the edition and bla bla -->
+        <h3>
+          Available soon
+        </h3>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+
+  <div class="container-content center-block headerPubli" id="conference">
       <h1>Selected conference presentations</h1>
       <h2>Speaker are noted in bold</h2>
   </div>
@@ -376,6 +442,25 @@
       $('[data-toggle="tooltip"]').tooltip();   
   });
   </script>
+
+  <script>
+    $(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 500);
+        return false;
+      }
+    }
+  });
+});
+
+  </script>
+  
 
 
   </body>
