@@ -37,6 +37,10 @@
         </nav>
     </div>
   </div>
+
+  <div class="container-fluid" id="paddingpatch">
+    
+  </div>
   <div class="container-fluid visible-lg visible-md visible-sm" style="  border-bottom: 1px solid #DDDDDD; " id="sticky" >
       <div class="masthead center-block mastheadpubli" >
         <nav>
@@ -50,6 +54,7 @@
     </div>
 
   </div>
+
 
   
  
@@ -465,10 +470,15 @@
   <script>
       $(window).scroll(function() {
         var distanceFromTop = $(this).scrollTop();
+
         if (distanceFromTop > $('#headerreal').position().top+$('#headerreal').height() ) {
             $('#sticky').addClass('fixed');
+            $('#paddingpatch').addClass("morepadding");
+            
         } else {
             $('#sticky').removeClass('fixed');
+             $('#paddingpatch').removeClass("morepadding");
+
         }
     });
 
