@@ -25,7 +25,7 @@
 
 
   <!-- Le nom et le sous titre -->
-  <div class="froncontainer center-block background-header">
+  <div class="froncontainer center-block background-header" style="margin-bottom: -10px;" id="headerreal" >
     <div class="masthead center-block" >
         <nav >
             <ul class="masthead-nav">
@@ -37,7 +37,7 @@
         </nav>
     </div>
   </div>
-  <div class="container-fluid visible-lg visible-md visible-sm" style="  border-bottom: 1px solid #DDDDDD;" >
+  <div class="container-fluid visible-lg visible-md visible-sm" style="  border-bottom: 1px solid #DDDDDD; " id="sticky" >
       <div class="masthead center-block mastheadpubli" >
         <nav>
             <ul class="masthead-nav masthead-subnav">
@@ -50,6 +50,7 @@
     </div>
 
   </div>
+
   
  
   <div class="container-content center-block headerPubli" id="peer-reviewed">
@@ -460,8 +461,19 @@
 });
 
   </script>
-  
 
+  <script>
+      $(window).scroll(function() {
+        var distanceFromTop = $(this).scrollTop();
+        if (distanceFromTop > $('#headerreal').position().top+$('#headerreal').height() ) {
+            $('#sticky').addClass('fixed');
+        } else {
+            $('#sticky').removeClass('fixed');
+        }
+    });
+
+  </script>
+  
 
   </body>
 </html>
