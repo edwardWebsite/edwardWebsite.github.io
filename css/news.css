@@ -27,26 +27,33 @@
 .newsContainer {
 	width: 100%;
 	max-width: 800px;
-	background-color: rgb(235,235,235);
-	border-left: solid 3px;
-	padding-left: 30px;
-	padding-right: 30px;
+	background-color: white;
+	border-left: solid 7px;
+	padding-left: 16px;
+	padding-right: 16px;
 	padding-bottom: 20px;
 	margin-bottom: 30px;
+	box-shadow: 0px 0px 14px #AAAAAA;
 }
-
 .newScience {
-	border-left-color: red;
+	border-left-color: #3680B7;
 }
 .newDesign {
-	border-left-color: blue;
+	border-left-color: #EA692E;
 }
 
 .headerNew {
 	width: 100%;
 	padding-bottom: 70px;
+	margin-bottom: 20px;
 	font-family:"American Typewriter";
 	-inkscape-font-specification:"American Typewriter";
+	/*background-color: #EEEEEE;*/
+	/*margin-left: -16px;*/
+	/*margin-right: -200px;*/
+	padding-right: 16px;
+	border-bottom: solid 1px #CCCCCC;
+
 }
 .headerNew h1 {
 	/*display: inline;*/
