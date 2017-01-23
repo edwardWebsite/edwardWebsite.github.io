@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Wasper - Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="E. Laurence">
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/header.css" rel="stylesheet">
+    <link href="./css/timeline.css" rel="stylesheet">
+    <link href="./css/question.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> <!-- Font awesome -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script> 
+    <link href="https://fonts.googleapis.com/css?family=Yantramanav:300,400,500" rel="stylesheet"> <!-- Font -->
+
+    <script src="js/jquery.color.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/count.js"></script>
+    
+  </head>
+
+  <body>
+
+    <div class="container-fullwidth  container-front" >
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed btn-collapse" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" >
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="index.html"><img src="./ressources/header/logo_name.png" style="height:30px;width: auto;"></a>
+          </div>
+
+            <div id="navbar" class="navbar-collapse collapse">
+               <ul class="nav navbar-nav navbar-right" >
+                <li><a href="index.html">ENTREPRISE</a></li>
+                <li><a href="#">Q&A</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+              </ul>
+            </div>
+             
+
+        </div><!--/.container-fluid -->
+      </nav>
+
+ 
+
+    </div>
+
+    
+
+    <!-- Questions -->
+    <div class="container-fluid">
+      <div class="container container-question">
+        <h1>
+          Fonctionnement
+        </h1>
+        <hr>
+        <dl>
+          <dt>Est-ce que je peux commander tout ce que je veux?</dt>
+          <dd>Presque! Certaines lois nous empêchent de livrer l'alcool et les produits du tabac. Il se peut que le commerce que vous désirez ne fasse pas encore affaire avec Wasper. Si c'est le cas, n'hésitez pas de leur proposer Wasper!</dd>
+          <dt>Qui me livre mes produits?</dt>
+          <dd>
+            Les waspas effectuent les livraisons. Ils peuvent être n'importe qui; votre voisin, vos amis, etc. Un système d'évaluation est mis en place pour s'assurer de la sécurité du service.
+          </dd>
+          <dt>Comment puis-je devenir livreur?</dt>
+          <dd>
+            Il suffit de vous créer un compte Wasper. Vous aurez automatiquement accès aux outils de recherche de livraisons à proximité.
+          </dd>
+          <dt>Combien coûte la livraison?</dt>
+          <dd>Un waspa gagne au moins 5$ par livraison. Vous avez toutefois la possibilité de donner un plus gros montant et espérer recevoir votre produit dans des délais plus courts.</dd>
+          <dt>Est-ce que ma livraison est garantie?</dt>
+          <dd>
+            Une fois que votre commande est placée, un waspa acceptera de faire la livraison. Durant certaines heures, il est possible qu'aucun waspa ne soit disponible.
+          </dd>
+          <dt>Si je suis Waspa, dois-je payer pour les produits?</dt>
+          <dd>
+            Non. La facture sera déjà payée lorsque vous arriverez chez le commercant. Votre salaire de livraison sera automatiquement déposé lorsque la commande sera complétée.
+          </dd>
+        </dl>
+
+        <h1>
+          Autres
+        </h1>
+        <hr>
+        <dl>
+          <dt>Quand l'application Wasper sera-t-elle disponible?</dt>
+          <dd>En hiver 2017. On ne peut pas vous donner une date plus précise car nous sommes en développement.</dd>
+          <dt>Sur quelle plateforme sera-t-elle disponible?</dt>
+          <dd>Au lancement, elle sera disponible sur iOS, donc pour les iPhones. Nous ne tarderons pas à fournir une version Android et Web s'il y a un intérêt.</dd>
+        </dl>
+      </div>
+
+      
+    </div>
+
+
+
+
+
+
+    <!-- Footer -->
+    <div class="container-fullwidth container-footer" id="contact">
+      <div class="container" style="max-width: 1000px">
+        <div class="row center-block">
+          <div class="col-md-4">
+            <h1>
+              NOUS REJOINDRE
+            </h1>
+            <hr>
+            <a><i class="fa fa-envelope-o fa-fw"></i> info@wasper.co</a><br>
+            <a href="http://facebook.com/wasperapp/"><i class="fa fa-facebook fa-fw"></i> /wasperapp/</a>
+          </div>
+          <div class="col-md-4">
+            <h1>
+              LIENS PERTINENTS
+            </h1>
+            <hr>
+            <a href="http://canotaglace180.github.io">Canot à glace 180</a><br>
+          </div>
+          <div class="col-md-4">
+            <h1>
+              PAGES
+            </h1>
+            <hr>
+            <a>Wasper Entreprise</a><br>
+            <a href="questions.html">Questions et réponses</a><br>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="container-fullwidth container-subfooter">
+      <div class="container" style="max-width: 1000px">
+        <p>Copyright © Wasper 2017</p>
+      </div>
+    </div>
+
+    <script>
+      $(document).ready(function () {
+        $(".navbar-toggle").on("click", function () {
+            $(this).toggleClass("active");
+        });
+      });
+    </script>
+    <script>
+      $(function() {
+        $('a[href*="#"]:not([href="#"])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html, body').animate({
+                scrollTop: target.offset().top
+              }, 500);
+              return false;
+            }
+          }
+        });
+      });
+
+      </script>
+
+   
+  </body>
+</html>

@@ -1,0 +1,54 @@
+
+html, body {
+    height:100%;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 400;
+}
+
+
+
+/*
+	Container with the image
+*/
+
+.container-fullwidth {
+	width: 100%;
+}
+.container-front {
+	height: 250px;
+	width: 100%;
+	background-image:url("../ressources/fond/keyboard.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size:cover;
+}
+
+
+/*
+	QUestions
+*/
+.container-question {
+	padding-top: 60px;
+	max-width: 800px;
+	padding-bottom: 60px;
+}
+.container-question h1{
+	font-weight: 300;
+	color: #ff8131;
+}
+.container-question hr{
+	border-color: black;
+	opacity: 0.2;
+	margin-top: -5px;
+	padding-bottom: 16px;
+}
+.container-question dd{
+	padding-bottom: 30px;
+	font-weight: 300;
+	font-size: 18px;
+}
+.container-question dt{
+	font-size: 18px;
+	font-weight: 400;
+}
