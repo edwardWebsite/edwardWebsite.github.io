@@ -1,0 +1,180 @@
+
+html, body {
+    height:100%;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 400;
+}
+
+
+
+/*
+	Container with the image
+*/
+
+.container-fullwidth {
+	width: 100%;
+}
+.container-front {
+	height: 620px;
+	width: 100%;
+	background:url("../ressources/fond/fond2.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size:cover;
+}
+.fullfront {
+	padding-top: 60px;
+	width: 100%;
+	max-width: 800px;
+}
+.container-front .img-name {
+	height:500px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container-front .img-logo {
+	padding-top: 100px;
+	height:550px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*Presentation*/
+
+.container-presentation {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.container-subpres {
+	text-align: right;
+	padding-right: 30px;
+
+}
+.container-subpres h1{
+	font-weight: 300;
+	line-height: 30px;
+	font-size: 30px;
+	color: #ff8131;
+}
+.container-subpres p {
+	font-weight: 400;
+	font-size: 17px;
+	color:rgb(80,80,80);
+}
+
+
+.container-subsubpres {
+	text-align: left;
+	padding-right: 30px;
+
+}
+.container-subsubpres h2{
+	font-weight: 300;
+	line-height: 30px;
+	font-size: 30px;
+}
+.container-subsubpres p {
+	font-weight: 300;
+	font-size: 17px;
+	line-height: 20px;
+	color:rgb(80,80,80);
+}
+
+.container-subsubpres .glyphicon {
+	margin-right: 12px;
+	margin-left: -30px;
+	color:rgb(80,80,80);
+}
+
+@media (max-width:1000px) {
+	.container-subpres {
+		text-align: left;
+		padding-bottom: 40px;
+	}
+}
+
+
+/*DEMO*/
+
+.container-lightgray {
+	background-color: rgb(240,240,240);
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.container-demo h1 {
+	font-weight: 300;
+	text-align: center;
+}
+.container-demo h3 {
+	max-width: 600px;
+	font-weight: 300;
+	font-size:18px;
+	text-align: center;
+}
+
+
+/*MOCKUP*/
+.first-mockup {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	overflow: hidden;
+	height: 500px;
+}
+
+.first-mockup h3{
+	text-align: right;
+	font-weight: 500;
+	font-size: 30px;
+}
+.first-mockup p{
+	text-align: right;
+	font-weight: 300;
+	font-size: 16px;
+}
+.descrip-mocku {
+	padding-right: 60px;
+	padding-top: 100px;
+}
+.cutmock-img {
+	width: 90%;
+}
+
+@media (max-width: 950px) {
+
+	.descrip-mocku {
+		padding-right: 60px;
+		padding-top: 60px;
+	}
+	.first-mockup h3{
+		text-align: left;
+	}
+	.first-mockup p{
+		text-align: left;
+	}
+}
+
+@media (max-width: 700px) {
+
+	.descrip-mocku {
+		padding-left: 30px;
+		padding-right: 60px;
+		padding-top: 0px;
+	}
+	.first-mockup h3{
+		text-align: left;
+	}
+	.first-mockup p{
+		text-align: left;
+	}
+}
+
+
+
+
+

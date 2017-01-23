@@ -16,9 +16,14 @@ html, body {
 }
 .nav li a:hover {
 	/*opacity: 0.5;*/
-	background-color: lightgray;
+	color: #ff8131;
+	background-color: rgba(0,0,0,0.0);
 }
 
+.nav li .active-nav {
+	font-weight: 500;
+	color: black;
+}
 .navbar-collapse a {
 	background-color: none;
 }
@@ -48,7 +53,6 @@ html, body {
 	background-color: none;
 	height: 30px;
 
-
 }
 
 .navbar-collapse {
@@ -61,8 +65,36 @@ html, body {
 }
 
 
+@media (max-width:768px) {
+	.navbar-collapse a {
+		background-color: white;
+	}
+	.nav li a {
+		color: gray;
+	}
+	.navbar {
+		background-color: white;
+	}
+	.icon-bar {
+		background-color: gray;
+	}
+	.nav li a:hover {
+		color: #ff8131;
+		background-color: white;
+	}
+
+}
+
+
+
+
+
+
+
+
+
 .container-footer {
-	padding-top: 100px;
+	padding-top: 70px;
 	padding-bottom: 60px;
 	background-color: rgb(20,20,20);
 }
@@ -73,11 +105,13 @@ html, body {
 	font-size: 16px;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
+	padding-top: 20px;
 	opacity: 1.0;
 }
 .container-footer hr {
 	opacity: 0.2;
 	margin-top: 8px;
+	margin-bottom: 10px;
 }
 .container-footer a {
 	color: rgb(200,200,200);

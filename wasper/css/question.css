@@ -15,9 +15,9 @@ html, body {
 	width: 100%;
 }
 .container-front {
-	height: 250px;
+	height: 350px;
 	width: 100%;
-	background-image:url("../ressources/fond/keyboard.jpg");
+	background:url("../ressources/fond/fond3.jpg") no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;

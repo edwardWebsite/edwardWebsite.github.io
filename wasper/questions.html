@@ -25,7 +25,7 @@
   <body>
 
     <div class="container-fullwidth  container-front" >
-      <nav class="navbar navbar-default navbar-fixed-top">
+      <nav class="navbar navbar-fixed-top white-navbar" id="nav-master">
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed btn-collapse" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" >
@@ -39,15 +39,13 @@
 
             <div id="navbar" class="navbar-collapse collapse">
                <ul class="nav navbar-nav navbar-right" >
-                <li><a href="index.html">ENTREPRISE</a></li>
-                <li><a href="#">Q&A</a></li>
+                <li><a href="entreprise.html">ENTREPRISE</a></li>
+                <li><a class="active-nav" href="questions.html">Q&A</a></li>
                 <li><a href="#contact">CONTACT</a></li>
               </ul>
             </div>
-             
-
         </div><!--/.container-fluid -->
-      </nav>
+      </nav> 
 
  
 
@@ -106,15 +104,17 @@
 
 
     <!-- Footer -->
+    
+
     <div class="container-fullwidth container-footer" id="contact">
       <div class="container" style="max-width: 1000px">
         <div class="row center-block">
           <div class="col-md-4">
             <h1>
-              NOUS REJOINDRE
+              NOUS JOINDRE
             </h1>
             <hr>
-            <a><i class="fa fa-envelope-o fa-fw"></i> info@wasper.co</a><br>
+            <a style="cursor: pointer;" onclick="window.location='mailto:info@wasper.co';"><i class="fa fa-envelope-o fa-fw"></i> info@wasper.co</a><br>
             <a href="http://facebook.com/wasperapp/"><i class="fa fa-facebook fa-fw"></i> /wasperapp/</a>
           </div>
           <div class="col-md-4">
@@ -122,15 +122,15 @@
               LIENS PERTINENTS
             </h1>
             <hr>
-            <a href="http://canotaglace180.github.io">Canot à glace 180</a><br>
+            <a href="http://canotaglace180.github.io"><i class="fa fa-users"></i>Canot à glace 180</a><br>
           </div>
           <div class="col-md-4">
             <h1>
               PAGES
             </h1>
             <hr>
-            <a>Wasper Entreprise</a><br>
-            <a href="questions.html">Questions et réponses</a><br>
+            <a><i class="fa fa-arrow-circle-right"></i>Wasper Entreprise</a><br>
+            <a href="questions.html"><i class="fa fa-arrow-circle-right"></i>Questions et réponses</a><br>
           </div>
 
         </div>
@@ -166,6 +166,7 @@
       });
 
       </script>
+
 
    
   </body>
