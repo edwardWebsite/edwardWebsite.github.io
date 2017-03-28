@@ -47,8 +47,8 @@
 	padding-top: 0px;
 	padding-bottom: 0px;
 	margin-bottom: 20px;
-	font-family:"American Typewriter";
-	-inkscape-font-specification:"American Typewriter";
+	font-family:"Nunito";
+	-inkscape-font-specification:"Nunito";
 	/*background-color: #EEEEEE;*/
 	/*margin-left: -16px;*/
 	/*margin-right: -200px;*/
@@ -63,7 +63,7 @@
 	margin-top: -4px;
 	/*float:left;*/
 	text-align: left;
-	font-family: Helvetica;
+	font-family: "Nunito";
 	font-weight: lighter;
 }
 .headerNew h2 {
@@ -71,7 +71,7 @@
 	font-size: 16px;
 	/*text-align: right;*/
 	width: 100%;
-	padding-top: 8px;
+	padding-top: 12px;
 	margin-top: 0px;
 	color: #AAAAAA;
 	/*float: right;*/
@@ -81,8 +81,8 @@
 
 .newsContainer p {
 	font-size: 18px;
-	font-family:"American Typewriter";
-	-inkscape-font-specification:"American Typewriter";
+	font-family:"Nunito";
+	-inkscape-font-specification:"Nunito";
 }
 
 
