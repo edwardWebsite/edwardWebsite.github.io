@@ -5,10 +5,51 @@
 
 }
 
+.topcontainer {
+  height: 350px;
+  background:url("../images/background/index.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:cover;
+}
 
+.divtoptext {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+}
+
+.nametop {
+  text-align: left;
+  color: white;
+  font-size: 30px;
+  line-height: 30px;
+}
+.function-top {
+  font-size: 18px;
+}
+
+@media (max-width: 800px) {
+  .topcontainer {
+    height: 200px;
+  }
+
+  .nametop {
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .function-top {
+    font-size: 14px;
+  }
+
+
+}
 .froncontainer {
-  width: 100%;
-  /*max-width: 800px;*/
+    width: 100%;
 }
 
 .masthead {
