@@ -29,6 +29,10 @@
 }
 .function-top {
   font-size: 18px;
+  margin-right: 16px;
+}
+.icontop {
+  font-size: 18px;
 }
 
 @media (max-width: 800px) {
@@ -43,6 +47,10 @@
     line-height: 22px;
   }
   .function-top {
+    font-size: 16px;
+    margin-right: 28px;
+  }
+  .icontop {
     font-size: 16px;
   }
 
