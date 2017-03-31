@@ -129,11 +129,17 @@
 	margin-bottom: 4px;
 	margin-top: 4px;
 }
+.publication .col-md-1 h3{
+	font-size: 18px;
+	margin-bottom: 4px;
+	margin-top: 4px;
+	color: #006DFF;
+	/*line-height: 20px;*/
+}
 .publication h3{
 	font-size: 18px;
 	margin-bottom: 4px;
 	margin-top: 4px;
-	/*line-height: 20px;*/
 }
 .publication h4{
 	font-size: 18px;
@@ -226,4 +232,15 @@
 .morepadding {
 	padding-bottom: 35px;
 }
-
+.link-a {
+	background-color: #006DFF; 
+	color:white; 
+	padding: 2px 8px 2px 8px; 
+	border-radius: 4px; 
+	font-weight: 700;
+}
+.link-a:hover {
+	text-decoration: none;
+	color: white;
+	opacity: 0.6;
+}
