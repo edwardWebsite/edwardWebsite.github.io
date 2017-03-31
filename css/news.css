@@ -36,10 +36,10 @@
 	box-shadow: 0px 0px 14px #AAAAAA;
 }
 .newScience {
-	border-left-color: #3680B7;
+	border-left-color: #006DFF;
 }
 .newDesign {
-	border-left-color: #EA692E;
+	border-left-color: #FFA700;
 }
 
 .headerNew {
@@ -87,10 +87,11 @@
 
 
 .newsContainer a {
-	color: steelblue;
+	color: #006DFF;
 }
 .newsContainer a:hover {
-	color: blue;
+	/*opacity: 0.6;*/
+	color:#00377F;
 	text-decoration: none;
 
 }
