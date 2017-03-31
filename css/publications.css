@@ -120,21 +120,24 @@
 
 
 .publication h1{
-	font-size: 20px;
-	/*line-height: 25px;*/
-	margin-bottom: -10px;
+	font-size: 18px;
+	margin-bottom: 4px;
+	margin-top: 4px;
 }
 .publication h2{
 	font-size: 18px;
-	/*line-height:10px;*/
-	margin-bottom: -10px;
+	margin-bottom: 4px;
+	margin-top: 4px;
 }
 .publication h3{
 	font-size: 18px;
+	margin-bottom: 4px;
+	margin-top: 4px;
 	/*line-height: 20px;*/
 }
 .publication h4{
 	font-size: 18px;
+	color: gray;
 	/*line-height: 10px;*/
 }
 .imageArxiv {
@@ -166,17 +169,28 @@
 
 .headerPubli {
 	padding-top: 30px;
-	color: rgb(54,128,183);
-	/*background-color: #DDDDDD;*/
+	color: black;
 }
 .headerPubli h1 {
 	font-family: "Nunito";
-	font-size: 30px;
+	font-size: 20px;
+	margin-bottom: 4px;
 	/*line-height: 10px;*/
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.headerPubli hr {
+	border-color: black;
+	border-width: 6px;
+	width: 40%;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 .headerPubli h2 {
 	font-family: "Nunito";
 	font-size: 17px;
+	color: gray;
+	margin-top: 0px;
 }
 .mastheadpubli {
 	height: 45px;
