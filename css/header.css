@@ -14,14 +14,6 @@
   background-size:cover;
 }
 
-.topcontainerpaper {
-  height: 250px;
-  background:url("../images/background/index.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size:cover;
-}
 
 .divtoptext {
   display: flex;
