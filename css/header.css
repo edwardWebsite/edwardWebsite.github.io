@@ -6,20 +6,40 @@
 }
 
 .topcontainer {
-  height: 250px;
-  background:url("../images/background/index.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size:cover;
+  height:550px; 
 }
 
+.zebratopcontainer {
+    background:url("../images/background/zebra4.png") no-repeat center center;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -o-background-size: auto 100%;
+    background-size: auto 100%;
+    background-color: black;
+}
+
+.fishtopcontainer {
+    background:url("../images/background/fishaa.png") no-repeat center center;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -o-background-size: auto 100%;
+    background-size: auto 100%;
+    background-color: black;
+}
+.orangetopcontainer {
+    background:url("../images/background/frog.png") no-repeat center center;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -o-background-size: auto 100%;
+    background-size: auto 100%;
+    background-color: black;
+}
 
 .divtoptext {
-  display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    height:100%;
+    height:180%;
 }
 
 .nametop {
@@ -54,9 +74,10 @@
   .icontop {
     font-size: 16px;
   }
-
-
 }
+
+
+
 .froncontainer {
     width: 100%;
 }
