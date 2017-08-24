@@ -2,7 +2,7 @@
 
 .node {
   fill: white;
-  stroke: rgb(54,128,183);;
+  stroke: rgb(54,128,183);
   stroke-width: 1.5px;
 }
 
@@ -161,7 +161,7 @@
 .powerpoint {
 	font-size: 33px;
 	margin-left: 9px;
-	color: rgb(54,128,183);;
+	color: rgb(54,128,183);
 }
 .powerpoint:hover {
 	color:blue;
