@@ -239,6 +239,14 @@
 	border-radius: 4px; 
 	font-weight: 700;
 }
+.arxiv {
+	background-color: #41B102;
+}
+.code {
+	background-color: #E41A1C;
+}
+
+
 .link-a:hover {
 	text-decoration: none;
 	color: white;
