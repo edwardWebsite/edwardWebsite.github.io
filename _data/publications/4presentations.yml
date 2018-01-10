@@ -1,0 +1,51 @@
+order: "4"
+title: Selected Conference Presentations
+subtitle: "Speaker is in bold"
+members:
+  - title: "Fonctional resilience in neural networks with adaptive connectivity (oral)"
+    authors: "<b>E. Laurence</b>, P. Desrosiers, N. Doyon, and L. J. Dubé"
+    ref: "Mediterranean School of Complex Networks<br>Salina, Italy"
+    year: 2017
+
+  - title: "La résilience des réseaux [french] (lightning talk)"
+    authors: "<b>E. Laurence</b>"
+    ref: "Sentinel North Annual Conference<br>Québec, Canada"
+    year: 2017
+
+  - title: "Functional resilience in dynamical complex networks with adaptive connectivity (poster)"
+    authors: "<b>E. Laurence</b>, P. Desrosiers, N. Doyon, and L. J. Dubé"
+    ref: "Network neuroscience satellite | 12th International School and Conference on Network Science<br>Indianapolis, USA"
+    year: 2017
+
+  - title: "Persistent activity of neural dynamics on hierarchical networks (poster)"
+    authors: "<b>E. Laurence</b>, P. Desrosiers, and L. J. Dubé"
+    ref: "12th International School and Conference on Network Science<br>Indianapolis, USA"
+    year: 2017
+
+  - title: "Time-dependent Spatial Growth of Complex Networks (oral)"
+    authors: "<b>C. Murphy</b>, E. Laurence, G. St-Onge, J.-G. Young, and L. J. Dubé"
+    ref: "11th International School and Conference on Network Science<br>Seoul, Korea"
+    year: 2016
+
+  - title: "Exact analytical solution of binary dynamics on networks (poster)"
+    authors: "<b>E. Laurence</b>, J.-G. Young, S. Melnik and L. J. Dubé"
+    ref: "10th International School and Conference on Network Science<br>Zaragoza, Spain "
+    year: 2015
+
+  - title: "Structural preferential attachment : scale-free benchmark graphs for overlapping community detection algorithms  (poster)"
+    authors: "<b>J.-G. Young</b>, L. Hébert-Dufresne, E. Laurence and L. J. Dubé"
+    ref: "10th International School and Conference on Network Science<br>Zaragoza, Spain "
+    year: 2015
+
+  - title: "Complex networks are an emerging property of hierarchical preferential attachment (poster)"
+    authors: "<b>L. Hébert-Dufresne</b>, E. Laurence, A. Allard, J.-G. Young, and L. J. Dubé"
+    ref: "9th International School and Conference on Network Science<br>Berkeley, USA "
+    year: 2014
+
+
+
+
+
+
+
+    

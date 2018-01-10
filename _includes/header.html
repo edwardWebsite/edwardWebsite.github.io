@@ -1,0 +1,21 @@
+<header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+        <li class="nav-link"><a href="/">News</a>
+        {% for otherpage in site.pages %}
+          {% if otherpage.title and otherpage.main_nav != false and page.title==otherpage.title%}
+          <li class="nav-link active-nav"><a href="{{ otherpage.url | prepend: site.baseurl }}">{{ otherpage.title }}</a>
+          {% else %}
+            {% if otherpage.title and otherpage.main_nav != false %}
+            <li class="nav-link"><a href="{{ otherpage.url | prepend: site.baseurl }}">{{ otherpage.title }}</a>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Edward Laurence</title>
+    <description>A simple yet classy theme for your Jekyll website or blog.
+</description>
+    <link>http://edwardlaurence.me/</link>
+    <atom:link href="http://edwardlaurence.me/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 10 Jan 2018 17:17:19 -0500</pubDate>
+    <lastBuildDate>Wed, 10 Jan 2018 17:17:19 -0500</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Exact solution of binary dynamics</title>
+        <description>&lt;p&gt;I’m proud to release a paper called &lt;em&gt;Exact analytical solution of irreversible binary dynamics on networks&lt;/em&gt;. Our contribution is analytic and numerical in nature. We obtain an analytical solution to cascade dynamics and propose an algorithm to solve the equations as efficiently as possible. We made available the &lt;a href=&quot;https://github.com/laurencee9/exact_binary_dynamics&quot;&gt;code&lt;/a&gt; solving the equations.&lt;/p&gt;
+
+&lt;div class=&quot;post-image&quot;&gt;
+  &lt;img src=&quot;/assets/posts/exact/exact_thumbnail.png&quot; title=&quot;Check out the Falcon 9 from SpaceX&quot; /&gt;
+  &lt;!-- &lt;div class=&quot;post-caption&quot;&gt;
+  	&lt;span class=&quot;title&quot;&gt;Certain &lt;/span&gt;
+  	&lt;hr&gt;
+  	&lt;span class=&quot;subtitle&quot;&gt;class&lt;/span&gt;
+  &lt;/div&gt; --&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 09 Nov 2017 00:00:00 -0500</pubDate>
+        <link>http://edwardlaurence.me/articles/2017/11/09/exact.html</link>
+        <guid isPermaLink="true">http://edwardlaurence.me/articles/2017/11/09/exact.html</guid>
+        
+        
+        <category>articles</category>
+        
+      </item>
+    
+      <item>
+        <title>Annual Sentinel North Conference</title>
+        <description>&lt;p&gt;After weeks of work, my study of the networks of Sentinel North has finally been presented by Patrick Desrosiers at the annual Sentinel North conference. I also had the opportunity to give a blitz talk of three minutes, a unique opportunity to practice communication skills.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 30 Aug 2017 00:00:00 -0400</pubDate>
+        <link>http://edwardlaurence.me/conference/2017/08/30/SNconference.html</link>
+        <guid isPermaLink="true">http://edwardlaurence.me/conference/2017/08/30/SNconference.html</guid>
+        
+        
+        <category>conference</category>
+        
+      </item>
+    
+  </channel>
+</rss>

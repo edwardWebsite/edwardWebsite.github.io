@@ -1,788 +1,188 @@
-<!DOCTYPE html>
+---
+layout: default
+---
 
-<html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <title> E. Laurence</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Personal website">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
-    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="./css/header.css" rel="stylesheet">
-    <link href="./css/news.css" rel="stylesheet">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- <script src="http://d3js.org/d3.v3.min.js"></script> -->
-    <!-- <script src="js/forceNetwork.js"></script> -->
+<div class="home">
 
-     <!-- PhotoSwipe -->
-    <link rel="stylesheet" href="./photoswipe/photoswipe.css">
-    <link rel="stylesheet" href="./photoswipe/default-skin/default-skin.css">
-   
-     <!-- Ion Icon -->
-     <link rel="stylesheet" href="./css/ionicon.min.css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    
-    
-  </head>
-
-  <body>
-
-  <div class="topcontainer zebratopcontainer center-block"  >
-  <div class="divtoptext">
-       <p class="nametop">EDWARD <b style="color:#A2FCB2">LAURENCE</b>
-       <br><span class="function-top">PhD student & human</span>
-       <a href="https://github.com/laurencee9" class="icontop"><i class="fa fa-github" style="color:white"></i></a>
-      <a href="mailto:edward.laurence.1@ulaval.ca" class="icontop"><i class="fa fa-envelope" style="color:white"></i></a>
-      <a href="
-      https://scholar.google.ca/citations?user=6KFCHQoAAAAJ&hl=en" class="icontop"><i class="fa fa-graduation-cap" style="color:white"> </i></a>
-      <a href="https://unsplash.com/@eduardo_di_lorenzo" class="icontop"><i class="fa fa-camera" style="color:white"></i> </a>
-       </p>
+<div class="site-header-container" id="d3graphparent">
+  <div class="d3graph" id="d3graph"> 
   </div>
- 
-  </div>
-
-
-  <!-- Le nom et le sous titre -->
-  <div class="froncontainer frontname center-block background-header"  >
-    <div class="masthead center-block">
-          <nav >
-            <ul class="masthead-nav">
-              <li ><a class="active-nav" href="./index.html">news</a></li>
-              <li ><a href="./about.html">about</a></li>
-              <li><a href="./publications.html">papers</a></li>
-              <li><a href="./random.html">portfolio</a></li>
-            </ul>
-        </nav>
-    </div>
-  </div>
-  <br>
-
-  <div class="container-fluid" style="background-color: rgb(245,244,242); margin-top: -30px; padding-top: 30px; margin-left: 0px; padding-left: 0px; padding-right: 0px;">
-
-    <!-- Une  news -->
-  <div class="newsContainer newScience center-block">
-    <div class="headerNew">
-      <!-- Date -->
-      <h2>November 9, 2017</h2>
-      <!-- title -->
-      <h1>Exact solution of binary dynamics</h1>
-    
-    </div>
-    <!-- Post -->
-    <p>I'm proud to release a paper called <i>Exact analytical solution of irreversible binary dynamics on networks</i>. Our contribution is analytic and numerical in nature. We obtain an analytical solution to cascade dynamics and propose an algorithm to solve the equations as efficiently as possible. We made available the <a href="https://github.com/laurencee9/exact_binary_dynamics">code</a> solving the equations.
-    </p>
-    <div class="gallery">
-      <!-- Les figures -->
-      <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-         <a href="./images/exact.png" itemprop="contentUrl" data-size="982x669">
-          <img src="./images/exact_thumb.png" itemprop="thumbnail" alt="Image description" />
-        </a>
-      </figure>
-
-    </div>
-  </div>
-
-
-  <!-- Une  news -->
-  <div class="newsContainer newScience center-block">
-    <div class="headerNew">
-      <!-- Date -->
-      <h2>August 30, 2017</h2>
-      <!-- title -->
-      <h1>Annual Sentinel North Conference</h1>
-    
-    </div>
-    <!-- Post -->
-    <p>After weeks of work, my study of the networks of Sentinel North has finally been presented by <a href="http://patrickdesrosier4.wixsite.com/patrickdesrosiers">Patrick Desrosiers</a> at the <a href="https://www.ulaval.ca/sentinelle-nord/reunion-annuelle-sentinelle-nord.html">annual Sentinel North conference</a>. I also had the opportunity to give a blitz talk of three minutes, a unique opportunity to practice communication skills.
-    </p>
-    <div class="gallery">
-      <!-- Les figures -->
-      <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-         <a href="./images/SN/IMG_1748.JPG" itemprop="contentUrl" data-size="1200x900">
-          <img src="./images/SN/IMG_1748THUMB.JPG" itemprop="thumbnail" alt="Image description" />
-        </a>
-      </figure>
-
-      <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-         <a href="./images/SN/IMG_1752.JPG" itemprop="contentUrl" data-size="1200x900">
-          <img src="./images/SN/IMG_1752THUMB.JPG" itemprop="thumbnail" alt="Image description" />
-        </a>
-      </figure>
-    
-
-    </div>
-  </div>
-
-
-
- <!-- Une  news -->
-  <div class="newsContainer newScience center-block">
-    <div class="headerNew">
-      <!-- Date -->
-      <h2>May 17, 2017</h2>
-      <!-- title -->
-      <h1>Summer school</h1>
-    </div>
-    <!-- Post -->
-    <p>
-      On May 15 and 16, I was assisting a <a href="http://www.cinq.ulaval.ca/connectivite2017">summer school</a> on the connectivity of the brain. The <a href="http://www.capitale.gouv.qc.ca/parcs-et-places-publiques/parcs/domaine-cataraqui">Domain Cataraqui</a> has been well chosen to host the school and provided a quiet environment. 
-    </p>
-    <div class="gallery">
-      <!-- Les figures -->
-      <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-         <a href="./images/cata/A.JPG" itemprop="contentUrl" data-size="1200x1200">
-          <img src="./images/cata/ATHUMB.JPG" itemprop="thumbnail" alt="Image description" />
-        </a>
-      </figure>
-      <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-         <a href="./images/cata/B.JPG" itemprop="contentUrl" data-size="1200x1600">
-          <img src="./images/cata/BTHUMB.JPG" itemprop="thumbnail" alt="Image description" />
-        </a>
-      </figure>
-      <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-         <a href="./images/cata/C.JPG" itemprop="contentUrl" data-size="1200x1200">
-          <img src="./images/cata/CTHUMB.JPG" itemprop="thumbnail" alt="Image description" />
-        </a>
-      </figure>
-    </div>
-  </div>
-
-
-  <!-- Une  news -->
-  <div class="newsContainer newScience center-block">
-    <div class="headerNew">
-      <!-- Date -->
-      <h2>May 12, 2017</h2>
-      <!-- title -->
-      <h1>FRQNT</h1>
-    </div>
-    <!-- Post -->
-    <p>
-      On the same day of my doctorate exam, I was awarded a scholarship by <a href="http://www.frqnt.gouv.qc.ca/en/accueil">Fonds de recherche du Québec - Nature et technologies</a> to pursue my PhD. This scholarship is <a href="http://www.dynamica.phy.ulaval.ca/index.php?id=news&tx_ttnews%5Btt_news%5D=96&cHash=16d5a2564abc2b50bdf715457539ba35">awarded based</a> on the research track record of the candidates, as well as the quality and originality of their proposed work.
-    </p>
-  </div>
-
-
-  <!-- Une  news -->
-  <div class="newsContainer newScience center-block">
-    <div class="headerNew">
-      <!-- Date -->
-      <h2>May 12, 2017</h2>
-      <!-- title -->
-      <h1>Doctoral exam</h1>
-    </div>
-    <!-- Post -->
-    <p>
-      On Friday, I have completed my doctoral exam. The evaluation is based on two documents presenting my future research, and an oral presentation. I can now continue and pursue active research.
-    </p>
-    <div class="gallery">
-      <!-- Les figures -->
-      <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-         <a href="./images/master/tralala.jpg" itemprop="contentUrl" data-size="450x800">
-          <img src="./images/master/tralalaTHUMB.jpg" itemprop="thumbnail" alt="Image description" />
-        </a>
-      </figure>
-    </div>
-  </div>
-
-
-  <!-- Une  news -->
-  <div class="newsContainer newScience center-block">
-    <div class="headerNew">
-      <!-- Date -->
-      <h2>April 18, 2017</h2>
-      <!-- title -->
-      <h1>IV Mediterranean School of Complex Networks</h1>
-    
-    </div>
-    <!-- Post -->
-    <p>In September, I will attend a (late)  <a href="http://mediterraneanschoolcomplex.net">summer school</a> in Sicily, Italy. The four major themes of the school are closely related to my research interests: complex networks, nonlinear dynamics, synchronization and biological systems. Among the invited experts are Alex Arenas, Tiago Peixoto and Vito Latora. 
-    </p>
-    <div class="gallery">
-      <!-- Les figures -->
-      <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-         <a href="./images/mscx800.png" itemprop="contentUrl" data-size="800x667">
-          <img src="./images/mscxTHUMB.png" itemprop="thumbnail" alt="Image description" />
-        </a>
-      </figure>
-    
-
-    </div>
-  </div>
-
-  <!-- Une  news -->
-  <div class="newsContainer newDesign center-block">
-    <div class="headerNew">
-      <!-- Date -->
-      <h2>April 9, 2017</h2>
-      <!-- title -->
-      <h1>XII Symposium Dynamica</h1>
-    
-    </div>
-    <!-- Post -->
-    <p>Each year, I'm mandated to produce posters for either Symposium Numerica or Symposium Dynamica. For once, I wanted to use free gorgeous photos from <a href="https://unsplash.com">unsplash</a>. However, we thought that we could try to create custom plots, so we ended up with the Lorentz and Rösler attractors (classic). For the record, the figures are done by integrating five different initial conditions, and the colors are from <a href="http://colorbrewer2.org/#type=diverging&scheme=RdBu&n=5">colorbrewer</a>.
-    </p>
-    <div class="gallery">
-      <!-- Les figures -->
-      <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-         <a href="./images/sympo/Lorentz_13x19.png" itemprop="contentUrl" data-size="1200x821">
-          <img src="./images/sympo/Lorentz_13x19THUMB.png" itemprop="thumbnail" alt="Image description" />
-        </a>
-          <figcaption itemprop="caption description">Lorentz attractor.</figcaption>
-      </figure>
-       <!-- Les figures -->
-      <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-         <a href="./images/sympo/Rossier_13x19.png" itemprop="contentUrl" data-size="1200x821">
-          <img src="./images/sympo/Rossier_13x19THUMB.png" itemprop="thumbnail" alt="Image description" />
-        </a>
-          <figcaption itemprop="caption description">Rösler attractor.</figcaption>
-      </figure>
-      <!-- Les figures -->
-      <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-         <a href="./images/sympo/Butterfly_13x19_portrait.png" itemprop="contentUrl" data-size="820x1231">
-          <img src="./images/sympo/Butterfly_13x19_portraitTHUMB.png" itemprop="thumbnail" alt="Image description" />
-        </a>
-          <figcaption itemprop="caption description">One of many using a photo. Butterfly effect.</figcaption>
-      </figure>
-    
-
-    </div>
-  </div>
-
-
-
-
-  <!-- Une  news -->
-    <div class="newsContainer newScience center-block">
-      <div class="headerNew">
-        <!-- Date -->
-        <h2>March 29, 2017</h2>
-        <!-- title -->
-        <h1>Byron-T. Darling scholarship</h1>
-      
+  <div class="scrim {% if site.cover %}has-cover{% endif %}">
+    <header class="site-header">
+      <div class="wrapper" >
+         <h1 class="title">Welcome!</h1>
+          <p class="subtitle">My name is Edward Laurence and I'm a PhD student in physics at Université Laval. I've just placed this text so you won't scroll down and you'll see the background animation.</p>
       </div>
-      <!-- Post -->
-      <p>I've been selected to receive the Byron-T. Darling scholarship of 5000$. 
-      </p>
-    </div>
+    </header>
+  </div>
+</div>
 
-
-    <!-- Une  news -->
-    <div class="newsContainer newScience center-block">
-      <div class="headerNew">
-        <!-- Date -->
-        <h2>March 28, 2017</h2>
-        <!-- title -->
-        <h1>NetSci 2017</h1>
-      
-      </div>
-      <!-- Post -->
-      <p>I've been accepted to present two projects at <a href="http://netsci2017.net">NetSci 2017</a>. My recent work on the brain's resilience (<a href="http://www.dynamica.phy.ulaval.ca/fileadmin/abs/netsci2017_brain_network_abs_el.pdf"><i>Functional resilience in dynamical complex networks with adaptive connectivity</i></a>) and the last chapter of my master's thesis (<a href="http://www.dynamica.phy.ulaval.ca/fileadmin/abs/netsci2017_abs_el.pdf"><i>Persistent activity of neural dynamics on hierarchical networks</i></a>) will be presented in the neuroscience satellite and in the general conference. 
-      </p>
-    </div>
-
-
-    <!-- Une  news -->
-    <div class="newsContainer newScience center-block">
-      <div class="headerNew">
-        <!-- Date -->
-        <h2>March 17, 2017</h2>
-        <!-- title -->
-        <h1>Sentinel North</h1>
-      
-      </div>
-      <!-- Post -->
-      <p>I've been awarded a doctoral fellowship by <a href="http://www.sentinellenord.ulaval.ca">Sentinel North</a>. It comes with a generous 18000$ wage per year.
-      </p>
-      <div class="gallery">
-
-        <!-- Les figures -->
-        <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-           <a href="./images/sentinel.png" itemprop="contentUrl" data-size="431x243">
-            <img src="./images/sentinelTHUMB.png" itemprop="thumbnail" alt="Image description" />
-          </a>
-        </figure>
-
-        <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-           <a href="./images/apoge.png" itemprop="contentUrl" data-size="584x199">
-            <img src="./images/apogeTHUMB.png" itemprop="thumbnail" alt="Image description" />
-          </a>
-        </figure>
-
-      </div>
-    </div>
-
-
-    <!-- Une  news -->
-    <div class="newsContainer newDesign center-block">
-      <div class="headerNew">
-        <!-- Date -->
-        <h2>March 16, 2017</h2>
-        <!-- title -->
-        <h1>Fresh resume</h1>
-      
-      </div>
-      <!-- Post -->
-      <p>I've just updated my <a href="./pdf/cv_page_english_pdf.pdf">resume</a> in a brand new design. 
-      </p>
-      <div class="gallery">
-
-        <!-- Les figures -->
-        <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-           <a href="./images/resume/resume.png" itemprop="contentUrl" data-size="602x782">
-            <img src="./images/resume/resumeTHUMB.png" itemprop="thumbnail" alt="Image description" />
-          </a>
-        </figure>
-
-      </div>
-    </div>
-
-
-    <!-- Une  news -->
-    <div class="newsContainer newDesign center-block">
-      <div class="headerNew">
-        <!-- Date -->
-        <h2>March 16, 2017</h2>
-        <!-- title -->
-        <h1>Serum</h1>
-      
-      </div>
-      <!-- Post -->
-      <p>Serum is a web plugin for google Chrome. It allows users to rate a website and obtain a validity score based on users rating. We hope this could help detecting fake news. Check out our <a href="http://www.factserum.co">website!</a>
-      </p>
-      <!-- The two images -->
-      <div class="gallery">
-
-        <!-- Les figures -->
-        <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-           <a href="./images/serum/serum-profil.png" itemprop="contentUrl" data-size="1200x1200">
-            <img src="./images/serum/serum-profilTHUMB.png" itemprop="thumbnail" alt="Image description" />
-          </a>
-        </figure>
-
-
-        <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-          <a href="./images/serum/serum-banner.png" itemprop="contentUrl" data-size="1200x764">
-            <img src="./images/serum/serum-bannerTHUMB.png" itemprop="thumbnail" alt="Image description" />
-          </a>
-        </figure>
-      </div>
-    </div>
-
+<div class="wrapper">
+<ul class="post-list">
+  {% for post in paginator.posts %}
+  <li class="post-liindex">
+    <section class="post-meta">
+      <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
+    </section>
+    <h2>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </h2>
+    <section class="post-excerpt" itemprop="description">
+      <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+    </section>
+    <hr class="small-line">
+  </li>
   
-  <!-- Une  news -->
-    <div class="newsContainer newDesign center-block">
-      <div class="headerNew">
-        <!-- Date -->
-        <h2>January 17, 2017</h2>
-        <!-- title -->
-        <h1>New website - Ice canoeing</h1>
-      
-      </div>
-      <!-- Post -->
-      <p>Two years ago, a friend asked me to do a <a href="https://canotaglace180.github.io/index.html">website</a> for its ice canoeing team (in french). I've quickly done it, but I needed images and texts to complete the website. He sent the ressources this week. It's a static website hosted on <a href="https://github.com/canotaglace180/canotaglace180.github.io">github</a> and it's 100% custom. If you're in town this winter, go see their <a href="https://canotaglace180.github.io/evenements.html">races</a>, it's absolutely incredible!
-      </p>
-
-      <div class="gallery">
-
-        <!-- Les figures -->
-        <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-           <a href="./images/canot/canot.png" itemprop="contentUrl" data-size="1537x845">
-            <img src="./images/canot/canotTHUMB.png" itemprop="thumbnail" alt="Image description" />
-          </a>
-        </figure>
-
-
-        <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-          <a href="./images/canot/canot2.png" itemprop="contentUrl" data-size="1538x843">
-            <img src="./images/canot/canot2THUMB.png" itemprop="thumbnail" alt="Image description" />
-          </a>
-        </figure>
-      </div>
-    </div>
-
-
-
-
-
-    <!-- Une  news -->
-    <div class="newsContainer newDesign center-block">
-      <div class="headerNew">
-        <!-- Date -->
-        <h2>January 09, 2017</h2>
-        <!-- title -->
-        <h1>Wasper</h1>
-      
-      </div>
-      <!-- Post -->
-      <p>After many months of work with my partners, I can finally reveal it to the public: <a href="http://www.wasper.co"> Wasper</a>. It is a mobile application to buy local products delivered by the community. Yet, Wasper has not been deployed on the App Store but we've launched it on the social medias. Stay tuned for updates! 
-      </p>
-
-      <!-- The two images -->
-      <div class="gallery">
-
-        <!-- Les figures -->
-        <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-           <a href="./images/logo_wasper.png" itemprop="contentUrl" data-size="960x960">
-            <img src="./images/logo_wasperTHUMB.png" itemprop="thumbnail" alt="Image description" />
-          </a>
-
-          <figcaption itemprop="caption description">The branding!</figcaption>
-        </figure>
-
-
-        <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-          <a href="./images/wasper_back.png" itemprop="contentUrl" data-size="2000x764">
-            <img src="./images/wasper_backTHUMB.png" itemprop="thumbnail" alt="Image description" />
-          </a>
-
-          <figcaption itemprop="caption description">A preview of Wasper Entreprise</figcaption>
-        </figure>
-      </div>
-    </div>
-
-
-    <!-- Une  news -->
-    <div class="newsContainer newScience center-block">
-      <div class="headerNew">
-        <!-- Date -->
-        <h2>September 01, 2016</h2>
-        <!-- title -->
-        <h1>Master degree</h1>
-      </div>
-      <!-- Post -->
-      <p>I've received all of the evaluations of my thesis which means I can graduate. My thesis is available, in french, <a href="http://www.dynamica.phy.ulaval.ca/fileadmin/theses/laurence16_master.pdf">here</a>.
-      </p>
-
-      <!-- The two images -->
-      <div class="gallery">
-
-
-        <!-- Les figures -->
-  <!--       <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-           <a href="./images/master/FonctPNG.png" itemprop="contentUrl" data-size="2816x673">
-            <img src="./images/master/FonctThumb.png" itemprop="thumbnail" alt="Image description" />
-          </a>
-   -->
-          <!-- <figcaption itemprop="caption description">Degree distirbution</figcaption> -->
-        </figure>
-         <!-- Les figures -->
-        <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-           <a href="./images/master/Tracto.png" itemprop="contentUrl" data-size="2566x698">
-            <img src="./images/master/TractoTHUMB.png" itemprop="thumbnail" alt="Image description" />
-          </a>
-
-          <!-- <figcaption itemprop="caption description">Degree distirbution</figcaption> -->
-        </figure>
-         <!-- Les figures -->
-        <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-           <a href="./images/master/lalachien.png" itemprop="contentUrl" data-size="3824x1322">
-            <img src="./images/master/lalachienTHUMB.png" itemprop="thumbnail" alt="Image description" />
-          </a>
-
-          <!-- <figcaption itemprop="caption description">Degree distirbution</figcaption> -->
-        </figure>
-         <!-- Les figures -->
-        <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-           <a href="./images/master/HMNExample.png" itemprop="contentUrl" data-size="2153x875">
-            <img src="./images/master/HMNExampleTHUMB.png" itemprop="thumbnail" alt="Image description" />
-          </a>
-
-          <!-- <figcaption itemprop="caption description">Degree distirbution</figcaption> -->
-        </figure>
-      
-      </div>
-    </div>
-
-
-    <!-- Une  news -->
-    <div class="newsContainer newDesign center-block">
-      <div class="headerNew">
-        <!-- Date -->
-        <h2>August 30, 2016</h2>
-        <!-- title -->
-        <h1>Garmin Watchface</h1>
-        
-      </div>
-      <!-- Post -->
-      <p>
-      I've done my first garmin watch face (needed to learn Monkey C!) and I released it for free on Garmin Apps. Download it <a href="https://apps.garmin.com/en-CA/apps/d10db1ae-9ecd-4219-92d4-a5b106636ca7"> here</a> or check the <a href="https://github.com/laurencee9/Watch-Face-Garmin">source code</a>. 
-      UPDATE: 2583 downloads (March 2017)</p>
-
-      <!-- The two images -->
-      <div class="gallery">
-
-        <!-- Les figures -->
-        <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-          <a href="./images/watch.png" itemprop="contentUrl" data-size="300x325">
-            <img src="./images/watch.png" itemprop="thumbnail" alt="Image description" />
-          </a>
-          <figcaption itemprop="caption description">The watch face</figcaption>
-        </figure>
-
-        <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-          <a href="./images/downloads.png" itemprop="contentUrl" data-size="1039x402">
-            <img src="./images/downloadsTHUMB.png" itemprop="thumbnail" alt="Image description" />
-          </a>
-          <figcaption itemprop="caption description">Number of downloads</figcaption>
-        </figure>
-      </div>
-
-
-    </div>
-
-
-    <!-- Une  news -->
-    <div class="newsContainer newScience center-block">
-      <div class="headerNew">
-         <!-- Date -->
-        <h2>May 06, 2016</h2>
-        <!-- title -->
-        <h1>Master's colloquium</h1>
-       
-      </div>
-      <!-- Post -->
-      <p>
-      April 11 will be my <a href="http://www.dynamica.phy.ulaval.ca/uploads/media/Laurence__affiche_colloque_de_maitrise.pdf">Master's colloquium</a>. This highly anticipated event is composed of a short presentation of my thesis (30 minutes) and is followed by a series of questions. 
-      </p>
-    </div>
-
-    <!-- Une  news -->
-     <div class="newsContainer newDesign center-block">
-      <div class="headerNew">
-        <!-- Date -->
-        <h2>January 13, 2016</h2>
-        <!-- title -->
-        <h1>Physical Review E December Kaleidoscope</h1>
-      </div>
-      <!-- Post -->
-      <p>
-      A figure from our recent paper <i>Complex networks as an emerging property of hierarchical preferential attachment</i> has been selected to appear in the <a href="https://journals.aps.org/pre/kaleidoscope/December2015">December Kaleidoscope of Physical Review E.</a> Figures are selected on aesthetic merit.
-      </p>
-      <!-- The two images -->
-      <div class="gallery">
-
-        <!-- Les figures -->
-        <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-          <a href="./images/aa.png" itemprop="contentUrl" data-size="750x750">
-            <img src="./images/aathumb.png" itemprop="thumbnail" alt="Image description" />
-          </a>
-          <figcaption itemprop="caption description">An example of Hierarchical Preferential Attachment. The nodes are found at the outermost circle and a unique color (shades of blue, more than 50) specifies their identity.</figcaption>
-         
-        </figure>
-    
-      </div>
-    </div>
-
-
-    <div class="newsContainer newScience center-block">
-      <div class="headerNew">
-          <!-- Date -->
-        <h2>June 02, 2015</h2>
-        <!-- title -->
-        <h1>NetSci 2015</h1>
-      </div>
-      <!-- Post -->
-      <p>
-      I am in the wonderful city of Saragoza, Spain, in order to participate to NetSci 2015 conference! I am presenting a <a href="./pdf/HeadLow_NS_15_CascadeV6.pdf">poster</a> about our recent projet on binary cascade dynamics.
-      </p>
-      <!-- The two images -->
-      <div class="gallery">
-
-        <!-- Les figures -->
-        <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-          <a href="./images/Saragosse/1.JPG" itemprop="contentUrl" data-size="1936x2592">
-            <img src="./images/Saragosse/1thumbnail.JPG" itemprop="thumbnail" alt="Image description" />
-          </a>
-          <figcaption itemprop="caption description">View from our appartement</figcaption>
-           
-        </figure>
-       
-        <!-- Les figures -->
-        <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-          <a href="./images/Saragosse/2.JPG" itemprop="contentUrl" data-size="2592x1936">
-            <img src="./images/Saragosse/2thumbnail.JPG" itemprop="thumbnail" alt="Image description"  data-size="373x500"  />
-          </a>
-          <figcaption itemprop="caption description">World Trade Center Zaragoza</figcaption>
-          
-        </figure>
-
-        <!-- Les figures -->
-        <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-          <a href="./images/Saragosse/3.JPG" itemprop="contentUrl" data-size="1936x2592">
-            <img src="./images/Saragosse/3thumbnail.JPG" itemprop="thumbnail" alt="Image description"  data-size="373x500"  />
-          </a>
-         <figcaption itemprop="caption description">A conference</figcaption>
-          
-        </figure>
-
-        <!-- Les figures -->
-        <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-          <a href="./images/Saragosse/4.JPG" itemprop="contentUrl" data-size="1936x2592">
-            <img src="./images/Saragosse/4thumbnail.JPG" itemprop="thumbnail" alt="Image description"  data-size="373x500"  />
-          </a>
-          <figcaption itemprop="caption description">Nice street. I don't remember the name.</figcaption>
-          
-        </figure>
-
-        <!-- Les figures -->
-        <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-          <a href="./images/Saragosse/5.JPG" itemprop="contentUrl" data-size="1936x2592">
-            <img src="./images/Saragosse/5thumbnail.JPG" itemprop="thumbnail" alt="Image description"  data-size="373x500"  />
-          </a>
-          <figcaption itemprop="caption description">Guy with dog and bird.</figcaption>
-          
-        </figure>
-
-        <!-- Les figures -->
-        <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-          <a href="./images/Saragosse/6.JPG" itemprop="contentUrl" data-size="1936x2592">
-            <img src="./images/Saragosse/6thumbnail.JPG" itemprop="thumbnail" alt="Image description"  data-size="373x500"  />
-          </a>
-          <figcaption itemprop="caption description">The poster</figcaption>
-          
-        </figure>
-
-        <!-- Mosaique -->
-        <figure class="photo" itemprop="associatedMedia"itemscope itemtype="http://schema.org/ImageObject">
-          <a href="./images/Saragosse/7.JPG" itemprop="contentUrl" data-size="7648x2332">
-            <img src="./images/Saragosse/7thumbnail.JPG" itemprop="thumbnail" alt="Image description"  />
-          </a>
-          <figcaption itemprop="caption description">Plaza del Pilar </figcaption>
-          
-        </figure>
-
-      </div>
-    </div>
-
-    <!-- Une  news -->
-    <div class="newsContainer newScience center-block">
-      <div class="headerNew">
-        <!-- Date -->
-        <h2>May 04, 2015</h2>
-        <!-- title -->
-        <h1>FRQNT</h1>
-      </div>
-      <!-- Post -->
-      <p>
-      I have been informed that I will receive a master scholarship by <a href="http://www.frqnt.gouv.qc.ca/en/accueil">Fonds de recherche du Québec - Nature et technologies</a> for 2015-2016.
-      </p>
-    </div>
-
-    <!-- Une  news -->
-    <div class="newsContainer newScience center-block">
-      <div class="headerNew">
-          <!-- Date -->
-        <h2>March 31, 2015</h2>
-        <!-- title -->
-        <h1>Netsci 2015</h1>
-
-      </div>
-      <!-- Post -->
-      <p>
-        <a href="http://www.jgyoung.ca">Jean-Gabriel</a> and I will attend <a href="http://netsci2015.net">NetSci 2015</a> conference in <a href="http://en.wikipedia.org/wiki/Zaragoza">Zaragoza</a>, Spain from June 1 to June 5, 2015. Jean-Gabriel will present a new version of SPA named SPA Star, while I will show our most recent project "<i>Exact analytical solution of binary dynamics on networks</i>", in collaboration with <a href="https://sites.google.com/site/svmelnik/">Sergey Melnik</a>. 
-      </p>
-    </div>
-
-    <!-- Une autre new -->
-    <div class="newsContainer newDesign center-block">
-      <div class="headerNew">
-            <!-- Date -->
-        <h2>March 31, 2015</h2>
-        <!-- title -->
-      <h1>Official Website</h1>
-  
-    </div>
-    <!-- Post -->
-    <p>
-      The website is online. For those interested, I used <a href="http://d3js.org">D3.js</a> to create the network at the top of the page and the <a href="./random.html">Levy flight</a>. Feel free to check or reuse the code by using the development tools available with your browser.
-    </p>
-  </div>
-  </div>
-  <!-- PhotoSwipe Part -->
-  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-        <!-- Background of PhotoSwipe. 
-             It's a separate element, as animating opacity is faster than rgba(). -->
-        <div class="pswp__bg"></div>
-
-        <!-- Slides wrapper with overflow:hidden. -->
-        <div class="pswp__scroll-wrap">
-
-            <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
-            <!-- don't modify these 3 pswp__item elements, data is added later on. -->
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
-
-            <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-            <div class="pswp__ui pswp__ui--hidden">
-
-                <div class="pswp__top-bar">
-
-                    <!--  Controls are self-explanatory. Order can be changed. -->
-
-                    <div class="pswp__counter"></div>
-
-                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-                    <button class="pswp__button pswp__button--share" title="Share"></button>
-
-                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-
-                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-
-                    <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                    <!-- element will get class pswp__preloader--active when preloader is running -->
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                          <div class="pswp__preloader__cut">
-                            <div class="pswp__preloader__donut"></div>
-                          </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div> 
-                </div>
-
-                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-                </button>
-
-                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-                </button>
-
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
-
-              </div>
-
-            </div>
-  </div>
-  <script src="./photoswipe/photoswipe.min.js"></script>
-  <script src="./photoswipe/photoswipe-ui-default.min.js"></script>
-  <script src="./photoswipe/initPhotoSwipe.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-      initPhotoSwipeFromDOM('.gallery');
-    });</script>
-
-
-  <!-- Header -->
-  <script type="text/javascript">create_graph("./jason/ieee14.jason", window.innerWidth)</script>
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-58338818-2', 'auto');
-    ga('send', 'pageview');
-
-  </script>
-  </body>
-</html>
+  {% if forloop.last == false %}
+  {% endif %}
+  {% endfor %}
+</ul>
+
+<nav class="pagination" role="navigation">
+	<p>
+    {% if paginator.previous_page %}
+			{% if paginator.page == 2 %}
+			<a class="newer-posts" href="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-chevron-circle-left fa-stack-1x fa-inverse pagination-icon"></i>
+        </span>
+      </a>
+			{% else %}
+			<a class="newer-posts" href="{{ site.baseurl }}/page{{paginator.previous_page}}">
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-chevron-circle-left fa-stack-1x fa-inverse pagination-icon"></i>
+				</span>
+			</a>
+			{% endif %}
+		{% else %}
+		<span class="fa-stack fa-lg ">
+      <i class="fa fa-chevron-circle-left fa-stack-1x fa-inverse pagination-icon inactive-icon"></i>
+    </span>
+		{% endif %}
+		<span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+		{% if paginator.next_page %}
+		<a class="newer-posts" href="{{ site.baseurl }}/page{{paginator.next_page}}">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-chevron-circle-right fa-stack-1x fa-inverse pagination-icon"></i>
+      </span>
+    </a>
+		{% else %}
+		<span class="fa-stack fa-lg">
+      <i class="fa fa-chevron-circle-right fa-stack-1x fa-inverse pagination-icon inactive-icon"></i>
+    </span>
+		{% endif %}
+	</p>
+</nav>
+
+</div>
+</div>
+
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<script>
+
+
+
+function initiate_animation(position){
+
+  var duration = 4000
+  var lines = svg.selectAll("line");
+  lines.transition("move")
+        .attr("x1", function(d) {
+            var index = d[0];
+            var pos = position[index];
+            return pos[0]
+        })
+        .attr("y1", function(d) {
+            var index = d[0];
+            var pos = position[index]
+            return pos[1]
+        })
+        .attr("x2", function(d) {
+            var index = d[1];
+            var pos = position[index]
+            return pos[0]
+        })
+        .attr("y2", function(d) {
+            var index = d[1];
+            var pos = position[index]
+            return pos[1]
+        })
+      .duration(duration);
+}
+
+
+var parent = d3.select("body")
+            .select("#d3graphparent");
+
+var element = parent.node();
+var w = element.getBoundingClientRect().width;
+var h = element.getBoundingClientRect().height;
+
+var el = d3.select("body")
+            .select("#d3graph");
+
+
+var svg = el.append("svg")
+            .attr("width", w)
+            .attr("height", h);
+
+
+var dataset = [];      
+var n_nodes = Math.max(300,w*h/3000);            
+for (var i = 0; i < n_nodes; i++) {           
+    var x = Math.random() * w;  
+    var y = Math.random() * h;  
+    dataset.push([x,y]);        
+}
+
+var edges = []
+for (var i = 0; i < dataset.length; i++) {
+    var pos1 = dataset[i];
+    for (var j = i+1; j < dataset.length; j++) {
+        var pos2 = dataset[j];
+        if (((pos1[0]-pos2[0])**2+(pos1[1]-pos2[1])**2)**(0.5)<w*0.04){
+            edges.push([i,j])
+        }
+
+    }
+}              
+
+
+var dt = 100.0;
+var linesSVG = svg.selectAll("line")
+   .data(edges)
+   .enter()
+   .append("line")
+    .attr("x1", function(d) {
+        var index = d[0];
+        var pos = dataset[index];
+        return pos[0]+(Math.random()-0.5)*dt
+    })
+    .attr("y1", function(d) {
+        var index = d[0];
+        var pos = dataset[index]
+        return pos[1]+(Math.random()-0.5)*dt
+    })
+    .attr("x2", function(d) {
+        var index = d[1];
+        var pos = dataset[index]
+        return pos[0]+(Math.random()-0.5)*dt
+    })
+    .attr("y2", function(d) {
+        var index = d[1];
+        var pos = dataset[index]
+        return pos[1]+(Math.random()-0.5)*dt
+    })
+    .attr("stroke-width", 2)
+    .style("opacity", function(d){
+        return Math.random()*0.2;
+    })
+    .attr("stroke", "#B9FDFF");
+
+
+  initiate_animation(dataset);
+</script>
+
+
