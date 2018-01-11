@@ -292,6 +292,41 @@ pre code.hljs {
 		margin: auto;
 		width: 90%;
 	}
+
+	/*
+	Portfolio
+	*/
+
+	.portfolio-container-header {
+
+		.portfolio-preview {
+			background-color: white;
+			border-radius: 20px;
+			background-repeat: no-repeat;
+			box-shadow: 0px 0px 20px black;
+			background-size: cover;
+			padding: 1em 1em 1em 1em;
+			width: 300px;
+    		height: 350px;
+    		position: relative;
+    		.portfolio-meta {
+    			position: absolute;
+    			bottom: 0;
+    			h1 {
+	    			color: white;
+	    			margin: 0 0 0 0;
+	    			text-transform: uppercase;
+	    			line-height: 100%;
+	    		}
+	    		p {
+	    			color: white;
+	    		}
+    		}
+
+		}
+
+	}
+
 	/*
 	* Articles
 	*/
