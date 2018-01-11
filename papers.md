@@ -1,7 +1,10 @@
 ---
 layout: notitle
-title: "Articles"
-permalink: /articles/
+title: "Publications"
+permalink: /publications/
+custom_js:
+ - d3.v4.min
+ - d3_static_graph
 ---
 
 <div class="article-list">

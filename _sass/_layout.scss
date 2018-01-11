@@ -68,7 +68,7 @@ pre code.hljs {
   }
 }
 
-.site-header-container, .post-header-container {
+.site-header-container, .post-header-container, .paper-header-container {
 	width: 100%;
 	text-align: left;
 	position: relative;
@@ -295,6 +295,29 @@ pre code.hljs {
 	/*
 	* Articles
 	*/
+
+	.paper-header-container {
+			position: relative;
+			background-color: #420300;
+			.scrim {
+				padding: 2em 1em 1em 1em;
+			}
+			h1 {
+				opacity: 0.9;
+				color: white;
+			}
+			p {
+				opacity: 0.8;
+				color: white;
+			}
+			.d3graph {
+				position: absolute;
+   				top: 0;
+			}
+			.post-date {
+				color:white;
+			}
+		}
 	.article-list {
 		h3 {
 			margin-top: 60px;
@@ -351,21 +374,24 @@ pre code.hljs {
 		}
 		.post-header-container {
 			position: relative;
-			background-color: $backgroundgray;
+			background-color: #420300;
 			.scrim {
 				padding: 2em 1em 1em 1em;
 			}
 			h1 {
 				opacity: 0.9;
-				color: $blue;
+				color: white;
 			}
 			p {
-				opacity: 0.6;
-				color: $p-color;
+				opacity: 0.8;
+				color: white;
 			}
 			.d3graph {
 				position: absolute;
    				top: 0;
+			}
+			.post-date {
+				color:white;
 			}
 		}
 		.post-meta {
