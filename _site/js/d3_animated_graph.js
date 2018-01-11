@@ -46,10 +46,10 @@ var svg = el.append("svg")
 
 
 var dataset = [];      
-var n_nodes = w*h/1000;
+var n_nodes = w*h/2000;
 if (n_nodes<60){n_nodes = 60}
 else if (n_nodes>300){n_nodes = 300};
-        
+console.log(n_nodes);
 for (var i = 0; i < n_nodes; i++) {           
     var x = Math.random() * w;  
     var y = Math.random() * h;  
