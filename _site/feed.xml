@@ -6,8 +6,8 @@
 </description>
     <link>http://edwardlaurence.me/</link>
     <atom:link href="http://edwardlaurence.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 12 Jan 2018 22:48:20 -0500</pubDate>
-    <lastBuildDate>Fri, 12 Jan 2018 22:48:20 -0500</lastBuildDate>
+    <pubDate>Fri, 12 Jan 2018 22:51:05 -0500</pubDate>
+    <lastBuildDate>Fri, 12 Jan 2018 22:51:05 -0500</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -156,7 +156,7 @@ After a post is created, other users can answer the post. For example, Alice has
 
 &lt;h1&gt;Face to network&lt;/h1&gt;
 
-This project is inspired by the work made by the people of &lt;a href=&quot;http://macfang.net&quot;&gt;Macfang&lt;/a&gt;: when your mouse goes over an image, it is transformed into a network. One thing led to another, I found myself coding this exact same thing. With my coworker Charles, we build from ground up a Python algorithm based on random geometrical graphs. 
+This project is inspired by the work made by the people of &lt;a href=&quot;http://macfang.net&quot;&gt;Macfang&lt;/a&gt;: when your mouse goes over an image, it is transformed into a network. One thing led to another, I found myself coding this exact same thing. With my coworker Charles, we've built from ground up a Python algorithm based on random geometrical graphs. 
 
 
 &lt;h3&gt;How it works&lt;/h3&gt;
@@ -171,7 +171,7 @@ In practice, we have to tweak a little bit the algorithm. First, we choose image
 
 
 &lt;div class=&quot;inline-note with-shadow&quot;&gt;
-	&lt;b&gt;Historical note&lt;/b&gt;
+	&lt;b&gt;Editorial note&lt;/b&gt;
 	&lt;br /&gt;
 	&lt;span&gt;In 2017, we were introduced to the designer and developer who inspired us ( See &lt;a href=&quot;http://macfang.net&quot;&gt;Macfang&lt;/a&gt; ). They told us that they have discovered that the people of &lt;a href=&quot;https://www.netsci2018.com&quot;&gt; Netsci &lt;/a&gt; were doing the same thing without referring to them. It is not clear if the people of Netsci were magically inspired but it is fair to say the people at Macfang have done a far better work.
 	&lt;/span&gt;
@@ -311,7 +311,7 @@ For the annual Symposium Dynamica edition, I was mandated to produce the posters
 
 &lt;div class=&quot;wrapper&quot;&gt;
 	&lt;div class=&quot;inline-note with-shadow&quot;&gt;
-		&lt;b&gt;Historical note&lt;/b&gt;
+		&lt;b&gt;Traveling salesman problem&lt;/b&gt;
 		&lt;br /&gt;
 		&lt;span&gt;In this edition, my coworker and I developed an iOS app for the students. In this app, the students are asked to connect the dots in order to have the shortest path. Then, the data were compared to the solutions obtained using optimization algorithms (Tabou, Genetic, Firefly, Random). 
 		&lt;/span&gt;

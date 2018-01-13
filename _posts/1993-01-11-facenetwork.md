@@ -19,7 +19,7 @@ frontcolor: white
 
 <h1>{{ page.title }}</h1>
 
-This project is inspired by the work made by the people of <a href="http://macfang.net">Macfang</a>: when your mouse goes over an image, it is transformed into a network. One thing led to another, I found myself coding this exact same thing. With my coworker Charles, we build from ground up a Python algorithm based on random geometrical graphs. 
+This project is inspired by the work made by the people of <a href="http://macfang.net">Macfang</a>: when your mouse goes over an image, it is transformed into a network. One thing led to another, I found myself coding this exact same thing. With my coworker Charles, we've built from ground up a Python algorithm based on random geometrical graphs. 
 
 
 <h3>How it works</h3>
@@ -34,7 +34,7 @@ In practice, we have to tweak a little bit the algorithm. First, we choose image
 
 
 <div class="inline-note with-shadow">
-	<b>Historical note</b>
+	<b>Editorial note</b>
 	<br>
 	<span>In 2017, we were introduced to the designer and developer who inspired us ( See <a href="http://macfang.net">Macfang</a> ). They told us that they have discovered that the people of <a href="https://www.netsci2018.com"> Netsci </a> were doing the same thing without referring to them. It is not clear if the people of Netsci were magically inspired but it is fair to say the people at Macfang have done a far better work.
 	</span>
