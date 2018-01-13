@@ -23,6 +23,7 @@ custom_js:
 <div class="wrapper">
 <ul class="post-list">
   {% for post in paginator.posts %}
+  {% if post.categories[0] == "post" %}
   <li class="post-liindex">
     <section class="post-meta">
       <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
@@ -37,6 +38,7 @@ custom_js:
   </li>
   
   {% if forloop.last == false %}
+  {% endif %}
   {% endif %}
   {% endfor %}
 </ul>

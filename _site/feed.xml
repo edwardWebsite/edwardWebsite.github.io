@@ -6,22 +6,9 @@
 </description>
     <link>http://edwardlaurence.me/</link>
     <atom:link href="http://edwardlaurence.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 10 Jan 2018 21:37:33 -0500</pubDate>
-    <lastBuildDate>Wed, 10 Jan 2018 21:37:33 -0500</lastBuildDate>
+    <pubDate>Fri, 12 Jan 2018 22:40:24 -0500</pubDate>
+    <lastBuildDate>Fri, 12 Jan 2018 22:40:24 -0500</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
-    
-      <item>
-        <title>Sentinel North networks</title>
-        <description>&lt;p&gt;This has been a nice project.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 09 Nov 2017 00:00:00 -0500</pubDate>
-        <link>http://edwardlaurence.me/portfolio/2017/11/09/SNNetwork.html</link>
-        <guid isPermaLink="true">http://edwardlaurence.me/portfolio/2017/11/09/SNNetwork.html</guid>
-        
-        
-        <category>portfolio</category>
-        
-      </item>
     
       <item>
         <title>Exact solution of binary dynamics</title>
@@ -37,24 +24,11 @@
 &lt;/div&gt;
 </description>
         <pubDate>Thu, 09 Nov 2017 00:00:00 -0500</pubDate>
-        <link>http://edwardlaurence.me/articles/2017/11/09/exact.html</link>
-        <guid isPermaLink="true">http://edwardlaurence.me/articles/2017/11/09/exact.html</guid>
+        <link>http://edwardlaurence.me/post/2017/11/09/exact.html</link>
+        <guid isPermaLink="true">http://edwardlaurence.me/post/2017/11/09/exact.html</guid>
         
         
-        <category>articles</category>
-        
-      </item>
-    
-      <item>
-        <title>Face to network</title>
-        <description>&lt;p&gt;This has been a nice project.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 09 Nov 2017 00:00:00 -0500</pubDate>
-        <link>http://edwardlaurence.me/portfolio/2017/11/09/facenetwork.html</link>
-        <guid isPermaLink="true">http://edwardlaurence.me/portfolio/2017/11/09/facenetwork.html</guid>
-        
-        
-        <category>portfolio</category>
+        <category>post</category>
         
       </item>
     
@@ -63,11 +37,467 @@
         <description>&lt;p&gt;After weeks of work, my study of the networks of Sentinel North has finally been presented by Patrick Desrosiers at the annual Sentinel North conference. I also had the opportunity to give a blitz talk of three minutes, a unique opportunity to practice communication skills.&lt;/p&gt;
 </description>
         <pubDate>Wed, 30 Aug 2017 00:00:00 -0400</pubDate>
-        <link>http://edwardlaurence.me/conference/2017/08/30/SNconference.html</link>
-        <guid isPermaLink="true">http://edwardlaurence.me/conference/2017/08/30/SNconference.html</guid>
+        <link>http://edwardlaurence.me/post/2017/08/30/SNconference.html</link>
+        <guid isPermaLink="true">http://edwardlaurence.me/post/2017/08/30/SNconference.html</guid>
         
         
-        <category>conference</category>
+        <category>post</category>
+        
+      </item>
+    
+      <item>
+        <title>Benevolas</title>
+        <description>&lt;div class=&quot;wrapper&quot;&gt;
+	&lt;img src=&quot;/assets/portfolio/benevolas/front.png&quot; class=&quot;medium-img with-shadow&quot; style=&quot;border-radius: 20px;&quot; /&gt;
+
+&lt;h1&gt;Benevolas&lt;/h1&gt;
+
+&lt;b class=&quot;status&quot;&gt; Work in progress! It should be on the App Store in early 2018&lt;/b&gt;
+
+&lt;h3&gt;How it works&lt;/h3&gt;
+
+Benevolas is an iOS app where user can do volunteering in their neighborhood. Three options are offered: 
+&lt;ol&gt;
+  &lt;li&gt;&lt;b&gt;Give&lt;/b&gt; time or objects to others&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Share&lt;/b&gt; objects&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Ask&lt;/b&gt; other users for help or objects&lt;/li&gt;
+&lt;/ol&gt;
+After a post is created, other users can answer the post. For example, Alice has a large yard and she needs some help. Using the app, Alice will request help to maintain her yard. Bob, who lives in a tiny apartment, would love to help its neighbors and have some time outside during summer. He will accept the post and help her gardening her yard.
+&lt;/div&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+
+&lt;div class=&quot;screenshots-container&quot;&gt;
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-sm-3 col-xs-6 screenshot-image &quot;&gt;
+		&lt;img class=&quot;with-shadow&quot; src=&quot;/assets/portfolio/benevolas/screenshot2.png&quot; /&gt;	
+	&lt;/div&gt;
+	&lt;div class=&quot;col-sm-3 col-xs-6 screenshot-image &quot;&gt;
+		&lt;img class=&quot;with-shadow&quot; src=&quot;/assets/portfolio/benevolas/screenshot3.png&quot; /&gt;	
+	&lt;/div&gt;
+	&lt;div class=&quot;col-sm-3 col-xs-6 screenshot-image &quot;&gt;
+		&lt;img class=&quot;with-shadow&quot; src=&quot;/assets/portfolio/benevolas/screenshot4.png&quot; /&gt;	
+	&lt;/div&gt;
+	&lt;div class=&quot;col-sm-3 col-xs-6 screenshot-image &quot;&gt;
+		&lt;img class=&quot;with-shadow&quot; src=&quot;/assets/portfolio/benevolas/screenshot5.png&quot; /&gt;	
+	&lt;/div&gt;
+	&lt;div class=&quot;col-md-6 screenshot-meta&quot;&gt;
+			&lt;b&gt;Screenshots&lt;/b&gt;
+			&lt;hr class=&quot;small-line&quot; /&gt;
+			&lt;span class=&quot;screenshot-subtitle&quot;&gt;The design has been done using the software &lt;i&gt;Sketch&lt;/i&gt;. All the views are real so they will probably change for the best before the official launch.&lt;/span&gt;
+		&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;screenshots-container&quot;&gt;
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;col-md-6 screenshot-image&quot;&gt;
+			&lt;img src=&quot;/assets/portfolio/benevolas/screenshot1.png&quot; class=&quot;with-shadow&quot; style=&quot;max-height: 600px; width: auto;&quot; /&gt;	
+		&lt;/div&gt;
+		&lt;div class=&quot;col-md-6 screenshot-meta&quot;&gt;
+			&lt;b&gt;Post is now online!&lt;/b&gt;
+			&lt;hr class=&quot;small-line&quot; /&gt;
+			&lt;span class=&quot;screenshot-subtitle&quot;&gt;Real example view of what the user sees when the post is online. Each post contains a title, a description, a location and a type. Users can also set a date and add photos to the post.&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;wrapper&quot;&gt;
+
+&lt;h3&gt;Programming languages and development&lt;/h3&gt;
+&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; class=&quot;table-about&quot;&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Server side&lt;/th&gt; &lt;th&gt;Front end&lt;/th&gt; &lt;th&gt;Design&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  	&lt;td&gt;Node.js&lt;/td&gt;&lt;td&gt;Swift 4&lt;/td&gt;&lt;td&gt;Sketch&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  	&lt;td&gt;aws SDK&lt;/td&gt;&lt;td&gt;Alamofire&lt;/td&gt;&lt;td&gt;Zeplin&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  	&lt;td&gt;Express&lt;/td&gt;&lt;td&gt;FacebookLogin&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  	&lt;td&gt;Mongoose&lt;/td&gt;&lt;td&gt;Fabric&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  	&lt;td&gt;Passport&lt;/td&gt;&lt;td&gt;Xcode&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  	&lt;td&gt;Chai&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+</description>
+        <pubDate>Fri, 15 Jan 1993 00:00:00 -0500</pubDate>
+        <link>http://edwardlaurence.me/portfolio/1993/01/15/Benevolas.html</link>
+        <guid isPermaLink="true">http://edwardlaurence.me/portfolio/1993/01/15/Benevolas.html</guid>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
+    
+      <item>
+        <title>Face to network</title>
+        <description>&lt;div class=&quot;container&quot;&gt;
+	&lt;div class=&quot;screenshot-image&quot;&gt;
+		&lt;img src=&quot;/assets/portfolio/facenetwork/glasses.png&quot; style=&quot;&quot; /&gt;	
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;wrapper&quot;&gt;
+
+&lt;h1&gt;Face to network&lt;/h1&gt;
+
+This project is inspired by the work made by the people of &lt;a href=&quot;http://macfang.net&quot;&gt;Macfang&lt;/a&gt;: when your mouse goes over an image, it is transformed into a network. One thing led to another, I found myself coding this exact same thing. With my coworker Charles, we build from ground up a Python algorithm based on random geometrical graphs. 
+
+
+&lt;h3&gt;How it works&lt;/h3&gt;
+The algorithm proceeds as follows:
+&lt;ol&gt;
+  &lt;li&gt;Take the image and get the intensity of each pixel.&lt;/li&gt;
+  &lt;li&gt;We then choose random pixels proportionally to their intensities.&lt;/li&gt;
+  &lt;li&gt;We connect the chosen pixels with &lt;i&gt;k&lt;/i&gt; closer neighbors.&lt;/li&gt;
+  &lt;li&gt;The network is illustrated in the most artistic manner.&lt;/li&gt;
+&lt;/ol&gt;
+In practice, we have to tweak a little bit the algorithm. First, we choose images with background and dark objects so that the chosen pixels will be located on the desired objects. Next, we add a contrast parameter which gives more weights to the intense pixel. Using this, we can see sharp dark contours like glasses and eyes. 
+
+
+&lt;div class=&quot;inline-note with-shadow&quot;&gt;
+	&lt;b&gt;Historical note&lt;/b&gt;
+	&lt;br /&gt;
+	&lt;span&gt;In 2017, we were introduced to the designer and developer who inspired us ( See &lt;a href=&quot;http://macfang.net&quot;&gt;Macfang&lt;/a&gt; ). They told us that they have discovered that the people of &lt;a href=&quot;https://www.netsci2018.com&quot;&gt; Netsci &lt;/a&gt; were doing the same thing without referring to them. It is not clear if the people of Netsci were magically inspired but it is fair to say the people at Macfang have done a far better work.
+	&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+	&lt;div class=&quot;screenshots-container&quot;&gt;
+		&lt;div class=&quot;row&quot;&gt;
+			&lt;div class=&quot;col-sm-4 col-xs-6 screenshot-image &quot;&gt;
+				&lt;img src=&quot;/assets/portfolio/facenetwork/edward.png&quot; /&gt;	
+			&lt;/div&gt;
+			&lt;div class=&quot;col-sm-4 col-xs-6 screenshot-image &quot;&gt;
+				&lt;img src=&quot;/assets/portfolio/facenetwork/charles.png&quot; /&gt;	
+			&lt;/div&gt;
+			&lt;div class=&quot;col-sm-4 col-xs-6 screenshot-image &quot;&gt;
+				&lt;img src=&quot;/assets/portfolio/facenetwork/guillaume.png&quot; /&gt;	
+			&lt;/div&gt;
+			&lt;div class=&quot;col-sm-4 col-xs-6 screenshot-image &quot;&gt;
+				&lt;img src=&quot;/assets/portfolio/facenetwork/xavier.png&quot; /&gt;	
+			&lt;/div&gt;
+			&lt;div class=&quot;col-sm-4 col-xs-6 screenshot-image &quot;&gt;
+				&lt;img src=&quot;/assets/portfolio/facenetwork/vincent.png&quot; /&gt;	
+			&lt;/div&gt;
+			&lt;div class=&quot;col-sm-4 col-xs-6 screenshot-image &quot;&gt;
+				&lt;img src=&quot;/assets/portfolio/facenetwork/patrick.png&quot; /&gt;	
+			&lt;/div&gt;
+			&lt;div class=&quot;col-md-6 screenshot-meta&quot;&gt;
+				&lt;b&gt;Coworkers&lt;/b&gt;
+				&lt;hr class=&quot;small-line&quot; /&gt;
+				&lt;span class=&quot;screenshot-subtitle&quot;&gt;These guys were my benchmark for the algorithm. The photos have been taken with a soft background so we don't have to premodify the image. Note the shadow drawn by the algorithm, it gives a little depth impression. Each image has roughly 20000 edges. &lt;/span&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+
+&lt;div class=&quot;screenshots-container&quot;&gt;
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;screenshot-image&quot;&gt;
+			&lt;img src=&quot;/assets/portfolio/facenetwork/zebra.png&quot; class=&quot;with-shadow&quot; style=&quot;&quot; /&gt;	
+		&lt;/div&gt;
+		&lt;div class=&quot;screenshot-meta&quot;&gt;
+			&lt;b&gt;Zebra&lt;/b&gt;
+			&lt;hr class=&quot;small-line&quot; /&gt;
+			&lt;span class=&quot;screenshot-subtitle&quot;&gt;No animal is better suited for this network mode. Its high contrast makes it the perfect model. Credit photo &lt;a style=&quot;background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &amp;quot;San Francisco&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Ubuntu, Roboto, Noto, &amp;quot;Segoe UI&amp;quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;&quot; href=&quot;https://unsplash.com/@elijahhenderson?utm_medium=referral&amp;amp;utm_campaign=photographer-credit&amp;amp;utm_content=creditBadge&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; title=&quot;Download free do whatever you want high-resolution photos from Elijah Henderson&quot;&gt;&lt;span style=&quot;display:inline-block;padding:2px 3px;&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; style=&quot;height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white;&quot; viewBox=&quot;0 0 32 32&quot;&gt;&lt;title&gt;unsplash-logo&lt;/title&gt;&lt;path d=&quot;M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;&lt;span style=&quot;display:inline-block;padding:2px 3px;&quot;&gt;Elijah Henderson&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;wrapper&quot;&gt;
+
+&lt;h3&gt;Programming languages and development&lt;/h3&gt;
+&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; class=&quot;table-about&quot;&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Network generation&lt;/th&gt; &lt;th&gt;Image creation&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  	&lt;td&gt;C++ (winner)&lt;/td&gt;&lt;td&gt;Gnuplot (winner)&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  	&lt;td&gt;Python (too slow to compute) &lt;/td&gt;&lt;td&gt;D3.js (complicated to save the network)&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  	&lt;td&gt;&lt;/td&gt;&lt;td&gt;Python (too slow for large images)&lt;/td&gt;
+  &lt;/tr&gt;
+
+&lt;/table&gt;
+
+&lt;!-- 
+&lt;h3&gt;Comments on the code&lt;/h3&gt;
+
+The first attempt in Python was a fail. The code was taking about 10 minutes to generate a 5k edges network. So we a serie of upgrade before translating it to C++.
+&lt;br&gt;&lt;br&gt;
+First, the major bottleneck was choosing the pixels. Suppose you want to choose 20 pixels from a 100 pixels image. But you also want to choose then proportionally to the intensity of the pixel. The brute force method would be to sum the total intensity of the image and then parse the image and remove the pixel intensity. When you total intensity becomes negative, you choose this pixel. But you would need to rerun this 20 times to choose 20 pixels. Their must be a better approach. Let's say that that the sum of all intensities is &lt;i&gt;S&lt;/i&gt;. What are the odds that a pixel of intensity &lt;i&gt;i&lt;/i&gt; is not choosen? It is equal to &lt;i&gt;1-i/S&lt;/i&gt;.
+
+
+ --&gt;
+
+
+
+
+
+
+
+
+
+&lt;/div&gt;
+
+</description>
+        <pubDate>Mon, 11 Jan 1993 00:00:00 -0500</pubDate>
+        <link>http://edwardlaurence.me/portfolio/1993/01/11/facenetwork.html</link>
+        <guid isPermaLink="true">http://edwardlaurence.me/portfolio/1993/01/11/facenetwork.html</guid>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
+    
+      <item>
+        <title>Symposium Dynamica</title>
+        <description>&lt;div class=&quot;wrapper&quot;&gt;
+
+&lt;h1&gt;Symposium Dynamica&lt;/h1&gt;
+
+For the annual Symposium Dynamica edition, I was mandated to produce the posters.
+&lt;/div&gt;
+&lt;p&gt;&lt;!-- Wrapper --&gt;&lt;/p&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+
+&lt;div class=&quot;screenshots-container&quot;&gt;
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-sm-6 col-xs-12 screenshot-image &quot;&gt;
+		&lt;img class=&quot;with-shadow&quot; src=&quot;/assets/portfolio/symposium/poster1.png&quot; /&gt;	
+	&lt;/div&gt;
+	&lt;div class=&quot;col-sm-6 col-xs-12 screenshot-image &quot;&gt;
+		&lt;img class=&quot;with-shadow&quot; src=&quot;/assets/portfolio/symposium/poster2.png&quot; style=&quot;margin-bottom:2em&quot; /&gt;	
+		&lt;img class=&quot;with-shadow&quot; src=&quot;/assets/portfolio/symposium/poster3.png&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-sm-6 screenshot-meta&quot;&gt;
+		&lt;b&gt;XII edition&lt;/b&gt;
+		&lt;hr class=&quot;small-line&quot; /&gt;
+		&lt;span class=&quot;screenshot-subtitle&quot;&gt;This is the three chosen posters. The butterfly represents the &lt;i&gt;butterfly effect&lt;/i&gt; (a small perturbation can have large consequences), well-known in chaos studies. I also used the Lorentz and Rosner attractors for a more classic version. &lt;/span&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt; 
+&lt;/div&gt;
+&lt;p&gt;&lt;!-- Container --&gt;&lt;/p&gt;
+
+&lt;div class=&quot;wrapper&quot;&gt;
+	&lt;div class=&quot;inline-note with-shadow&quot;&gt;
+		&lt;b&gt;Historical note&lt;/b&gt;
+		&lt;br /&gt;
+		&lt;span&gt;In this edition, my coworker and I developed an iOS app for the students. In this app, the students are asked to connect the dots in order to have the shortest path. Then, the data were compared to the solutions obtained using optimization algorithms (Tabou, Genetic, Firefly, Random). 
+		&lt;/span&gt;
+		&lt;img src=&quot;/assets/portfolio/symposium/app.png&quot; class=&quot;small-image with-shadow&quot; /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;wrapper&quot;&gt;
+
+&lt;h3&gt;Programming languages and development&lt;/h3&gt;
+&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; class=&quot;table-about&quot;&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Posters&lt;/th&gt; &lt;th&gt;Attractors&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  	&lt;td&gt;Inkscape&lt;/td&gt;&lt;td&gt;Python&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 10 Jan 1993 00:00:00 -0500</pubDate>
+        <link>http://edwardlaurence.me/portfolio/1993/01/10/Symposium.html</link>
+        <guid isPermaLink="true">http://edwardlaurence.me/portfolio/1993/01/10/Symposium.html</guid>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
+    
+      <item>
+        <title>Garmin</title>
+        <description>&lt;div class=&quot;wrapper&quot;&gt;
+
+&lt;h1&gt;Garmin&lt;/h1&gt;
+
+I've built a watch-face for my watch and made it public. A watch-face is the view you see when your GPS watch is in normal mode. It displays the time, the battery level, the date, a Bluetooth icon (if phone is connected) and your daily steps.
+The code is open-source and hosted &lt;a href=&quot;https://github.com/laurencee9/Watch-Face-Garmin&quot;&gt;here&lt;/a&gt;. The watch-face is available for download at &lt;a href=&quot;https://apps.garmin.com/en-US/apps/d10db1ae-9ecd-4219-92d4-a5b106636ca7#0&quot;&gt;Garmin Connect IQ&lt;/a&gt;.
+
+
+&lt;div class=&quot;screenshots-container&quot;&gt;
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;col-md-6 screenshot-image&quot;&gt;
+			&lt;img src=&quot;/assets/portfolio/watch/front.png&quot; class=&quot;&quot; style=&quot;max-height: 600px; width: auto;&quot; /&gt;	
+		&lt;/div&gt;
+		&lt;div class=&quot;col-md-6 screenshot-meta&quot;&gt;
+			&lt;b&gt;Screenshot&lt;/b&gt;
+			&lt;hr class=&quot;small-line&quot; /&gt;
+			&lt;span class=&quot;screenshot-subtitle&quot;&gt;The orange bar indicate the number of daily steps compared to the daily steps goal. The color can be modified.&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;p&gt;&lt;!-- Wrapper --&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;wrapper&quot;&gt;
+
+&lt;h3&gt;Programming languages and development&lt;/h3&gt;
+&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; class=&quot;table-about&quot;&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Watch Face&lt;/th&gt;  
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  	&lt;td&gt;Monkey C&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  	&lt;td&gt;Eclipse&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sat, 09 Jan 1993 00:00:00 -0500</pubDate>
+        <link>http://edwardlaurence.me/portfolio/1993/01/09/watchface.html</link>
+        <guid isPermaLink="true">http://edwardlaurence.me/portfolio/1993/01/09/watchface.html</guid>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
+    
+      <item>
+        <title>Serum</title>
+        <description>&lt;div class=&quot;container&quot;&gt;
+	&lt;div class=&quot;screenshot-image&quot;&gt;
+		&lt;img src=&quot;/assets/portfolio/serum/front.png&quot; class=&quot;medium-img with-shadow&quot; style=&quot;border-radius: 20px;&quot; /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;wrapper&quot;&gt;
+
+&lt;h1&gt;Serum&lt;/h1&gt;
+Serum is supposed to be a fake new detector. The project originally started during the 2016 American elections. So I thought that using network science we could do something about fake news. I recruited a bunch of awesome developers and sellers for a weekend of hacking. 
+&lt;br /&gt;&lt;br /&gt;
+At the end of the hackothon, we went up with a prototype fully functional and online. The background algorithm was tested, and everything was ready for deployment. However, we didn't push it to the real users, so the excitement went down and we left the project.
+
+&lt;h3&gt;How it works&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Users download the chrome plugin.&lt;/li&gt;
+  &lt;li&gt;Users vote on the source quality of the website they are consulting.&lt;/li&gt;
+  &lt;li&gt;The algorithm combines all the data and gives a fake news rating to the website.&lt;/li&gt;
+&lt;/ol&gt;
+
+The algorithm is based on user reputation. To vote, the user must be connected. So each time a user votes, the website rating is updated as well as the user reputation. So, the algorithm was able to easily detect trolls.
+
+&lt;/div&gt;
+&lt;p&gt;&lt;!-- Wrapper --&gt;&lt;/p&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+
+&lt;div class=&quot;screenshots-container&quot;&gt;
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-sm-6 col-xs-12 screenshot-image &quot;&gt;
+		&lt;img class=&quot;with-shadow&quot; src=&quot;/assets/portfolio/serum/website3.png&quot; /&gt;	
+	&lt;/div&gt;
+	&lt;div class=&quot;col-sm-6 col-xs-12 screenshot-image &quot;&gt;
+		&lt;img class=&quot;with-shadow&quot; src=&quot;/assets/portfolio/serum/website2.png&quot; /&gt;	
+	&lt;/div&gt;
+	&lt;div class=&quot;col-sm-6 col-xs-12 screenshot-image &quot;&gt;
+		&lt;img class=&quot;with-shadow&quot; src=&quot;/assets/portfolio/serum/website1.png&quot; /&gt;	
+	&lt;/div&gt;
+	&lt;div class=&quot;col-sm-6 screenshot-meta&quot;&gt;
+			&lt;b&gt;Serum website&lt;/b&gt;
+			&lt;hr class=&quot;small-line&quot; /&gt;
+			&lt;span class=&quot;screenshot-subtitle&quot;&gt;We have built a &lt;a href=&quot;http://factserum.co&quot;&gt;website&lt;/a&gt; in Ruby to showcase the product. &lt;/span&gt;
+		&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+&lt;div class=&quot;screenshots-container&quot;&gt;
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;col-md-6 screenshot-image&quot;&gt;
+			&lt;img src=&quot;/assets/portfolio/serum/trust-website.png&quot; style=&quot;max-height: 600px; width: auto;&quot; /&gt;	
+		&lt;/div&gt;
+		&lt;div class=&quot;col-md-6 screenshot-meta&quot;&gt;
+			&lt;b&gt;The google chrome plugin&lt;/b&gt;
+			&lt;hr class=&quot;small-line&quot; /&gt;
+			&lt;span class=&quot;screenshot-subtitle&quot;&gt;Real example if the google chrome plugin. This view drops when you click on the serum icon in the browser toolbar. At the top, you have the rating of the website and even a &lt;i&gt;More&lt;/i&gt; button so you have access to statistics. &lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;!-- Container --&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;wrapper&quot;&gt;
+
+&lt;h3&gt;Programming languages and development&lt;/h3&gt;
+&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; class=&quot;table-about&quot;&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Server side&lt;/th&gt; &lt;th&gt;Front end&lt;/th&gt; 
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  	&lt;td&gt;Ruby&lt;/td&gt;&lt;td&gt;Javascript&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  	&lt;td&gt;Kitura (Swift server)&lt;/td&gt;&lt;td&gt;Google Analytics&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  	&lt;td&gt;i18n&lt;/td&gt;&lt;td&gt;FacebookLogin&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  	&lt;td&gt;Simple Spark (sending email)&lt;/td&gt;&lt;td&gt;Google Store&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  	&lt;td&gt;Sinatra (Basic ruby website)&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+</description>
+        <pubDate>Fri, 01 Jan 1993 00:00:00 -0500</pubDate>
+        <link>http://edwardlaurence.me/portfolio/1993/01/01/Serum.html</link>
+        <guid isPermaLink="true">http://edwardlaurence.me/portfolio/1993/01/01/Serum.html</guid>
+        
+        
+        <category>portfolio</category>
         
       </item>
     

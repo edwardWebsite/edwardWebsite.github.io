@@ -13,7 +13,7 @@ custom_js:
   {% assign type = type_ash[1] %}
     <h3>{{ type.title }}</h3>
     <span class="subtitle">{{ type.subtitle }}</span>
-    <hr class="medium-line">
+    <!-- <hr class="medium-line"> -->
     <ul class="default">
       {% for member in type.members %}
       <li>

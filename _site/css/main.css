@@ -400,6 +400,9 @@ pre code.hljs {
   */
   /*
   *	Pages
+  */
+  /*
+  * Portfolio real view
   */ }
   .page-content .wrapper {
     max-width: 48em;
@@ -488,26 +491,56 @@ pre code.hljs {
     display: block;
     margin: auto;
     width: 90%; }
+  .page-content .inline-note {
+    margin-bottom: 4em;
+    margin-top: 4em;
+    padding: 1em 1em 1em 1em;
+    background-color: #FAFDFF;
+    border-radius: 8px; }
+    .page-content .inline-note b {
+      /*padding: 10px 0 0 0;*/
+      /*margin: -0 0 0 0;*/
+      /*margin-top: -20px;*/ }
+    .page-content .inline-note hr {
+      margin: 5px 0 10px 0;
+      padding: 0 0 0 0; }
+    .page-content .inline-note .p {
+      color: gray; }
+  .page-content .portfolio-container-header .title {
+    padding-top: 1em;
+    margin: 0 0 0 0; }
+  .page-content .portfolio-container-header .description {
+    margin: 0 0 0 0;
+    padding-bottom: 4em; }
+  .page-content .portfolio-container-header .row {
+    margin-bottom: 30px; }
+  .page-content .portfolio-container-header .card-container {
+    padding-bottom: 30px; }
+  .page-content .portfolio-container-header .meta-container {
+    height: 350px; }
   .page-content .portfolio-container-header .portfolio-preview {
     background-color: white;
     border-radius: 20px;
     background-repeat: no-repeat;
-    box-shadow: 0px 0px 20px black;
+    box-shadow: 0px 0px 10px gray;
     background-size: cover;
     padding: 1em 1em 1em 1em;
-    width: 300px;
-    height: 350px;
+    width: 100%;
+    /*max-width: 300px;*/
+    /*max-height: 300px;*/
+    padding-bottom: 100%;
     position: relative; }
     .page-content .portfolio-container-header .portfolio-preview .portfolio-meta {
       position: absolute;
       bottom: 0; }
       .page-content .portfolio-container-header .portfolio-preview .portfolio-meta h1 {
-        color: white;
         margin: 0 0 0 0;
         text-transform: uppercase;
-        line-height: 100%; }
+        line-height: 100%;
+        opacity: 1;
+        font-size: xx-large; }
       .page-content .portfolio-container-header .portfolio-preview .portfolio-meta p {
-        color: white; }
+        opacity: 0.8; }
   .page-content .paper-header-container {
     position: relative;
     background-color: #420300; }
@@ -526,7 +559,7 @@ pre code.hljs {
       color: white; }
   .page-content .article-list h3 {
     margin-top: 60px;
-    margin-bottom: -10px;
+    margin-bottom: 0px;
     text-transform: uppercase;
     color: #282828; }
   .page-content .article-list .subtitle {
@@ -663,6 +696,34 @@ pre code.hljs {
     border-radius: 6px 6px;
     margin: auto;
     padding-bottom: 0.5em; }
+  .page-content .status {
+    color: #2980b9; }
+  .page-content .with-shadow {
+    box-shadow: 0 0px 10px #B0B0B0; }
+  .page-content .medium-img {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 4em;
+    margin-top: 4em; }
+  .page-content .small-image {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 1em;
+    margin-top: 1em; }
+  .page-content .screenshots-container {
+    margin-bottom: 4em;
+    margin-top: 4em;
+    padding: 2em 1em 2em 1em; }
+    .page-content .screenshots-container .screenshot-image {
+      margin-bottom: 30px; }
+    .page-content .screenshots-container .screenshot-meta b {
+      padding: 0 0 0 0;
+      margin: 0 0 0 0; }
+    .page-content .screenshots-container .screenshot-meta hr {
+      margin: 5px 0 5px 0;
+      padding: 0 0 0 0; }
+    .page-content .screenshots-container .screenshot-meta .screenshot-subtitle {
+      color: gray; }
 
 /*
 *	Footer

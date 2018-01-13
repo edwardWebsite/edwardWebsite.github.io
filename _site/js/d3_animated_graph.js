@@ -69,7 +69,7 @@ for (var i = 0; i < dataset.length; i++) {
 }              
 
 
-var dt = 100.0;
+var dt = Math.min(200,w/2.0);
 var linesSVG = svg.selectAll("line")
    .data(edges)
    .enter()
@@ -96,7 +96,8 @@ var linesSVG = svg.selectAll("line")
     })
     .attr("stroke-width", 2)
     .style("opacity", function(d){
-        return Math.random()*0.2;
+        return Math.random()*0.4;
+        // return 1.0;
     })
     .attr("stroke", "#B9FDFF");
 

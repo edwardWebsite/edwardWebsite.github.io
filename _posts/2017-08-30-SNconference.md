@@ -3,7 +3,7 @@ layout: post
 title:  "Annual Sentinel North Conference"
 date:   2017-08-30
 author: Edward Laurence
-categories: conference
+categories: post
 description: "Sentinel North is a mega project financed by Apogée Canada and has for mission to push the nordic research."
 ---
 

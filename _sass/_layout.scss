@@ -9,6 +9,10 @@ $tablet: $b2;
 $b1: 960px;
 $desktop: $b1;
 
+@import "bootstrap/grid";
+
+
+
 /*
 *	Globals
 */
@@ -296,33 +300,71 @@ pre code.hljs {
 	/*
 	Portfolio
 	*/
+	.inline-note {
 
+		margin-bottom: 4em;
+		margin-top: 4em;
+		padding: 1em 1em 1em 1em;
+		background-color: $backgroundgray;
+		border-radius: 8px;
+		b {
+			/*padding: 10px 0 0 0;*/
+			/*margin: -0 0 0 0;*/
+			/*margin-top: -20px;*/
+		}
+		hr {
+			margin: 5px 0 10px 0;
+			padding: 0 0 0 0;
+		}
+		.p {
+			color: gray;
+		}
+	}
 	.portfolio-container-header {
-
+		.title {
+			padding-top: 1em;
+			margin: 0 0 0 0;
+		}
+		.description {
+			margin: 0 0 0 0;
+			padding-bottom: 4em;
+		}
+		.row {
+			margin-bottom: 30px;
+		}
+		.card-container {
+			padding-bottom: 30px;
+		}
+		.meta-container {
+			height: 350px;
+		}
 		.portfolio-preview {
 			background-color: white;
 			border-radius: 20px;
 			background-repeat: no-repeat;
-			box-shadow: 0px 0px 20px black;
+			box-shadow: 0px 0px 10px gray;
 			background-size: cover;
 			padding: 1em 1em 1em 1em;
-			width: 300px;
-    		height: 350px;
+			width: 100%;
+			/*max-width: 300px;*/
+			/*max-height: 300px;*/
+  			padding-bottom: 100%;
     		position: relative;
+
     		.portfolio-meta {
     			position: absolute;
     			bottom: 0;
     			h1 {
-	    			color: white;
 	    			margin: 0 0 0 0;
 	    			text-transform: uppercase;
 	    			line-height: 100%;
+	    			opacity: 1;
+	    			font-size: xx-large;
 	    		}
 	    		p {
-	    			color: white;
+	    			opacity: 0.8;
 	    		}
     		}
-
 		}
 
 	}
@@ -356,7 +398,7 @@ pre code.hljs {
 	.article-list {
 		h3 {
 			margin-top: 60px;
-			margin-bottom: -10px;
+			margin-bottom: 0px;
 			text-transform: uppercase;
 			color: $p-color;
 		}
@@ -526,6 +568,51 @@ pre code.hljs {
 			padding-bottom: 0.5em;
  		}
 	}
+
+	/*
+	* Portfolio real view
+	*/
+	
+	.status {
+		color: $blue;
+	}
+	
+	.with-shadow{
+		box-shadow: 0 0px 10px #B0B0B0;
+	}
+	.medium-img {
+		width: 100%;
+		max-width: 200px;
+		margin-bottom: 4em;
+		margin-top: 4em;
+	}
+	.small-image {
+		width: 100%;
+		max-width: 400px;
+		margin-bottom: 1em;
+		margin-top: 1em;
+	}
+	.screenshots-container {
+		margin-bottom: 4em;
+		margin-top: 4em;
+		padding: 2em 1em 2em 1em;
+		.screenshot-image {
+			margin-bottom: 30px;
+		}
+		.screenshot-meta{
+			b {
+				padding: 0 0 0 0;
+				margin: 0 0 0 0;
+			}
+			hr {
+				margin: 5px 0 5px 0;
+				padding: 0 0 0 0;
+			}
+			.screenshot-subtitle {
+				color: gray;
+			}
+		}
+	}
 }
 
 /*
@@ -560,3 +647,8 @@ pre code.hljs {
 	*/
 	
 }
+
+
+
+
+
