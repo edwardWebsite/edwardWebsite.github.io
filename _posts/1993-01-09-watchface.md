@@ -35,6 +35,20 @@ The code is open-source and hosted <a href="https://github.com/laurencee9/Watch-
 
 <hr>
 
+<div class="wrapper">
+
+<h3>Number of downloads in the last 10 months</h3>
+</div> <!-- Wrapper -->
+
+
+<div class="container">
+	<div class="histogram" id="histogram"></div>
+</div>
+
+
+<hr>
+<script src='/js/d3.v4.min.js' type="text/javascript"></script>
+<script src='/js/watch_histogram.js' type="text/javascript"></script>
 
 <div class="wrapper">
 

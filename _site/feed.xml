@@ -6,9 +6,24 @@
 </description>
     <link>http://edwardlaurence.me/</link>
     <atom:link href="http://edwardlaurence.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 12 Jan 2018 22:51:05 -0500</pubDate>
-    <lastBuildDate>Fri, 12 Jan 2018 22:51:05 -0500</lastBuildDate>
+    <pubDate>Tue, 16 Jan 2018 20:07:10 -0500</pubDate>
+    <lastBuildDate>Tue, 16 Jan 2018 20:07:10 -0500</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>New website!</title>
+        <description>&lt;p&gt;My personal website has been updated with a new architecture and design. The website is in jekyll and the theme is adapted from &lt;a href=&quot;https://github.com/bencentra/centrarium&quot;&gt;centrarium&lt;/a&gt;. I’ve erased the posts before March 2017.&lt;/p&gt;
+
+&lt;p&gt;In the &lt;i&gt;news&lt;/i&gt; page, I’ve placed an animation (made with &lt;a href=&quot;http://d3js.org&quot;&gt;d3.js&lt;/a&gt; and may not work on all devices) to catch the eyes. The animation is different each time the page is reloaded. Compared to the old website, a &lt;a href=&quot;/portfolio&quot;&gt;portfolio&lt;/a&gt; tabs has been added. Take a look!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 16 Jan 2018 00:00:00 -0500</pubDate>
+        <link>http://edwardlaurence.me/post/2018/01/16/NewWebsite.html</link>
+        <guid isPermaLink="true">http://edwardlaurence.me/post/2018/01/16/NewWebsite.html</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
     
       <item>
         <title>Exact solution of binary dynamics</title>
@@ -39,6 +54,71 @@
         <pubDate>Wed, 30 Aug 2017 00:00:00 -0400</pubDate>
         <link>http://edwardlaurence.me/post/2017/08/30/SNconference.html</link>
         <guid isPermaLink="true">http://edwardlaurence.me/post/2017/08/30/SNconference.html</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
+    
+      <item>
+        <title>CINQ summer school</title>
+        <description>&lt;p&gt;On May 15 and 16, I was assisting a &lt;a href=&quot;http://www.cinq.ulaval.ca/connectivite2017&quot;&gt;summer school&lt;/a&gt; on the connectivity of the brain. The &lt;a href=&quot;http://www.capitale.gouv.qc.ca/parcs-et-places-publiques/parcs/domaine-cataraqui&quot;&gt;Domain Cataraqui&lt;/a&gt; has been well chosen to host the school and provided a quiet environment.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 17 May 2017 00:00:00 -0400</pubDate>
+        <link>http://edwardlaurence.me/post/2017/05/17/CINQSummerSchool.html</link>
+        <guid isPermaLink="true">http://edwardlaurence.me/post/2017/05/17/CINQSummerSchool.html</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
+    
+      <item>
+        <title>FRQNT</title>
+        <description>&lt;p&gt;On the same day of my doctorate exam, I was awarded a scholarship by &lt;a href=&quot;http://www.frqnt.gouv.qc.ca/en/accueil&quot;&gt;Fonds de recherche du Québec - Nature et technologies&lt;/a&gt; to pursue my PhD. This scholarship is &lt;a href=&quot;http://www.dynamica.phy.ulaval.ca/index.php?id=news&amp;amp;tx_ttnews%5Btt_news%5D=96&amp;amp;cHash=16d5a2564abc2b50bdf715457539ba35&quot;&gt;awarded based&lt;/a&gt; on the research track record of the candidates, as well as the quality and originality of their proposed work.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 12 May 2017 00:00:00 -0400</pubDate>
+        <link>http://edwardlaurence.me/post/2017/05/12/FRQNT.html</link>
+        <guid isPermaLink="true">http://edwardlaurence.me/post/2017/05/12/FRQNT.html</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
+    
+      <item>
+        <title>Doctoral exam</title>
+        <description>&lt;p&gt;On Friday, I have completed my doctoral exam. The evaluation is based on two documents presenting my future research, and an oral presentation. I can now continue and pursue active research.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 12 May 2017 00:00:00 -0400</pubDate>
+        <link>http://edwardlaurence.me/post/2017/05/12/DoctoralExam.html</link>
+        <guid isPermaLink="true">http://edwardlaurence.me/post/2017/05/12/DoctoralExam.html</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
+    
+      <item>
+        <title>IV Mediterranean School of Complex Networks</title>
+        <description>&lt;p&gt;In September, I will attend a (late)  &lt;a href=&quot;http://mediterraneanschoolcomplex.net&quot;&gt;summer school&lt;/a&gt; in Sicily, Italy. The four major themes of the school are closely related to my research interests: complex networks, nonlinear dynamics, synchronization and biological systems. Among the invited experts are Alex Arenas, Tiago Peixoto and Vito Latora.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 18 Apr 2017 00:00:00 -0400</pubDate>
+        <link>http://edwardlaurence.me/post/2017/04/18/MediSummerSchool.html</link>
+        <guid isPermaLink="true">http://edwardlaurence.me/post/2017/04/18/MediSummerSchool.html</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
+    
+      <item>
+        <title>Byron-T. Darling scholarship</title>
+        <description>&lt;p&gt;I’ve been selected to receive the Byron-T. Darling scholarship of 5000$. I am grateful for this generous encouragement to pursue my research.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 29 Mar 2017 00:00:00 -0400</pubDate>
+        <link>http://edwardlaurence.me/post/2017/03/29/Byron.html</link>
+        <guid isPermaLink="true">http://edwardlaurence.me/post/2017/03/29/Byron.html</guid>
         
         
         <category>post</category>
@@ -272,229 +352,6 @@ First, the major bottleneck was choosing the pixels. Suppose you want to choose 
         <pubDate>Mon, 11 Jan 1993 00:00:00 -0500</pubDate>
         <link>http://edwardlaurence.me/portfolio/1993/01/11/facenetwork.html</link>
         <guid isPermaLink="true">http://edwardlaurence.me/portfolio/1993/01/11/facenetwork.html</guid>
-        
-        
-        <category>portfolio</category>
-        
-      </item>
-    
-      <item>
-        <title>Symposium Dynamica</title>
-        <description>&lt;div class=&quot;wrapper&quot;&gt;
-
-&lt;h1&gt;Symposium Dynamica&lt;/h1&gt;
-
-For the annual Symposium Dynamica edition, I was mandated to produce the posters.
-&lt;/div&gt;
-&lt;p&gt;&lt;!-- Wrapper --&gt;&lt;/p&gt;
-
-&lt;div class=&quot;container&quot;&gt;
-
-&lt;div class=&quot;screenshots-container&quot;&gt;
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;col-sm-6 col-xs-12 screenshot-image &quot;&gt;
-		&lt;img class=&quot;with-shadow&quot; src=&quot;/assets/portfolio/symposium/poster1.png&quot; /&gt;	
-	&lt;/div&gt;
-	&lt;div class=&quot;col-sm-6 col-xs-12 screenshot-image &quot;&gt;
-		&lt;img class=&quot;with-shadow&quot; src=&quot;/assets/portfolio/symposium/poster2.png&quot; style=&quot;margin-bottom:2em&quot; /&gt;	
-		&lt;img class=&quot;with-shadow&quot; src=&quot;/assets/portfolio/symposium/poster3.png&quot; /&gt;
-	&lt;/div&gt;
-	&lt;div class=&quot;col-sm-6 screenshot-meta&quot;&gt;
-		&lt;b&gt;XII edition&lt;/b&gt;
-		&lt;hr class=&quot;small-line&quot; /&gt;
-		&lt;span class=&quot;screenshot-subtitle&quot;&gt;This is the three chosen posters. The butterfly represents the &lt;i&gt;butterfly effect&lt;/i&gt; (a small perturbation can have large consequences), well-known in chaos studies. I also used the Lorentz and Rosner attractors for a more classic version. &lt;/span&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt; 
-&lt;/div&gt;
-&lt;p&gt;&lt;!-- Container --&gt;&lt;/p&gt;
-
-&lt;div class=&quot;wrapper&quot;&gt;
-	&lt;div class=&quot;inline-note with-shadow&quot;&gt;
-		&lt;b&gt;Traveling salesman problem&lt;/b&gt;
-		&lt;br /&gt;
-		&lt;span&gt;In this edition, my coworker and I developed an iOS app for the students. In this app, the students are asked to connect the dots in order to have the shortest path. Then, the data were compared to the solutions obtained using optimization algorithms (Tabou, Genetic, Firefly, Random). 
-		&lt;/span&gt;
-		&lt;img src=&quot;/assets/portfolio/symposium/app.png&quot; class=&quot;small-image with-shadow&quot; /&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&quot;wrapper&quot;&gt;
-
-&lt;h3&gt;Programming languages and development&lt;/h3&gt;
-&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; class=&quot;table-about&quot;&gt;
-  &lt;tr&gt;
-    &lt;th&gt;Posters&lt;/th&gt; &lt;th&gt;Attractors&lt;/th&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-  	&lt;td&gt;Inkscape&lt;/td&gt;&lt;td&gt;Python&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Sun, 10 Jan 1993 00:00:00 -0500</pubDate>
-        <link>http://edwardlaurence.me/portfolio/1993/01/10/Symposium.html</link>
-        <guid isPermaLink="true">http://edwardlaurence.me/portfolio/1993/01/10/Symposium.html</guid>
-        
-        
-        <category>portfolio</category>
-        
-      </item>
-    
-      <item>
-        <title>Garmin</title>
-        <description>&lt;div class=&quot;wrapper&quot;&gt;
-
-&lt;h1&gt;Garmin&lt;/h1&gt;
-
-I've built a watch-face for my watch and made it public. A watch-face is the view you see when your GPS watch is in normal mode. It displays the time, the battery level, the date, a Bluetooth icon (if phone is connected) and your daily steps.
-The code is open-source and hosted &lt;a href=&quot;https://github.com/laurencee9/Watch-Face-Garmin&quot;&gt;here&lt;/a&gt;. The watch-face is available for download at &lt;a href=&quot;https://apps.garmin.com/en-US/apps/d10db1ae-9ecd-4219-92d4-a5b106636ca7#0&quot;&gt;Garmin Connect IQ&lt;/a&gt;.
-
-
-&lt;div class=&quot;screenshots-container&quot;&gt;
-	&lt;div class=&quot;row&quot;&gt;
-		&lt;div class=&quot;col-md-6 screenshot-image&quot;&gt;
-			&lt;img src=&quot;/assets/portfolio/watch/front.png&quot; class=&quot;&quot; style=&quot;max-height: 600px; width: auto;&quot; /&gt;	
-		&lt;/div&gt;
-		&lt;div class=&quot;col-md-6 screenshot-meta&quot;&gt;
-			&lt;b&gt;Screenshot&lt;/b&gt;
-			&lt;hr class=&quot;small-line&quot; /&gt;
-			&lt;span class=&quot;screenshot-subtitle&quot;&gt;The orange bar indicate the number of daily steps compared to the daily steps goal. The color can be modified.&lt;/span&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;p&gt;&lt;!-- Wrapper --&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&quot;wrapper&quot;&gt;
-
-&lt;h3&gt;Programming languages and development&lt;/h3&gt;
-&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; class=&quot;table-about&quot;&gt;
-  &lt;tr&gt;
-    &lt;th&gt;Watch Face&lt;/th&gt;  
-  &lt;/tr&gt;
-  &lt;tr&gt;
-  	&lt;td&gt;Monkey C&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-  	&lt;td&gt;Eclipse&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Sat, 09 Jan 1993 00:00:00 -0500</pubDate>
-        <link>http://edwardlaurence.me/portfolio/1993/01/09/watchface.html</link>
-        <guid isPermaLink="true">http://edwardlaurence.me/portfolio/1993/01/09/watchface.html</guid>
-        
-        
-        <category>portfolio</category>
-        
-      </item>
-    
-      <item>
-        <title>Serum</title>
-        <description>&lt;div class=&quot;container&quot;&gt;
-	&lt;div class=&quot;screenshot-image&quot;&gt;
-		&lt;img src=&quot;/assets/portfolio/serum/front.png&quot; class=&quot;medium-img with-shadow&quot; style=&quot;border-radius: 20px;&quot; /&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;wrapper&quot;&gt;
-
-&lt;h1&gt;Serum&lt;/h1&gt;
-Serum is supposed to be a fake new detector. The project originally started during the 2016 American elections. So I thought that using network science we could do something about fake news. I recruited a bunch of awesome developers and sellers for a weekend of hacking. 
-&lt;br /&gt;&lt;br /&gt;
-At the end of the hackothon, we went up with a prototype fully functional and online. The background algorithm was tested, and everything was ready for deployment. However, we didn't push it to the real users, so the excitement went down and we left the project.
-
-&lt;h3&gt;How it works&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;Users download the chrome plugin.&lt;/li&gt;
-  &lt;li&gt;Users vote on the source quality of the website they are consulting.&lt;/li&gt;
-  &lt;li&gt;The algorithm combines all the data and gives a fake news rating to the website.&lt;/li&gt;
-&lt;/ol&gt;
-
-The algorithm is based on user reputation. To vote, the user must be connected. So each time a user votes, the website rating is updated as well as the user reputation. So, the algorithm was able to easily detect trolls.
-
-&lt;/div&gt;
-&lt;p&gt;&lt;!-- Wrapper --&gt;&lt;/p&gt;
-
-&lt;div class=&quot;container&quot;&gt;
-
-&lt;div class=&quot;screenshots-container&quot;&gt;
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;col-sm-6 col-xs-12 screenshot-image &quot;&gt;
-		&lt;img class=&quot;with-shadow&quot; src=&quot;/assets/portfolio/serum/website3.png&quot; /&gt;	
-	&lt;/div&gt;
-	&lt;div class=&quot;col-sm-6 col-xs-12 screenshot-image &quot;&gt;
-		&lt;img class=&quot;with-shadow&quot; src=&quot;/assets/portfolio/serum/website2.png&quot; /&gt;	
-	&lt;/div&gt;
-	&lt;div class=&quot;col-sm-6 col-xs-12 screenshot-image &quot;&gt;
-		&lt;img class=&quot;with-shadow&quot; src=&quot;/assets/portfolio/serum/website1.png&quot; /&gt;	
-	&lt;/div&gt;
-	&lt;div class=&quot;col-sm-6 screenshot-meta&quot;&gt;
-			&lt;b&gt;Serum website&lt;/b&gt;
-			&lt;hr class=&quot;small-line&quot; /&gt;
-			&lt;span class=&quot;screenshot-subtitle&quot;&gt;We have built a &lt;a href=&quot;http://factserum.co&quot;&gt;website&lt;/a&gt; in Ruby to showcase the product. &lt;/span&gt;
-		&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-
-
-
-
-&lt;div class=&quot;screenshots-container&quot;&gt;
-	&lt;div class=&quot;row&quot;&gt;
-		&lt;div class=&quot;col-md-6 screenshot-image&quot;&gt;
-			&lt;img src=&quot;/assets/portfolio/serum/trust-website.png&quot; style=&quot;max-height: 600px; width: auto;&quot; /&gt;	
-		&lt;/div&gt;
-		&lt;div class=&quot;col-md-6 screenshot-meta&quot;&gt;
-			&lt;b&gt;The google chrome plugin&lt;/b&gt;
-			&lt;hr class=&quot;small-line&quot; /&gt;
-			&lt;span class=&quot;screenshot-subtitle&quot;&gt;Real example if the google chrome plugin. This view drops when you click on the serum icon in the browser toolbar. At the top, you have the rating of the website and even a &lt;i&gt;More&lt;/i&gt; button so you have access to statistics. &lt;/span&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;!-- Container --&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&quot;wrapper&quot;&gt;
-
-&lt;h3&gt;Programming languages and development&lt;/h3&gt;
-&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; class=&quot;table-about&quot;&gt;
-  &lt;tr&gt;
-    &lt;th&gt;Server side&lt;/th&gt; &lt;th&gt;Front end&lt;/th&gt; 
-  &lt;/tr&gt;
-  &lt;tr&gt;
-  	&lt;td&gt;Ruby&lt;/td&gt;&lt;td&gt;Javascript&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-  	&lt;td&gt;Kitura (Swift server)&lt;/td&gt;&lt;td&gt;Google Analytics&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-  	&lt;td&gt;i18n&lt;/td&gt;&lt;td&gt;FacebookLogin&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-  	&lt;td&gt;Simple Spark (sending email)&lt;/td&gt;&lt;td&gt;Google Store&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-  	&lt;td&gt;Sinatra (Basic ruby website)&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-
-</description>
-        <pubDate>Fri, 01 Jan 1993 00:00:00 -0500</pubDate>
-        <link>http://edwardlaurence.me/portfolio/1993/01/01/Serum.html</link>
-        <guid isPermaLink="true">http://edwardlaurence.me/portfolio/1993/01/01/Serum.html</guid>
         
         
         <category>portfolio</category>

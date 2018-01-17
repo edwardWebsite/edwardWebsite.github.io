@@ -491,6 +491,18 @@ pre code.hljs {
     display: block;
     margin: auto;
     width: 90%; }
+  .page-content .histogram {
+    margin: 4em 1em 2em 1em; }
+  .page-content .histo-bar {
+    fill: #2980b9;
+    stroke-width: 2px;
+    stroke: white; }
+  .page-content .histo-text {
+    fill: white;
+    font-weight: bold; }
+  .page-content .histo-text-months {
+    fill: #282828;
+    font-weight: normal; }
   .page-content .inline-note {
     margin-bottom: 4em;
     margin-top: 4em;
@@ -516,6 +528,8 @@ pre code.hljs {
     margin-bottom: 30px; }
   .page-content .portfolio-container-header .card-container {
     padding-bottom: 30px; }
+  .page-content .portfolio-container-header .portfolio-preview:hover {
+    opacity: 0.8; }
   .page-content .portfolio-container-header .meta-container {
     height: 350px; }
   .page-content .portfolio-container-header .portfolio-preview {

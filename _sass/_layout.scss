@@ -300,6 +300,23 @@ pre code.hljs {
 	/*
 	Portfolio
 	*/
+	.histogram {
+		margin: 4em 1em 2em 1em;
+	}
+	.histo-bar {
+		fill: $blue;
+		stroke-width: 2px;
+		stroke: white;
+		
+	}
+	.histo-text {
+		fill: white;
+		font-weight: bold;
+	}
+	.histo-text-months {
+		fill: $p-color;
+		font-weight: normal;
+	}
 	.inline-note {
 
 		margin-bottom: 4em;
@@ -334,6 +351,9 @@ pre code.hljs {
 		}
 		.card-container {
 			padding-bottom: 30px;
+		}
+		.portfolio-preview:hover {
+			opacity:0.8;
 		}
 		.meta-container {
 			height: 350px;

@@ -64,8 +64,11 @@ custom_js:
       <i class="fa fa-chevron-circle-left fa-stack-1x fa-inverse pagination-icon inactive-icon"></i>
     </span>
 		{% endif %}
-		<span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-		{% if paginator.next_page %}
+		<span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages | minus: 1 }}</span>
+    <!-- Next statements in jekyll is for the portfolio -->
+    {% assign npage = paginator.page %}
+    {% assign totpage = paginator.total_pages | minus: 1 %}
+		{% if npage != totpage %}
 		<a class="newer-posts" href="{{ site.baseurl }}/page{{paginator.next_page}}">
       <span class="fa-stack fa-lg">
         <i class="fa fa-chevron-circle-right fa-stack-1x fa-inverse pagination-icon"></i>
