@@ -3,7 +3,7 @@ layout: notitle
 title: About
 permalink: /about/
 ---
-
+<link rel="stylesheet" href="/css/bootstrap.min.css">
 <img src="{{ site.baseurl }}/assets/profile-picture.jpg" title="Profile Picture" class="profile">
 
 ### Edward Laurence
@@ -57,3 +57,19 @@ When I am not coding or doing science, I usually pratice violin. I am part of a 
   </tr>
 </table>
 
+<br>
+
+<div class="row">
+  <div class="col-md-4">
+    <b>Programming</b>
+    <p>C/C++, Python, R, LaTeX, GNU/Linux<br>Swift<br>SASS, Javascript, Ajax <br>Ruby, Monkey C</p>
+  </div>
+  <div class="col-md-4">
+    <b>Selected frameworks</b>
+    <p>Node.js, CocoaPods, Alamofire, Bootstrap, Django, I18n, D3.js, Mongoose, and too many scientific librairies (Pytorch, Numpy, Matplotlib, Scipy, ...) </p>
+  </div>
+  <div class="col-md-4">
+    <b>Selected developing tools & Cloud services</b>
+    <p>Github, Xcode, Sublime Text, Fabric, Openshift, iTunes Connect, Heroku, Amazon AWS, Chrome Store, Inkscape, Sketch, Zeplin, Simple Spark</p>
+  </div>
+</div>

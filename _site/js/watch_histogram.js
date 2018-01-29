@@ -18,7 +18,7 @@ var svg = el.append("svg")
             .attr("width", w)
             .attr("height", h);
 
-var dat = [289, 247, 220, 287, 263, 215, 196, 212, 286, 129];
+var dat = [289, 247, 220, 287, 263, 215, 196, 212, 286, 246];
 var months = ["Apr.", "May", "Jun.", "Jul.", "Aug.", "Sept.", "Oct.", "Nov.", "Dec.", "Jan."]
 var max_dat = Math.max(...dat);
 console.log(max_dat);
