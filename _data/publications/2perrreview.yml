@@ -4,14 +4,19 @@ members:
   - title: "Finite size analysis of the detectability limit of the stochastic block model"
     authors: "J.-G. Young, P. Desrosiers, L. Hébert-Dufresne, <b>E. Laurence</b>, and L. J. Dubé"
     ref: "Phys. Rev. E, <b>95</b>, 062304"
+    fulltext: "https://journals.aps.org/pre/abstract/10.1103/PhysRevE.95.062304"
+    arxiv: "https://arxiv.org/abs/1701.00062"
     year: 2016
 
   - title: "Complex networks as an emerging property of hierarchical preferential attachment"
     authors: "L. Hébert- Dufresne, <b>E. Laurence</b>, A. Allard, J.-G. Young, and L. J. Dubé"
     ref: "Phys. Rev. E, <b>92</b>, 062809"
+    fulltext: "http://journals.aps.org/pre/abstract/10.1103/PhysRevE.92.062809"
+    arxiv: "https://arxiv.org/abs/1312.0171"
     year: 2015
 
   - title: "Relationship between surface temperature and extreme rainfalls : a multi-timescale and event-based analysis"
     authors: "G. Panthou, A. Mailhot, <b>E. Laurence</b>, and G. Talbot"
     ref: "J. Hydrometeor., <b>15</b>"
+    fulltext: "http://journals.ametsoc.org/doi/abs/10.1175/JHM-D-14-0020.1"
     year: 2014

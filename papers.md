@@ -23,6 +23,10 @@ custom_js:
           <span class="article-subtitle">{{member.subtitle}}</span>
           <span class="article-authors">{{member.authors}}</span>
           <span class="article-ref">{{member.ref}}</span>
+          <br>
+          {% if member.pdfurl %}<a class="publication-link" href="{{member.pdfurl}}">PDF</a>{% endif %}
+          {% if member.fulltext %}<a class="publication-link" href="{{member.fulltext}}">Full text</a>{% endif %}
+          {% if member.arxiv %}<a class="publication-link" href="{{member.arxiv}}">arXiv</a>{% endif %}
         </div>
       </li>
       {% endfor %}

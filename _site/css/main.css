@@ -594,6 +594,12 @@ pre code.hljs {
   .page-content .article-list .article-subtitle {
     color: #7f8c8d;
     display: block; }
+  .page-content .article-list .publication-link {
+    background-color: #ddd;
+    padding: 4px 8px 4px 8px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: black; }
   .page-content .table-about {
     max-width: 400px; }
     .page-content .table-about i {
