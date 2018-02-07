@@ -61,7 +61,7 @@ for (var i = 0; i < dataset.length; i++) {
     var pos1 = dataset[i];
     for (var j = i+1; j < dataset.length; j++) {
         var pos2 = dataset[j];
-        if (((pos1[0]-pos2[0])**2+(pos1[1]-pos2[1])**2)**(0.5)<Math.max(50,w*0.04)){
+        if (((pos1[0]-pos2[0])**2+(pos1[1]-pos2[1])**2)**(0.5)<Math.max(50,w*0.025)){
             edges.push([i,j])
         }
 
