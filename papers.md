@@ -20,9 +20,9 @@ custom_js:
         <div class="article-div">
           <span class="article-year">{{member.year}}</span>
           <span class="article-title">{{member.title}}</span>
-          <span class="article-subtitle">{{member.subtitle}}</span>
-          <span class="article-authors">{{member.authors}}</span>
-          <span class="article-ref">{{member.ref}}</span>
+          {% if member.subtitle %} <span class="article-subtitle">{{member.subtitle}}</span>{% endif %}
+          {% if member.authors %}<span class="article-authors">{{member.authors}}</span>{% endif %}
+          {% if member.ref %}<span class="article-ref">{{member.ref}}</span>{% endif %}
           <br>
           {% if member.pdfurl %}<a class="publication-link" href="{{member.pdfurl}}">PDF</a>{% endif %}
           {% if member.fulltext %}<a class="publication-link" href="{{member.fulltext}}">Full text</a>{% endif %}

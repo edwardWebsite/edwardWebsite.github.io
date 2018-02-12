@@ -13,8 +13,3 @@ members:
     arxiv: "https://arxiv.org/abs/1710.01600"
     year: 2017
 
-  - title: "Phase transition of the susceptible-infected-susceptible dynamics on time-varying configuration model networks"
-    authors: "G. St-Onge, J.-G. Young, <b>E. Laurence</b>, C. Murphy, and L. J. Dubé"
-    ref: "arXiv, <b>1709.09257</b>"
-    arxiv: "https://arxiv.org/abs/1709.09257"
-    year: 2017
