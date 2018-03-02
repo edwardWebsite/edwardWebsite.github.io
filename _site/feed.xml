@@ -6,9 +6,23 @@
 </description>
     <link>http://edwardlaurence.me/</link>
     <atom:link href="http://edwardlaurence.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 12 Feb 2018 10:43:10 -0500</pubDate>
-    <lastBuildDate>Mon, 12 Feb 2018 10:43:10 -0500</lastBuildDate>
+    <pubDate>Thu, 01 Mar 2018 22:32:41 -0500</pubDate>
+    <lastBuildDate>Thu, 01 Mar 2018 22:32:41 -0500</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>5000 downloads!</title>
+        <description>&lt;p&gt;My Garmin watch face has just hit a new major step! For the occasion, I’ve created a unique background header for this post. Enjoy!&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 01 Mar 2018 00:00:00 -0500</pubDate>
+        <link>http://edwardlaurence.me/post-special/2018/03/01/5000Downloads.html</link>
+        <guid isPermaLink="true">http://edwardlaurence.me/post-special/2018/03/01/5000Downloads.html</guid>
+        
+        
+        <category>post-special</category>
+        
+      </item>
     
       <item>
         <title>New website!</title>
@@ -218,140 +232,6 @@ After a post is created, other users can answer the post. For example, Alice has
         <pubDate>Fri, 15 Jan 1993 00:00:00 -0500</pubDate>
         <link>http://edwardlaurence.me/portfolio/1993/01/15/Benevolas.html</link>
         <guid isPermaLink="true">http://edwardlaurence.me/portfolio/1993/01/15/Benevolas.html</guid>
-        
-        
-        <category>portfolio</category>
-        
-      </item>
-    
-      <item>
-        <title>Face to network</title>
-        <description>&lt;div class=&quot;container&quot;&gt;
-	&lt;div class=&quot;screenshot-image&quot;&gt;
-		&lt;img src=&quot;/assets/portfolio/facenetwork/glasses.png&quot; style=&quot;&quot; /&gt;	
-	&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;wrapper&quot;&gt;
-
-&lt;h1&gt;Face to network&lt;/h1&gt;
-
-This project is inspired by the work made by the people of &lt;a href=&quot;http://macfang.net&quot;&gt;Macfang&lt;/a&gt;: when your mouse goes over an image, it is transformed into a network. One thing led to another, I found myself coding this exact same thing. With my coworker Charles, we've built from ground up a Python algorithm based on random geometrical graphs. 
-
-
-&lt;h3&gt;How it works&lt;/h3&gt;
-The algorithm proceeds as follows:
-&lt;ol&gt;
-  &lt;li&gt;Take the image and get the intensity of each pixel.&lt;/li&gt;
-  &lt;li&gt;We then choose random pixels proportionally to their intensities.&lt;/li&gt;
-  &lt;li&gt;We connect the chosen pixels with &lt;i&gt;k&lt;/i&gt; closer neighbors.&lt;/li&gt;
-  &lt;li&gt;The network is illustrated in the most artistic manner.&lt;/li&gt;
-&lt;/ol&gt;
-In practice, we have to tweak a little bit the algorithm. First, we choose images with background and dark objects so that the chosen pixels will be located on the desired objects. Next, we add a contrast parameter which gives more weights to the intense pixel. Using this, we can see sharp dark contours like glasses and eyes. 
-
-
-&lt;div class=&quot;inline-note with-shadow&quot;&gt;
-	&lt;b&gt;Editorial note&lt;/b&gt;
-	&lt;br /&gt;
-	&lt;span&gt;In 2017, we were introduced to the designer and developer who inspired us ( See &lt;a href=&quot;http://macfang.net&quot;&gt;Macfang&lt;/a&gt; ). They told us that they have discovered that the people of &lt;a href=&quot;https://www.netsci2018.com&quot;&gt; Netsci &lt;/a&gt; were doing the same thing without referring to them. It is not clear if the people of Netsci were magically inspired but it is fair to say the people at Macfang have done a far better work.
-	&lt;/span&gt;
-
-&lt;/div&gt;
-
-&lt;/div&gt;
-
-&lt;div class=&quot;container&quot;&gt;
-	&lt;div class=&quot;screenshots-container&quot;&gt;
-		&lt;div class=&quot;row&quot;&gt;
-			&lt;div class=&quot;col-sm-4 col-xs-6 screenshot-image &quot;&gt;
-				&lt;img src=&quot;/assets/portfolio/facenetwork/edward.png&quot; /&gt;	
-			&lt;/div&gt;
-			&lt;div class=&quot;col-sm-4 col-xs-6 screenshot-image &quot;&gt;
-				&lt;img src=&quot;/assets/portfolio/facenetwork/charles.png&quot; /&gt;	
-			&lt;/div&gt;
-			&lt;div class=&quot;col-sm-4 col-xs-6 screenshot-image &quot;&gt;
-				&lt;img src=&quot;/assets/portfolio/facenetwork/guillaume.png&quot; /&gt;	
-			&lt;/div&gt;
-			&lt;div class=&quot;col-sm-4 col-xs-6 screenshot-image &quot;&gt;
-				&lt;img src=&quot;/assets/portfolio/facenetwork/xavier.png&quot; /&gt;	
-			&lt;/div&gt;
-			&lt;div class=&quot;col-sm-4 col-xs-6 screenshot-image &quot;&gt;
-				&lt;img src=&quot;/assets/portfolio/facenetwork/vincent.png&quot; /&gt;	
-			&lt;/div&gt;
-			&lt;div class=&quot;col-sm-4 col-xs-6 screenshot-image &quot;&gt;
-				&lt;img src=&quot;/assets/portfolio/facenetwork/patrick.png&quot; /&gt;	
-			&lt;/div&gt;
-			&lt;div class=&quot;col-md-6 screenshot-meta&quot;&gt;
-				&lt;b&gt;Coworkers&lt;/b&gt;
-				&lt;hr class=&quot;small-line&quot; /&gt;
-				&lt;span class=&quot;screenshot-subtitle&quot;&gt;These guys were my benchmark for the algorithm. The photos have been taken with a soft background so we don't have to premodify the image. Note the shadow drawn by the algorithm, it gives a little depth impression. Each image has roughly 20000 edges. &lt;/span&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;container&quot;&gt;
-
-&lt;div class=&quot;screenshots-container&quot;&gt;
-	&lt;div class=&quot;row&quot;&gt;
-		&lt;div class=&quot;screenshot-image&quot;&gt;
-			&lt;img src=&quot;/assets/portfolio/facenetwork/zebra.png&quot; class=&quot;with-shadow&quot; style=&quot;&quot; /&gt;	
-		&lt;/div&gt;
-		&lt;div class=&quot;screenshot-meta&quot;&gt;
-			&lt;b&gt;Zebra&lt;/b&gt;
-			&lt;hr class=&quot;small-line&quot; /&gt;
-			&lt;span class=&quot;screenshot-subtitle&quot;&gt;No animal is better suited for this network mode. Its high contrast makes it the perfect model. Credit photo &lt;a style=&quot;background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &amp;quot;San Francisco&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Ubuntu, Roboto, Noto, &amp;quot;Segoe UI&amp;quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;&quot; href=&quot;https://unsplash.com/@elijahhenderson?utm_medium=referral&amp;amp;utm_campaign=photographer-credit&amp;amp;utm_content=creditBadge&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; title=&quot;Download free do whatever you want high-resolution photos from Elijah Henderson&quot;&gt;&lt;span style=&quot;display:inline-block;padding:2px 3px;&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; style=&quot;height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white;&quot; viewBox=&quot;0 0 32 32&quot;&gt;&lt;title&gt;unsplash-logo&lt;/title&gt;&lt;path d=&quot;M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;&lt;span style=&quot;display:inline-block;padding:2px 3px;&quot;&gt;Elijah Henderson&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&quot;wrapper&quot;&gt;
-
-&lt;h3&gt;Programming languages and development&lt;/h3&gt;
-&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; class=&quot;table-about&quot;&gt;
-  &lt;tr&gt;
-    &lt;th&gt;Network generation&lt;/th&gt; &lt;th&gt;Image creation&lt;/th&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-  	&lt;td&gt;C++ (winner)&lt;/td&gt;&lt;td&gt;Gnuplot (winner)&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-  	&lt;td&gt;Python (too slow to compute) &lt;/td&gt;&lt;td&gt;D3.js (complicated to save the network)&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-  	&lt;td&gt;&lt;/td&gt;&lt;td&gt;Python (too slow for large images)&lt;/td&gt;
-  &lt;/tr&gt;
-
-&lt;/table&gt;
-
-&lt;!-- 
-&lt;h3&gt;Comments on the code&lt;/h3&gt;
-
-The first attempt in Python was a fail. The code was taking about 10 minutes to generate a 5k edges network. So we a serie of upgrade before translating it to C++.
-&lt;br&gt;&lt;br&gt;
-First, the major bottleneck was choosing the pixels. Suppose you want to choose 20 pixels from a 100 pixels image. But you also want to choose then proportionally to the intensity of the pixel. The brute force method would be to sum the total intensity of the image and then parse the image and remove the pixel intensity. When you total intensity becomes negative, you choose this pixel. But you would need to rerun this 20 times to choose 20 pixels. Their must be a better approach. Let's say that that the sum of all intensities is &lt;i&gt;S&lt;/i&gt;. What are the odds that a pixel of intensity &lt;i&gt;i&lt;/i&gt; is not choosen? It is equal to &lt;i&gt;1-i/S&lt;/i&gt;.
-
-
- --&gt;
-
-
-
-
-
-
-
-
-
-&lt;/div&gt;
-
-</description>
-        <pubDate>Mon, 11 Jan 1993 00:00:00 -0500</pubDate>
-        <link>http://edwardlaurence.me/portfolio/1993/01/11/facenetwork.html</link>
-        <guid isPermaLink="true">http://edwardlaurence.me/portfolio/1993/01/11/facenetwork.html</guid>
         
         
         <category>portfolio</category>

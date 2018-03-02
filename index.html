@@ -36,7 +36,24 @@ custom_js:
     </section>
     <hr class="small-line">
   </li>
-  
+  {% if forloop.last == false %}
+  {% endif %}
+  {% endif %}
+  {% if post.categories[0] == "post-special" %}
+  <li class="post-liindex post-special">
+    <img src="../assets/posts/special-background/celebration.png" style="width: 100%;">
+    <div class="post-special-content">
+      <section class="post-meta">
+        <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
+      </section>
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+      <section class="post-excerpt" itemprop="description">
+        <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+      </section>
+    </div>
+  </li>
   {% if forloop.last == false %}
   {% endif %}
   {% endif %}

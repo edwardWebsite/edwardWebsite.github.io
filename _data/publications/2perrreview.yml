@@ -1,6 +1,18 @@
 order: "2"
 title: In peer-reviewed journals
 members:
+  - title: "Exact analytical solution of irreversible binary dynamics on networks"
+    authors: "<b>E. Laurence</b>, J.-G. Young, S. Melnik, and L. J. Dubé"
+    ref: "Phys. Rev. E - Accepted -"
+    arxiv: "https://arxiv.org/abs/1711.02721"
+    year: 2018
+
+  - title: "Geometric evolution of complex networks"
+    authors: "C. Murphy, A. Allard, <b>E. Laurence</b>, G. St-Onge, and L. J. Dubé"
+    ref: "Phys. Rev. E - Accepted -"
+    arxiv: "https://arxiv.org/abs/1710.01600"
+    year: 2018
+
   - title: "Phase transition of the susceptible-infected-susceptible dynamics on time-varying configuration model networks"
     authors: "G. St-Onge, J.-G. Young, <b>E. Laurence</b>, C. Murphy, and L. J. Dubé"
     ref: "Phys. Rev. E, <b>97</b>, 022305"
