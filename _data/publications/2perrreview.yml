@@ -3,8 +3,10 @@ title: In peer-reviewed journals
 members:
   - title: "Exact analytical solution of irreversible binary dynamics on networks"
     authors: "<b>E. Laurence</b>, J.-G. Young, S. Melnik, and L. J. Dubé"
-    ref: "Phys. Rev. E - Accepted -"
+    ref: "Phys. Rev. E, <b>97</b>, 032302"
     arxiv: "https://arxiv.org/abs/1711.02721"
+    fulltext: "https://journals.aps.org/pre/abstract/10.1103/PhysRevE.97.032302"
+    software: "https://github.com/laurencee9/exact_binary_dynamics"
     year: 2018
 
   - title: "Geometric evolution of complex networks"

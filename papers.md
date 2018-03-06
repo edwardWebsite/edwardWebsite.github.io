@@ -27,6 +27,7 @@ custom_js:
           {% if member.pdfurl %}<a class="publication-link" href="{{member.pdfurl}}">PDF</a>{% endif %}
           {% if member.fulltext %}<a class="publication-link" href="{{member.fulltext}}">Full text</a>{% endif %}
           {% if member.arxiv %}<a class="publication-link" href="{{member.arxiv}}">arXiv</a>{% endif %}
+          {% if member.software %}<a class="publication-link" href="{{member.software}}">Software</a>{% endif %}
         </div>
       </li>
       {% endfor %}
