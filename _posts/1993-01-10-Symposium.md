@@ -4,8 +4,8 @@ title:  "Symposium Dynamica"
 date:   1993-01-10
 author: Edward Laurence
 categories: portfolio
-description: "Flashy posters"
-image: "/assets/portfolio/symposium/front.png"
+description: "Check out a series of posters for an academic conference. "
+image: "/assets/portfolio/symposium/home.png"
 frontcolor: white
 ---
 

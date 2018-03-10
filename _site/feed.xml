@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Edward Laurence</title>
-    <description>A simple yet classy theme for your Jekyll website or blog.
+    <description>Personal website.
 </description>
     <link>http://edwardlaurence.me/</link>
     <atom:link href="http://edwardlaurence.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 05 Mar 2018 22:35:54 -0500</pubDate>
-    <lastBuildDate>Mon, 05 Mar 2018 22:35:54 -0500</lastBuildDate>
+    <pubDate>Sat, 10 Mar 2018 15:33:14 -0500</pubDate>
+    <lastBuildDate>Sat, 10 Mar 2018 15:33:14 -0500</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>

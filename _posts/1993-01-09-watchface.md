@@ -4,8 +4,8 @@ title:  "Garmin"
 date:   1993-01-09
 author: Edward Laurence
 categories: portfolio
-description: "A watch-face"
-image: "/assets/portfolio/watch/front.png"
+description: "Get a look at my first watch-face (a view to display time) for Garmin Forerunner."
+image: "/assets/portfolio/watch/home.png"
 frontcolor: "#F05D0C"
 ---
 

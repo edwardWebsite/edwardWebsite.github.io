@@ -4,8 +4,8 @@ title:  "Benevolas"
 date:   1993-01-15
 autdor: Edward Laurence
 categories: portfolio
-description: "iOS app for volunteering"
-image: "/assets/portfolio/benevolas/front.png"
+description: "Check out this iOS app for volunteering in your neighborhood. "
+image: "/assets/portfolio/benevolas/home.png"
 frontcolor: "#FC1515"
 ---
 

@@ -4,8 +4,8 @@ title:  "Face to network"
 date:   1993-01-11
 author: Edward Laurence
 categories: portfolio
-description: "An image to network converter"
-image: "/assets/portfolio/facenetwork/front.png"
+description: "Converting an image to a network representation has never been so easy."
+image: "/assets/portfolio/facenetwork/home.png"
 frontcolor: white
 ---
 
