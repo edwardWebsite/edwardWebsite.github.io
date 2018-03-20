@@ -6,9 +6,24 @@
 </description>
     <link>http://edwardlaurence.me/</link>
     <atom:link href="http://edwardlaurence.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 10 Mar 2018 15:33:14 -0500</pubDate>
-    <lastBuildDate>Sat, 10 Mar 2018 15:33:14 -0500</lastBuildDate>
+    <pubDate>Mon, 19 Mar 2018 22:07:43 -0400</pubDate>
+    <lastBuildDate>Mon, 19 Mar 2018 22:07:43 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Two new papers in Phys. Rev. E</title>
+        <description>&lt;p&gt;The papers entitled “&lt;i&gt;Exact analytical solution of irreversible binary dynamics on network&lt;/i&gt;” and “&lt;i&gt;Geometric evolution of complex networks&lt;/i&gt;” have been accepted and published in Phys. Rev. E. The latter introduces a new geometric model of complex networks. In doing so, we interpolate and quantify the phase transition of the network structure between the random and geomtric phases; where the clustering coefficient goes from zero to a fixed constant.&lt;/p&gt;
+
+&lt;p&gt;Links to the full texts, preprints and software are available on the &lt;a href=&quot;http://edwardlaurence.me/publications/&quot;&gt;publication page&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 19 Mar 2018 00:00:00 -0400</pubDate>
+        <link>http://edwardlaurence.me/post/2018/03/19/TwoNewPapers.html</link>
+        <guid isPermaLink="true">http://edwardlaurence.me/post/2018/03/19/TwoNewPapers.html</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
     
       <item>
         <title>5000 downloads!</title>
@@ -136,105 +151,6 @@
         
         
         <category>post</category>
-        
-      </item>
-    
-      <item>
-        <title>Benevolas</title>
-        <description>&lt;div class=&quot;wrapper&quot;&gt;
-	&lt;img src=&quot;/assets/portfolio/benevolas/front.png&quot; class=&quot;medium-img with-shadow&quot; style=&quot;border-radius: 20px;&quot; /&gt;
-
-&lt;h1&gt;Benevolas&lt;/h1&gt;
-
-&lt;b class=&quot;status&quot;&gt; Work in progress! It should be on the App Store in early 2018&lt;/b&gt;
-
-&lt;h3&gt;How it works&lt;/h3&gt;
-
-Benevolas is an iOS app where user can do volunteering in their neighborhood. Three options are offered: 
-&lt;ol&gt;
-  &lt;li&gt;&lt;b&gt;Give&lt;/b&gt; time or objects to others&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Share&lt;/b&gt; objects&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Ask&lt;/b&gt; other users for help or objects&lt;/li&gt;
-&lt;/ol&gt;
-After a post is created, other users can answer the post. For example, Alice has a large yard and she needs some help. Using the app, Alice will request help to maintain her yard. Bob, who lives in a tiny apartment, would love to help its neighbors and have some time outside during summer. He will accept the post and help her gardening her yard.
-&lt;/div&gt;
-
-&lt;div class=&quot;container&quot;&gt;
-
-&lt;div class=&quot;screenshots-container&quot;&gt;
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;col-sm-3 col-xs-6 screenshot-image &quot;&gt;
-		&lt;img class=&quot;with-shadow&quot; src=&quot;/assets/portfolio/benevolas/screenshot2.png&quot; /&gt;	
-	&lt;/div&gt;
-	&lt;div class=&quot;col-sm-3 col-xs-6 screenshot-image &quot;&gt;
-		&lt;img class=&quot;with-shadow&quot; src=&quot;/assets/portfolio/benevolas/screenshot3.png&quot; /&gt;	
-	&lt;/div&gt;
-	&lt;div class=&quot;col-sm-3 col-xs-6 screenshot-image &quot;&gt;
-		&lt;img class=&quot;with-shadow&quot; src=&quot;/assets/portfolio/benevolas/screenshot4.png&quot; /&gt;	
-	&lt;/div&gt;
-	&lt;div class=&quot;col-sm-3 col-xs-6 screenshot-image &quot;&gt;
-		&lt;img class=&quot;with-shadow&quot; src=&quot;/assets/portfolio/benevolas/screenshot5.png&quot; /&gt;	
-	&lt;/div&gt;
-	&lt;div class=&quot;col-md-6 screenshot-meta&quot;&gt;
-			&lt;b&gt;Screenshots&lt;/b&gt;
-			&lt;hr class=&quot;small-line&quot; /&gt;
-			&lt;span class=&quot;screenshot-subtitle&quot;&gt;The design has been done using the software &lt;i&gt;Sketch&lt;/i&gt;. All the views are real so they will probably change for the best before the official launch.&lt;/span&gt;
-		&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;div class=&quot;screenshots-container&quot;&gt;
-	&lt;div class=&quot;row&quot;&gt;
-		&lt;div class=&quot;col-md-6 screenshot-image&quot;&gt;
-			&lt;img src=&quot;/assets/portfolio/benevolas/screenshot1.png&quot; class=&quot;with-shadow&quot; style=&quot;max-height: 600px; width: auto;&quot; /&gt;	
-		&lt;/div&gt;
-		&lt;div class=&quot;col-md-6 screenshot-meta&quot;&gt;
-			&lt;b&gt;Post is now online!&lt;/b&gt;
-			&lt;hr class=&quot;small-line&quot; /&gt;
-			&lt;span class=&quot;screenshot-subtitle&quot;&gt;Real example view of what the user sees when the post is online. Each post contains a title, a description, a location and a type. Users can also set a date and add photos to the post.&lt;/span&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;wrapper&quot;&gt;
-
-&lt;h3&gt;Programming languages and development&lt;/h3&gt;
-&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; class=&quot;table-about&quot;&gt;
-  &lt;tr&gt;
-    &lt;th&gt;Server side&lt;/th&gt; &lt;th&gt;Front end&lt;/th&gt; &lt;th&gt;Design&lt;/th&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-  	&lt;td&gt;Node.js&lt;/td&gt;&lt;td&gt;Swift 4&lt;/td&gt;&lt;td&gt;Sketch&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-  	&lt;td&gt;aws SDK&lt;/td&gt;&lt;td&gt;Alamofire&lt;/td&gt;&lt;td&gt;Zeplin&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-  	&lt;td&gt;Express&lt;/td&gt;&lt;td&gt;FacebookLogin&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-  	&lt;td&gt;Mongoose&lt;/td&gt;&lt;td&gt;Fabric&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-  	&lt;td&gt;Passport&lt;/td&gt;&lt;td&gt;Xcode&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-  	&lt;td&gt;Chai&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-
-</description>
-        <pubDate>Fri, 15 Jan 1993 00:00:00 -0500</pubDate>
-        <link>http://edwardlaurence.me/portfolio/1993/01/15/Benevolas.html</link>
-        <guid isPermaLink="true">http://edwardlaurence.me/portfolio/1993/01/15/Benevolas.html</guid>
-        
-        
-        <category>portfolio</category>
         
       </item>
     

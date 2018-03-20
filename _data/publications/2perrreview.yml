@@ -11,7 +11,8 @@ members:
 
   - title: "Geometric evolution of complex networks"
     authors: "C. Murphy, A. Allard, <b>E. Laurence</b>, G. St-Onge, and L. J. Dubé"
-    ref: "Phys. Rev. E - Accepted -"
+    ref: "Phys. Rev. E, <b>97</b>, 032309"
+    fulltext: "https://journals.aps.org/pre/abstract/10.1103/PhysRevE.97.032309"
     arxiv: "https://arxiv.org/abs/1710.01600"
     year: 2018
 

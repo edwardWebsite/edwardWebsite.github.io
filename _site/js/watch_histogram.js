@@ -18,8 +18,14 @@ var svg = el.append("svg")
             .attr("width", w)
             .attr("height", h);
 
-var dat = [289, 247, 220, 287, 263, 215, 196, 212, 286, 267, 123];
-var months = ["Apr.", "May", "Jun.", "Jul.", "Aug.", "Sept.", "Oct.", "Nov.", "Dec.", "Jan.", "Fev."]
+
+// Old stats
+var _dat = [289, 247,]
+var months = ["Apr.", "May"]
+var dat = [220, 287, 263, 215, 196, 212, 286, 267, 123, 85];
+var months = ["Jun.", "Jul.", "Aug.", "Sept.", "Oct.", "Nov.", "Dec.", "Jan.", "Fev.", "Mar."]
+
+
 var max_dat = Math.max(...dat);
 console.log(max_dat);
 var marginbottom = 20;

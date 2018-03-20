@@ -56,7 +56,6 @@ When I am not coding or doing science, I usually pratice violin. I am part of a 
     <td><a href="http://antoineallard.github.io">Antoine Allard</a></td><td>Centre de Recerca Matemàtica</td>
   </tr>
 </table>
-
 <br>
 
 <div class="row">

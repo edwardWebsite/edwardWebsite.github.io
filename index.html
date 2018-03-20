@@ -14,7 +14,7 @@ custom_js:
     <header class="site-header">
       <div class="wrapper" >
          <h1 class="title">Welcome!</h1>
-          <p class="subtitle">My name is Edward Laurence and I'm a PhD student in physics at Université Laval. I've just placed this text so you won't scroll down and you'll see the background animation.</p>
+          <p class="subtitle">My name is Edward Laurence and I'm a PhD student in physics at Université Laval. I've just placed this text so you won't scroll down and you'll see the cool (or laggy) background animation.</p>
       </div>
     </header>
   </div>
@@ -25,6 +25,7 @@ custom_js:
   {% for post in paginator.posts %}
   {% if post.categories[0] == "post" %}
   <li class="post-liindex">
+
     <section class="post-meta">
       <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
     </section>
