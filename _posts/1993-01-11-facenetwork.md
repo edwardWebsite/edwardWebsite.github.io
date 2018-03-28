@@ -15,7 +15,11 @@ frontcolor: white
 	</div>
 </div>
 
+
+
 <div class="wrapper">
+
+<b>The code is right <a href="https://github.com/laurencee9/GRGImage">here</a></b>
 
 <h1>{{ page.title }}</h1>
 
