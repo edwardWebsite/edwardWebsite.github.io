@@ -19,7 +19,9 @@ frontcolor: white
 
 <div class="wrapper">
 
-<b>The code is right <a href="https://github.com/laurencee9/GRGImage">here</a></b>
+
+<b class="gray-box"> The code is right <a href="https://github.com/laurencee9/GRGImage">here.</a></b>
+
 
 <h1>{{ page.title }}</h1>
 
@@ -103,6 +105,7 @@ In practice, we have to tweak a little bit the algorithm. First, we choose image
 
 <div class="wrapper">
 
+<b class="gray-box"> <a href="https://github.com/laurencee9/GRGImage">See on github</a></b>
 <h3>Programming languages and development</h3>
 <table cellspacing="0" cellpadding="0" class="table-about">
   <tr>

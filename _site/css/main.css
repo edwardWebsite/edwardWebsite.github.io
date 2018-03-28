@@ -424,6 +424,12 @@ pre code.hljs {
     border-color: #c0392b; }
   .page-content .post-link {
     font-weight: normal; }
+  .page-content .gray-box {
+    background-color: #ddd;
+    padding: 8px 8px 8px 8px;
+    border-radius: 2px;
+    font-weight: bold;
+    margin-bottom: 20px; }
   .page-content .pagination-icon {
     color: #c0392b; }
   .page-content .inactive-icon {
