@@ -21,7 +21,7 @@ description: >
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://edwardlaurence.me" # the base hostname & protocol for your site
 cover: "/assets/headers/header_news.jpg"
-
+excerpt_separator: <!--more-->
 # Build settings
 markdown: kramdown
 paginate: 5
