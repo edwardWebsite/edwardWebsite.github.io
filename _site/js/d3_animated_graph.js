@@ -25,8 +25,9 @@ function initiate_animation(position){
             var pos = position[index]
             return pos[1]
         })
-      .duration(duration);
+        .duration(duration);
 }
+
 
 
 var parent = d3.select("body")

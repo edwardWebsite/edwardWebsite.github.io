@@ -6,19 +6,50 @@
 </description>
     <link>http://edwardlaurence.me/</link>
     <atom:link href="http://edwardlaurence.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 19 Mar 2018 22:07:51 -0400</pubDate>
-    <lastBuildDate>Mon, 19 Mar 2018 22:07:51 -0400</lastBuildDate>
+    <pubDate>Wed, 28 Mar 2018 10:57:34 -0400</pubDate>
+    <lastBuildDate>Wed, 28 Mar 2018 10:57:34 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
-        <title>Two new papers in Phys. Rev. E</title>
-        <description>&lt;p&gt;The papers entitled “&lt;i&gt;Exact analytical solution of irreversible binary dynamics on network&lt;/i&gt;” and “&lt;i&gt;Geometric evolution of complex networks&lt;/i&gt;” have been accepted and published in Phys. Rev. E. The latter introduces a new geometric model of complex networks. In doing so, we interpolate and quantify the phase transition of the network structure between the random and geometric phases; where the clustering coefficient goes from zero to a fixed constant.&lt;/p&gt;
+        <title>The Inconceivable Simplicity of Complex Networks</title>
+        <description>&lt;p&gt;Each year, the physics department at Université Laval organizes an oral presentation competition for graduate students. The main goal is to present to undergraduate students a broad overview of the research domains in the department. The undergraduate students evaluate the presentations based on the visual aspect, the speaker presence, the content and the overall quality. I accepted the challenge and presented my newest research in dynamical resilience.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;The abstract in french:&lt;/b&gt;&lt;br /&gt;
+&lt;i&gt;
+En 1999, les physiciens ont commencé à coloniser la science des réseaux. La politique d’assimilation était systématique, les réseaux étaient classés et réduits à des formes connues, simples et contrôlables. Mais les physiciens s’épuisaient; ils devaient bâtir des outils différents pour chaque famille de réseaux qu’ils voulaient soumettre. Jusqu’au jour où un célèbre explorateur découvrit une arme secrète dans une relique sacrée: la réduction universelle. Les oiseaux se sont mis à chanter, en 140 caractères, cette formidable découverte et l’on désarma la plus grande famille d’irréductibles réseaux avec une facilité déconcertante. Mais, la réduction universelle commença à faiblir et l’on s’aperçut de ses failles. Les physiciens se moquèrent, en 140 caractères, de l’explorateur et l’on ne parlait de la réduction universelle que pour décrire ses faiblesses. Toutefois, personne n’avait vu que la réduction universelle reposait sur une approximation d’un pouvoir de réduction bien plus puissant…
+&lt;/i&gt;&lt;/p&gt;
+
+&lt;div class=&quot;wrapper&quot;&gt;
+	&lt;div class=&quot;inline-note with-shadow&quot;&gt;
+		&lt;b&gt;The title&lt;/b&gt;
+		&lt;br /&gt;
+		&lt;span&gt;Note that the title of the presentation &lt;i&gt;The Inconceivable Simplicity of Complex Networks&lt;/i&gt; is a little wink to the novel &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Unbearable_Lightness_of_Being&quot;&gt;&lt;i&gt;The Unbearable Lightness of Being&lt;/i&gt;&lt;/a&gt; by Milan Kundera. 
+		&lt;/span&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Tue, 27 Mar 2018 00:00:00 -0400</pubDate>
+        <link>http://edwardlaurence.me/post/2018/03/27/CafeBeigne.html</link>
+        <guid isPermaLink="true">http://edwardlaurence.me/post/2018/03/27/CafeBeigne.html</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
+    
+      <item>
+        <title>Three new papers in Phys. Rev. E</title>
+        <description>&lt;p&gt;The papers entitled “&lt;i&gt;Exact analytical solution of irreversible binary dynamics on network&lt;/i&gt;”, “&lt;i&gt;Geometric evolution of complex networks&lt;/i&gt;”, and “&lt;i&gt;Phase transition of the susceptible-infected-susceptible dynamics on time-varying configuration model networks&lt;/i&gt;” have been accepted and published in Phys. Rev. E.&lt;/p&gt;
+
+&lt;p&gt;The latter is a game-changer paper that describes transitions of the SIS dynamics on time-varying networks. Instead of having a single global critical exponent, we developed a framework to obtain critical exponents as a function of the degree of nodes. It leads to the new interpretation and understanding of hub and collective activations.&lt;/p&gt;
+
+&lt;p&gt;The paper &lt;i&gt;Geometric evolution of complex networks&lt;/i&gt; introduces a new geometric model of complex networks. In doing so, we interpolate and quantify the phase transition of the network structure between the random and geometric phases; where the clustering coefficient goes from zero to a constant.&lt;/p&gt;
 
 &lt;p&gt;Links to the full texts, preprints and software are available on the &lt;a href=&quot;http://edwardlaurence.me/publications/&quot;&gt;publication page&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Mon, 19 Mar 2018 00:00:00 -0400</pubDate>
-        <link>http://edwardlaurence.me/post/2018/03/19/TwoNewPapers.html</link>
-        <guid isPermaLink="true">http://edwardlaurence.me/post/2018/03/19/TwoNewPapers.html</guid>
+        <link>http://edwardlaurence.me/post/2018/03/19/ThreeNewPapers.html</link>
+        <guid isPermaLink="true">http://edwardlaurence.me/post/2018/03/19/ThreeNewPapers.html</guid>
         
         
         <category>post</category>
@@ -135,19 +166,6 @@
         <pubDate>Tue, 18 Apr 2017 00:00:00 -0400</pubDate>
         <link>http://edwardlaurence.me/post/2017/04/18/MediSummerSchool.html</link>
         <guid isPermaLink="true">http://edwardlaurence.me/post/2017/04/18/MediSummerSchool.html</guid>
-        
-        
-        <category>post</category>
-        
-      </item>
-    
-      <item>
-        <title>Byron-T. Darling scholarship</title>
-        <description>&lt;p&gt;I’ve been selected to receive the Byron-T. Darling scholarship of 5000$. I am grateful for this generous encouragement to pursue my research.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 29 Mar 2017 00:00:00 -0400</pubDate>
-        <link>http://edwardlaurence.me/post/2017/03/29/Byron.html</link>
-        <guid isPermaLink="true">http://edwardlaurence.me/post/2017/03/29/Byron.html</guid>
         
         
         <category>post</category>

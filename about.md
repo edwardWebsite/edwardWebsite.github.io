@@ -8,10 +8,10 @@ permalink: /about/
 
 ### Edward Laurence
 
-I am currently pursuing a PhD's degree in theorical physics at [Université Laval][ulaval], Qc, Canada. I am member of [Dynamica][dynamica] research group led by Pr. Louis J. Dubé. My research interests are principally dynamical processes on complex networks and hierarchical networks.
+I am currently pursuing a PhD's degree in theorical physics at [Université Laval][ulaval], Qc, Canada. I am member of [Dynamica][dynamica] research group led by Pr. Louis J. Dubé. My research interests are principally dynamical resilience of complex networks. 
 
 
-When I am not coding or doing science, I usually pratice violin. I am part of a local string orchestra and I play as a volunteer in a hospital. I have a keen interest in cooking, which help me keeping a healthy life. As an active person, I do sports on a daily basis; basketball, squash, swimming or jogging. Otherwise, I have a great passion for design.
+When I am not coding or doing science, I usually pratice violin or play as part of a local string orchestra. I have a keen interest in cooking, which help me keeping a healthy life. As an active person, I do sports on a daily basis; basketball, squash, swimming or jogging. Otherwise, I have a great passion for design.
 
 
 [ulaval]: https://www.ulaval.ca
