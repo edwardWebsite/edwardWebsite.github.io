@@ -20,6 +20,7 @@ html, body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
+	background-color: $base-background-color;
 }
 
 ol.default {
@@ -33,16 +34,17 @@ ul.default {
 code {
 	background-color: #eee;
 	display: inline-block;
-	border-radius: 3px;
-	padding: 0 3px;
+	border-radius: 8px;
+	padding: 16px;
 }
 
 pre code.hljs {
 	font-size: modular-scale(-1);
+	padding: 16px;
 }
 
 .page-divider {
-	$divider-color: $light-gray;
+  
   display: block;
   width: 50%;
   margin-left: auto;
@@ -77,7 +79,6 @@ pre code.hljs {
 	text-align: left;
 	position: relative;
 	&.has-cover {
-		color: $white;
 		text-shadow: 0 0px 1px rgba(0,0,0,0.67) !important;
 		background-position: 50% 50%;
 		background-size: cover;
@@ -212,13 +213,13 @@ pre code.hljs {
 	.small-line {
 		max-width: 30px;
 		border-width: 2px;
-		border-color: $red;
+		border-color: $small-line-color;
 	}
 	.medium-line {
 		max-width: 120px;
 		margin-top: 10px;
 		border-width: 2px;
-		border-color: $red;
+		border-color: $medium-line-color;
 	}
 	.post-link {
 		font-weight: normal;
@@ -231,7 +232,7 @@ pre code.hljs {
 		margin-bottom:20px;
 	}
 	.pagination-icon {
-		color: $red;
+		color: $pagination-icon-color;
 	}
 	.inactive-icon {
 		visibility: hidden;

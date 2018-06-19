@@ -233,16 +233,18 @@ html {
 html, body {
   margin: 0;
   padding: 0;
-  width: 100%; }
+  width: 100%;
+  background-color: #fff; }
 
 code {
   background-color: #eee;
   display: inline-block;
-  border-radius: 3px;
-  padding: 0 3px; }
+  border-radius: 8px;
+  padding: 16px; }
 
 pre code.hljs {
-  font-size: 0.83333em; }
+  font-size: 0.83333em;
+  padding: 16px; }
 
 .page-divider {
   display: block;
@@ -276,7 +278,6 @@ pre code.hljs {
   text-align: left;
   position: relative; }
   .site-header-container.has-cover, .post-header-container.has-cover, .paper-header-container.has-cover {
-    color: #fff;
     text-shadow: 0 0px 1px rgba(0, 0, 0, 0.67) !important;
     background-position: 50% 50%;
     background-size: cover; }
