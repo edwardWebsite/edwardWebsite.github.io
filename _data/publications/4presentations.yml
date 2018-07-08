@@ -1,6 +1,11 @@
 title: Selected Conference Presentations
 subtitle: "Speaker is in bold"
 members:
+  - title: "A New Dimension-reduction Method for Complex Dynamical Networks (oral)"
+    authors: "<b>E. Laurence</b>, N. Doyon, L. J. Dubé, and P. Desrosiers"
+    ref: "SIAM Workshop on Network Science<br>Portland, Oregon, USA"
+    year: 2018
+
   - title: "Fonctional resilience in neural networks with adaptive connectivity (oral)"
     authors: "<b>E. Laurence</b>, P. Desrosiers, N. Doyon, and L. J. Dubé"
     ref: "Mediterranean School of Complex Networks<br>Salina, Italy"

@@ -284,6 +284,12 @@ pre code.hljs {
       text-decoration: none;
     }
 	}
+	.gray-box a {
+		color:black;
+	}
+	.gray-box a:hover {
+		opacity:0.8;
+	}
 	.site-header-container {
 		color: $white;
 		/*text-shadow: 0 2px 1px rgba(0,0,0,0.33);*/
@@ -520,6 +526,13 @@ pre code.hljs {
 		}
 		.post-content {
 			padding: 1em 0;
+
+			.gray-box a {
+				color: black;
+			}
+			.gray-box a:hover {
+				opacity:0.8;
+			}
 		}
 		.tags {
 			font-size: 0.9em;
@@ -611,6 +624,7 @@ pre code.hljs {
 			margin: auto;
 			padding-bottom: 0.5em;
  		}
+ 		
 	}
 
 	/*

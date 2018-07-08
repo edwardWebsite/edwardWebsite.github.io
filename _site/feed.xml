@@ -6,9 +6,94 @@
 </description>
     <link>http://edwardlaurence.me/</link>
     <atom:link href="http://edwardlaurence.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 19 Jun 2018 17:17:06 -0400</pubDate>
-    <lastBuildDate>Tue, 19 Jun 2018 17:17:06 -0400</lastBuildDate>
+    <pubDate>Sun, 08 Jul 2018 15:42:38 -0400</pubDate>
+    <lastBuildDate>Sun, 08 Jul 2018 15:42:38 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Going to SIAM 18</title>
+        <description>&lt;p&gt;From the 8th to the 14th of July, I’ll be attending &lt;a href=&quot;https://www.siam.org/conferences/CM/Main/ns18&quot;&gt;SIAM18&lt;/a&gt; conference, in Portland (Oregon, USA). My flash talk, entitled &lt;i&gt;A New Dimension-reduction Method for Complex Dynamical Networks&lt;/i&gt; will take place on July 12 at 16h50. This work is co-signed by myself and &lt;a href=&quot;https://www.mat.ulaval.ca/departement-et-professeurs/direction-personnel-et-etudiants/professeurs/fiche-de-professeur/show/doyon-nicolas/&quot;&gt;Nicolas Doyon&lt;/a&gt;, &lt;a href=&quot;http://www.dynamica.phy.ulaval.ca&quot;&gt;Louis J. Dubé&lt;/a&gt;, and &lt;a href=&quot;http://patrickdesrosier4.wixsite.com/patrickdesrosiers&quot;&gt;Patrick Desrosiers&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;The summary:&lt;/b&gt;&lt;br /&gt;
+&lt;i&gt;
+We introduce a new dimension-reduction method to describe the large scale behaviour of dynamical processes running  on networks, primarily based  on the spectral properties of the weighted adjacency matrices that characterize the interactions on the networks.  The structural complexity of the networks is used to naturally set the adequate dimensionality of the reduced system.  We present and compare three variants of  our method. We show that our approximation scheme, even when forced to produce one-dimensional reduced systems, always gives a better description of the dynamics than the one proposed by Gao &lt;i&gt;et al.&lt;/i&gt; (Nature, 2016).&lt;br /&gt;
+&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b class=&quot;gray-box&quot;&gt;&lt;a href=&quot;/assets/posts/SIAM/slides.pdf&quot;&gt;Slides&lt;/a&gt;&lt;/b&gt;
+&lt;b class=&quot;gray-box&quot;&gt;&lt;a href=&quot;https://www.dynamica.phy.ulaval.ca/fileadmin/abs/siam2018_edward_abs.pdf&quot;&gt;Abstract&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Using our combined method of dimension reduction, we are able to predict critical edges by solving two uncoupled equations, instead of 40 coupled equations.&lt;/p&gt;
+&lt;div class=&quot;post-image&quot;&gt;
+  &lt;img src=&quot;/assets/posts/SIAM/acc_planted.png&quot; title=&quot;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;!-- &lt;div class=&quot;wrapper&quot;&gt;
+	&lt;div class=&quot;inline-note with-shadow&quot;&gt;
+		&lt;b&gt;About SIAM&lt;/b&gt;
+		&lt;br&gt;
+		&lt;span&gt;
+		&lt;/span&gt;
+	&lt;/div&gt;
+&lt;/div&gt; --&gt;
+</description>
+        <pubDate>Sat, 07 Jul 2018 00:00:00 -0400</pubDate>
+        <link>http://edwardlaurence.me/post/2018/07/07/SIAM.html</link>
+        <guid isPermaLink="true">http://edwardlaurence.me/post/2018/07/07/SIAM.html</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
+    
+      <item>
+        <title>Deep learning project</title>
+        <description>&lt;p&gt;During the semester of winter 2018, I’ve taken a deep learning course that covers fully connected and convolutional networks, state-of-the-art architectures and regulations mechanisms, recurrent networks, natural language processing, GAN, and miscellaneous topics. For the final assignment, we have chosen to construct our own dataset by scraping Unsplash website and to infer the EXIF metadata of the images (final paper and image below). The final paper is not published. We have learned so much, particularly that the learning can only be as good as the dataset.&lt;/p&gt;
+
+&lt;p&gt;If you have an interest in the 19000 images dataset or in the code, feel free to send me an &lt;a href=&quot;mailto:edward.laurence.1@ulaval.ca&quot;&gt;email&lt;/a&gt;.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Final assignment summary:&lt;/b&gt;&lt;br /&gt;
+&lt;i&gt;
+We used deep convolutional networks to estimate the camera settings, lens aperture, ISO sensibility and exposure time, known as the EXIF metadata solely based on the pixels of the photos. The training has been performed on a novel dataset of 19 000 high quality photos labeled with the camera settings. The results indicated that deep convolutionnal networks have trouble solving the task and achieving high accuracy. We find that the general low performances we obtained are due to the dataset corruption, some class imbalances and possibly the lack of information in the picture alone.
+&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b class=&quot;gray-box&quot;&gt;&lt;a href=&quot;/assets/posts/Deeplearning/doc.pdf&quot;&gt;Paper&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;screenshots-container&quot;&gt;
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;col-sm-12 screenshot-image &quot;&gt;
+			 &lt;img src=&quot;/assets/posts/Deeplearning/bw_panel.png&quot; title=&quot;&quot; /&gt;	
+		&lt;/div&gt;
+		&lt;div class=&quot;col-md-6 screenshot-meta&quot;&gt;
+			&lt;b&gt;Best and worst inferences&lt;/b&gt;
+			&lt;hr class=&quot;small-line&quot; /&gt;
+			&lt;span class=&quot;screenshot-subtitle&quot;&gt;
+Display of the top 5 best (top) and top 5 worst (bottom) predicted examples of the model in the test dataset. Underneath each picture is shown in the form of pie charts the probability distribution of the three bins of each setting given by the model. Light blue indicates low setting, medium blue for medium setting and dark blue for high setting. The largest portion of the chart corresponds to the predictions and the colors of the center display the targeted settings. &lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- &lt;div class=&quot;wrapper&quot;&gt;
+	&lt;div class=&quot;inline-note with-shadow&quot;&gt;
+		&lt;b&gt;About SIAM&lt;/b&gt;
+		&lt;br&gt;
+		&lt;span&gt;
+		&lt;/span&gt;
+	&lt;/div&gt;
+&lt;/div&gt; --&gt;
+</description>
+        <pubDate>Wed, 20 Jun 2018 00:00:00 -0400</pubDate>
+        <link>http://edwardlaurence.me/post/2018/06/20/Deeplearning.html</link>
+        <guid isPermaLink="true">http://edwardlaurence.me/post/2018/06/20/Deeplearning.html</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
     
       <item>
         <title>Release of a fast image converter</title>
@@ -150,32 +235,6 @@ En 1999, les physiciens ont commencé à coloniser la science des réseaux. La p
         <pubDate>Wed, 17 May 2017 00:00:00 -0400</pubDate>
         <link>http://edwardlaurence.me/post/2017/05/17/CINQSummerSchool.html</link>
         <guid isPermaLink="true">http://edwardlaurence.me/post/2017/05/17/CINQSummerSchool.html</guid>
-        
-        
-        <category>post</category>
-        
-      </item>
-    
-      <item>
-        <title>FRQNT</title>
-        <description>&lt;p&gt;On the same day of my doctorate exam, I was awarded a scholarship by &lt;a href=&quot;http://www.frqnt.gouv.qc.ca/en/accueil&quot;&gt;Fonds de recherche du Québec - Nature et technologies&lt;/a&gt; to pursue my PhD. This scholarship is &lt;a href=&quot;http://www.dynamica.phy.ulaval.ca/index.php?id=news&amp;amp;tx_ttnews%5Btt_news%5D=96&amp;amp;cHash=16d5a2564abc2b50bdf715457539ba35&quot;&gt;awarded based&lt;/a&gt; on the research track record of the candidates, as well as the quality and originality of their proposed work.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 12 May 2017 00:00:00 -0400</pubDate>
-        <link>http://edwardlaurence.me/post/2017/05/12/FRQNT.html</link>
-        <guid isPermaLink="true">http://edwardlaurence.me/post/2017/05/12/FRQNT.html</guid>
-        
-        
-        <category>post</category>
-        
-      </item>
-    
-      <item>
-        <title>Doctoral exam</title>
-        <description>&lt;p&gt;On Friday, I have completed my doctoral exam. The evaluation is based on two documents presenting my future research, and an oral presentation. I can now continue and pursue active research.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 12 May 2017 00:00:00 -0400</pubDate>
-        <link>http://edwardlaurence.me/post/2017/05/12/DoctoralExam.html</link>
-        <guid isPermaLink="true">http://edwardlaurence.me/post/2017/05/12/DoctoralExam.html</guid>
         
         
         <category>post</category>

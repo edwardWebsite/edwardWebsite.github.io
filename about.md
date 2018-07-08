@@ -13,6 +13,8 @@ I am currently pursuing a PhD's degree in theorical physics at [Université Lava
 
 When I am not coding or doing science, I usually pratice violin or play as part of a local string orchestra. I have a keen interest in cooking, which help me keeping a healthy life. As an active person, I do sports on a daily basis; basketball, squash, swimming or jogging. Otherwise, I have a great passion for design.
 
+<b class="gray-box"><a href="/assets/resume/Laurence_Edward.pdf">Short resume (Updated July 7, 2018)</a></b>
+
 
 [ulaval]: https://www.ulaval.ca
 [dynamica]: http://www.dynamica.phy.ulaval.ca
@@ -22,7 +24,7 @@ When I am not coding or doing science, I usually pratice violin or play as part 
     <th>Contact</th>
   </tr>
   <tr>
-    <td><a href="https://github.com/laurencee9"> <i class="fa fa-github"></i>Laurencee9</a></td>
+    <td><a href="https://github.com/laurencee9"><i class="fa fa-github"></i>Laurencee9</a></td>
    </tr>
   <tr class="even">
     <td><a href="mailto:edward.laurence.1@ulaval.ca"><i class="fa fa-envelope"></i>edward.laurence.1@ulaval.ca</a></td>
@@ -47,13 +49,13 @@ When I am not coding or doing science, I usually pratice violin or play as part 
     <td><a href="https://www.mat.ulaval.ca/departement-et-professeurs/direction-personnel-et-etudiants/professeurs/fiche-de-professeur/show/doyon-nicolas/">Nicolas Doyon</a></td><td>Université Laval</td>
   </tr>
    <tr>
-    <td><a href="http://www.jgyoung.ca">Jean-Gabriel Young</a></td><td>Université Laval</td>
+    <td><a href="http://www.jgyoung.ca">Jean-Gabriel Young</a></td><td> Michigan University</td>
   </tr>
    <tr>
     <td><a href="http://laurenthebertdufresne.github.io">Laurent Hébert-Dufresne</a></td><td>The Vermont Complex Systems Center</td>
   </tr>
   <tr>
-    <td><a href="http://antoineallard.github.io">Antoine Allard</a></td><td>Centre de Recerca Matemàtica</td>
+    <td><a href="http://antoineallard.github.io">Antoine Allard</a></td><td>Université Laval & Universitat de Barcelona</td>
   </tr>
 </table>
 <br>

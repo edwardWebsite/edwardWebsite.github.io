@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://edwardlaurence.me/post/2018/07/07/SIAM.html</loc>
+<lastmod>2018-07-07T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>http://edwardlaurence.me/post/2018/06/20/Deeplearning.html</loc>
+<lastmod>2018-06-20T00:00:00-04:00</lastmod>
+</url>
+<url>
 <loc>http://edwardlaurence.me/post/2018/03/28/FaceToNetwork.html</loc>
 <lastmod>2018-03-28T00:00:00-04:00</lastmod>
 </url>
@@ -87,5 +95,17 @@
 <url>
 <loc>http://edwardlaurence.me/assets/portfolio/symposium/BW_usletter.pdf</loc>
 <lastmod>2017-04-07T20:36:18-04:00</lastmod>
+</url>
+<url>
+<loc>http://edwardlaurence.me/assets/posts/Deeplearning/doc.pdf</loc>
+<lastmod>2018-07-08T15:22:45-04:00</lastmod>
+</url>
+<url>
+<loc>http://edwardlaurence.me/assets/posts/SIAM/slides.pdf</loc>
+<lastmod>2018-07-06T21:02:41-04:00</lastmod>
+</url>
+<url>
+<loc>http://edwardlaurence.me/assets/resume/Laurence_Edward.pdf</loc>
+<lastmod>2018-07-03T09:03:47-04:00</lastmod>
 </url>
 </urlset>
