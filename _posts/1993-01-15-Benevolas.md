@@ -15,7 +15,7 @@ frontcolor: "#FC1515"
 
 <h1>{{ page.title }}</h1>
 
-<b class="status"> Work in progress! It should be on the App Store in early 2018</b>
+<b class="status"> Work in progress!</b>
 
 <h3>How it works</h3>
 

@@ -14,7 +14,7 @@ frontcolor: white
 
 <h1>{{ page.title }}</h1>
 
-For the annual Symposium Dynamica edition, I was mandated to produce the posters.
+For the annual Symposium Dynamica edition, I was mandated to produce the posters. 
 </div> <!-- Wrapper -->
 
 <div class="container">
@@ -32,6 +32,22 @@ For the annual Symposium Dynamica edition, I was mandated to produce the posters
 		<b>XII edition</b>
 		<hr class="small-line">
 		<span class="screenshot-subtitle">This is the three chosen posters. The butterfly represents the <i>butterfly effect</i> (a small perturbation can have large consequences), well-known in chaos studies. I also used the Lorentz and Rosner attractors for a more classic version. </span>
+	</div>
+</div>
+</div> 
+</div> <!-- Container -->
+
+<div class="container">
+
+<div class="screenshots-container">
+<div class="row">
+	<div class="col-sm-6 screenshot-image ">
+		<img class="with-shadow" src="/assets/portfolio/symposium/IV_poster1.png" >	
+	</div>
+	<div class="col-sm-6 screenshot-meta">
+		<b>IV Symposium Numerica</b>
+		<hr class="small-line">
+		<span class="screenshot-subtitle">Symposium Numerica is an event where students present their final projects on numerical analysis. </span>
 	</div>
 </div>
 </div> 
