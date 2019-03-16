@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 title:  "Jekyll theme"
-date:   1993-01-09
+date:   1993-01-11
 author: Edward Laurence
 categories: portfolio
 description: "A Jekyll theme for API documentation."

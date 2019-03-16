@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 title:  "Face to network"
-date:   1993-01-11
+date:   1993-01-04
 author: Edward Laurence
 categories: portfolio
 description: "Converting an image to a network representation has never been so easy."

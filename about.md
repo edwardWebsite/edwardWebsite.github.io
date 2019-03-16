@@ -8,16 +8,14 @@ permalink: /about/
 
 ### Edward Laurence
 
-I am currently pursuing a PhD's degree in theorical physics at [Université Laval][ulaval], Qc, Canada. I am member of [Dynamica][dynamica] research group led by Pr. Louis J. Dubé. My research interests are principally dynamical resilience of complex networks. 
-
-
-When I am not coding or doing science, I usually pratice violin or play as part of a local string orchestra. I have a keen interest in cooking, which help me keeping a healthy life. As an active person, I do sports on a daily basis; basketball, squash, swimming or jogging. Otherwise, I have a great passion for design.
+I am currently a data scientist at [Hectiq.ai][hectiq] while pursuing a PhD's degree in theorical physics at [Université Laval][ulaval], Qc, Canada. I am member of [Dynamica][dynamica] research group led by Pr. Louis J. Dubé. My research interests are principally dynamical resilience of complex networks. When I am not coding or doing science, I usually pratice violin or play as part of a local string orchestra.
 
 <b class="gray-box"><a href="/assets/resume/Laurence_Edward.pdf">Short resume (Updated July 7, 2018)</a></b>
 
 
 [ulaval]: https://www.ulaval.ca
 [dynamica]: http://www.dynamica.phy.ulaval.ca
+[hectiq]: https://www.hectiq.ai/
 <br>
 <table cellspacing="0" cellpadding="0" class="table-about">
   <tr>
@@ -73,7 +71,7 @@ When I am not coding or doing science, I usually pratice violin or play as part 
   </div>
   <div class="col-md-4">
     <b>Selected frameworks</b>
-    <p>Node.js, CocoaPods, Alamofire, Bootstrap, Django, I18n, D3.js, Mongoose, and too many scientific librairies (Pytorch, Numpy, Matplotlib, Scipy, ...) </p>
+    <p>Too many scientific librairies (Pytorch, tensorflow, Numpy, Matplotlib, Scipy, ...), Node.js, CocoaPods, Alamofire, Bootstrap, Django, I18n, D3.js, Mongoose </p>
   </div>
   <div class="col-md-4">
     <b>Selected developing tools & Cloud services</b>

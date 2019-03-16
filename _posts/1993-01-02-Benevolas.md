@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 title:  "Benevolas"
-date:   1993-01-15
+date:   1993-01-02
 autdor: Edward Laurence
 categories: portfolio
 description: "Check out this iOS app for volunteering in your neighborhood. "

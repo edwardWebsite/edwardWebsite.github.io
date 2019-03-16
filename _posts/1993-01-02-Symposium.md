@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 title:  "Symposium Dynamica"
-date:   1993-01-10
+date:   1993-01-02
 author: Edward Laurence
 categories: portfolio
 description: "Check out a series of posters for an academic conference. "

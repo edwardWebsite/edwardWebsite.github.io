@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 title:  "Garmin"
-date:   1993-01-09
+date:   1993-01-03
 author: Edward Laurence
 categories: portfolio
 description: "Get a look at my first watch-face (a view to display time) for Garmin Forerunner."
@@ -14,7 +14,7 @@ frontcolor: "#F05D0C"
 <h1>{{ page.title }}</h1>
 
 I've built a watch-face for my watch and made it public. A watch-face is the view you see when your GPS watch is in normal mode. It displays the time, the battery level, the date, a Bluetooth icon (if connected) and your daily steps.
-The code is open-source and hosted <a href="https://github.com/laurencee9/Watch-Face-Garmin">here</a>. A nice remake has been made and hosted <a href="https://github.com/sixtop/Watch-Face-Garmin">here</a>. The watch-face is available for download at <a href="https://apps.garmin.com/en-US/apps/d10db1ae-9ecd-4219-92d4-a5b106636ca7#0">Garmin Connect IQ</a>. <br>Number of downloads: <b>5089</b> (March 2018)
+The code is open-source and hosted <a href="https://github.com/laurencee9/Watch-Face-Garmin">here</a>. A nice remake has been made and hosted <a href="https://github.com/sixtop/Watch-Face-Garmin">here</a>. The watch-face is available for download at <a href="https://apps.garmin.com/en-US/apps/d10db1ae-9ecd-4219-92d4-a5b106636ca7#0">Garmin Connect IQ</a>. <br>Number of downloads: <b>6803</b> (March 2019)
 
 
 <div class="screenshots-container">

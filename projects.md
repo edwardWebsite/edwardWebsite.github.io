@@ -7,7 +7,7 @@ permalink: /projects/
 <link rel="stylesheet" href="/css/bootstrap.min.css">
 <div class="wrapper" style="margin-top: 4em; margin-bottom: 4em;">
     <h1 class="title">Projects</h1>  
-  <p class="description">Take a look at my latest projects. Most of them are not related to my academic research and are done during my free time.</p>
+  <p class="description">Have a look at my latest side-projects. Most of them are not related to my academic research and are done during my free time.</p>
 </div>
 
 <div class="portfolio-container-header center-block" >

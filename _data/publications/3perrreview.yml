@@ -1,5 +1,12 @@
 title: In peer-reviewed journals
 members:
+  - title: "Spectral Dimension Reduction of Complex Dynamical Networks"
+    authors: "<b>E. Laurence</b>, N. Doyon, L. J. Dubé, and P. Desrosiers"
+    arxiv: "https://arxiv.org/abs/1809.08285"
+    ref: "Phys. Rev. X, <b>9</b>, 011042"
+    fulltext: "https://journals.aps.org/prx/abstract/10.1103/PhysRevX.9.011042"
+    year: 2019
+
   - title: "Exact analytical solution of irreversible binary dynamics on networks"
     authors: "<b>E. Laurence</b>, J.-G. Young, S. Melnik, and L. J. Dubé"
     ref: "Phys. Rev. E, <b>97</b>, 032302"
