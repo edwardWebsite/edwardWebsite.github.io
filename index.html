@@ -1,125 +1,648 @@
----
-layout: default
-custom_js: 
-  - d3.v4.min
-  - d3_animated_graph
----
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<div class="home">
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="./assets/fonts/Feather/feather.css">
+    <link rel="stylesheet" href="./assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="./assets/libs/aos/dist/aos.css">
+    <link rel="stylesheet" href="./assets/libs/choices.js/public/assets/styles/choices.min.css">
+    <link rel="stylesheet" href="./assets/libs/flickity-fade/flickity-fade.css">
+    <link rel="stylesheet" href="./assets/libs/flickity/dist/flickity.min.css">
+    <link rel="stylesheet" href="./assets/libs/highlightjs/styles/vs2015.css">
+    <link rel="stylesheet" href="./assets/libs/jarallax/dist/jarallax.css">
+    <link rel="stylesheet" href="./assets/libs/quill/dist/quill.core.css" />
 
-<div class="site-header-container" id="d3graphparent">
-  <div class="d3graph" id="d3graph"> 
-  </div>
-  <div class="scrim {% if site.cover %}has-cover{% endif %}">
-    <header class="site-header">
-      <div class="wrapper" >
-         <h1 class="title">Welcome!</h1>
-          <p class="subtitle">My name is Edward Laurence and I'm a PhD student in physics at Université Laval and a data scientist at Hectiq.ai.   I've just placed this text so you won't scroll down and you'll see the cool (or laggy) background animation.</p>
-      </div>
+    <!-- Map -->
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="./assets/css/theme.min.css">
+
+    <title>Edward - personal website</title>
+
+  </head>
+  <body class="bg-white">
+
+
+    <!-- BREADCRUMB
+    ================================================== -->
+    <nav class="bg-dark d-md-none">
+      <div class="container-md">
+        <div class="row align-items-center">
+          <div class="col">
+
+            <!-- Breadcrumb -->
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <span class="text-white">
+                  Edward Laurence
+                </span>
+              </li>
+              <li class="breadcrumb-item">
+                <span class="text-white">
+                  About me
+                </span>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">
+                <span class="text-white">
+                  News
+                </span>
+              </li>
+            </ol>
+
+          </div>
+          <div class="col-auto">
+
+            <!-- Toggler -->
+            <div class="navbar-dark">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sidenavCollapse" aria-controls="sidenavCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </nav>
+
+
+  
+    <!-- HEADER -->
+    <!-- HEADER
+    ================================================== -->
+    <header class="bg-dark pt-9 pb-11 d-none d-md-block">
+      <div class="container-md">
+        <div class="row align-items-center">
+          <div class="col">
+
+            <!-- Heading -->
+            <h1 class="font-weight-bold text-white mb-2">
+              Edward Laurence
+            </h1>
+
+            <!-- Text -->
+            <p class="font-size-lg text-white-75 mb-0">
+               I'm an Ai research scientist at Hectiq.ai. Located in Québec.
+            </p>
+
+          </div>
+
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
     </header>
-  </div>
-</div>
 
-<div class="wrapper">
-<ul class="post-list">
-  {% for post in paginator.posts %}
-  {% if post.categories[0] == "post" %}
-  <li class="post-liindex">
+    <!-- MAIN
+    ================================================== -->
+    <main class="pb-8 pb-md-11 mt-md-n6">
+      <div class="container-md">
+        <div class="row">
+          <div class="col-12 col-md-3">
 
-    <section class="post-meta">
-      <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
-    </section>
-    <h2>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </h2>
-    <section class="post-excerpt" itemprop="description">
-      <p>{{ post.excerpt | truncatewords: 50 }}</p>
-    </section>
-    <hr class="small-line">
-  </li>
-  {% if forloop.last == false %}
-  {% endif %}
-  {% endif %}
-  {% if post.categories[0] == "post-hectiq" %}
-  <li class="post-liindex">
-    <div style="max-width:130px; margin-left:-4px; padding:0;"><img src="/assets/posts/hectiq/hectiqai_logo.png" title=""></div>
-    <section class="post-meta">
-      <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
-    </section>
-    <h2>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </h2>
-    <section class="post-excerpt" itemprop="description">
-      <p>{{ post.excerpt | truncatewords: 50 }}</p>
-    </section>
-    <hr class="small-line">
-  </li>
-  {% if forloop.last == false %}
-  {% endif %}
-  {% endif %}
-  {% if post.categories[0] == "post-special" %}
-  <li class="post-liindex post-special">
-    <img src="../assets/posts/special-background/celebration.png" style="width: 100%;">
-    <div class="post-special-content">
-      <section class="post-meta">
-        <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
-      </section>
-      <h2>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h2>
-      <section class="post-excerpt" itemprop="description">
-        <p>{{ post.excerpt | truncatewords: 50 }}</p>
-      </section>
+            <!-- Card -->
+            <div class="card card-bleed border-bottom border-bottom-md-0 shadow-light-lg">
+
+              <!-- Collapse -->
+              <div class="collapse d-md-block" id="sidenavCollapse">
+                <div class="card-body">
+
+
+                  <!-- Heading -->
+                  <h6 class="font-weight-bold text-uppercase mb-3">
+                    About me
+                  </h6>
+
+                  <!-- List -->
+                  <ul class="card-list list text-gray-700 mb-6">
+                    <li class="list-item active">
+                      <a class="list-link text-reset" href="index.html">
+                        News
+                      </a>
+                    </li>
+                    <li class="list-item ">
+                      <a class="list-link text-reset" href="bio.html">
+                        Bio
+                      </a>
+                    </li>
+                  </ul>
+
+                  <!-- Heading -->
+                  <h6 class="font-weight-bold text-uppercase mb-3">
+                    Science
+                  </h6>
+
+                  <!-- List -->
+                  <ul class="card-list list text-gray-700 mb-0">
+                    <li class="list-item ">
+                      <a class="list-link text-reset" href="publications.html">
+                        Publications
+                      </a>
+                    </li>
+                    <li class="list-item ">
+                      <a class="list-link text-reset" href="interests.html">
+                        Interests
+                      </a>
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col-12 col-md-9">
+
+
+             <!-- Top news -->
+            <div class="card shadow-light-lg lift bg-secondary text-white mb-6">
+
+             
+              <a class="card-body my-auto" href="#!">
+
+                <span class="badge badge-pill badge-light-soft badge-float badge-float-inside">
+                  <span class="h6 text-uppercase">New</span>
+                </span>
+
+                <!-- Date -->
+                <p class="h6 text-uppercase  text-white-75 mb-0 ml-auto">
+                  <time datetime="2019-05-02">May 2020</time>
+                </p>
+
+                <h3 class="mt-auto">
+                  New website
+                </h3>
+
+                <!-- Text -->
+                <p class="mb-0 text-white-75">
+                  I've been updating the website design and content! You will find up-to-date information on my work. 
+                </p>
+              </a>
+            </div>
+
+            <!-- Second news -->
+            <div class="card shadow-light-lg lift text-dark mb-6">
+
+              <!-- Body -->
+              <a class="card-body my-auto" href="#!">
+
+                <span class="badge badge-pill badge-light-soft badge-float badge-float-inside">
+                  <span class="h6 text-uppercase">New</span>
+                </span>
+
+                <!-- Date -->
+                <p class="h6 text-uppercase text-muted mb-0 ml-auto">
+                  <time datetime="2019-05-02">Dec 2019</time>
+                </p>
+
+                <h3 class="mt-auto">
+                 🎉 Full-time work on Ai projects at Hectiq.Ai
+                </h3>
+
+                <!-- Text -->
+                <p class="mb-0 text-muted">
+                  I'll be working full-time at Hectiq.ai. Last year, I was balancing my time on completing my PhD and working at Hectiq.ai. It was a charged year in terms of workload so that this news comes as a relief and the opportunity to face new challenges!
+                </p>
+
+              </a>
+            </div>
+
+
+            <div class="card-body accordion border-0 mb-5" id="helpAccordionOne">
+              <div class="list-group list-group-flush">
+
+                <div class="list-group-item">
+                  
+                  <!-- Toggle -->
+                  <a class="d-flex align-items-center text-reset text-decoration-none collapsed" data-toggle="collapse" href="#helpOne" role="button" aria-expanded="false" aria-controls="helpOne">
+                      
+                    <!-- Title -->
+                    <span class="mr-4">
+                     Another paper in PRX
+                    </span>
+                    
+                    <!-- Metadata -->
+                    <div class="text-muted ml-auto">
+
+                      <!-- Text -->
+                      <span class="font-size-sm mr-4 d-none d-md-inline">
+                        December 16, 2019
+                      </span>
+                      
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </div>
+
+                  </a>
+                  
+                  <!-- Collapse -->
+                  <div class="collapse" id="helpOne" data-parent="#helpAccordionOne" style="">
+                    <div class="py-5">
+
+                      <!-- Text -->
+                      <p class="text-gray-700">
+                        A recent addition to PRX has surfaced! A nice collaboration with <a href="http://www.jgyoung.ca">J.G. Young</a>, <a href="http://laurenthebertdufresne.github.io">L.H. Dufresne</a>, and the <a href="https://dynamicalab.github.io">Dynamica group</a> on inferring how networks emerge. Check out the publication tab!
+                      </p>
+                    </div>
+                  </div>
+                </div><!-- /.list-group-item -->
+
+                <div class="list-group-item">
+                  
+                  <!-- Toggle -->
+                  <a class="d-flex align-items-center text-reset text-decoration-none collapsed" data-toggle="collapse" href="#help-netsci" role="button" aria-expanded="false" aria-controls="help-netsci">
+                      
+                    <!-- Title -->
+                    <span class="mr-4">
+                     Engineering the badges at Netsci 2019
+                    </span>
+                    
+                    <!-- Metadata -->
+                    <div class="text-muted ml-auto">
+
+                      <!-- Text -->
+                      <span class="font-size-sm mr-4 d-none d-md-inline">
+                        May 30, 2019
+                      </span>
+                      
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </div>
+
+                  </a>
+                  
+                  <!-- Collapse -->
+                  <div class="collapse" id="help-netsci" data-parent="#helpAccordionOne" style="">
+                    <div class="py-5">
+
+                      <!-- Text -->
+                      <p class="text-gray-700">
+                        <a href="http://netsci2019.com">Netsci</a> is a large conference with over 500 participants. A former member of my research group has been appointed the co-chair role and asked me to conceive the name tags.
+                      </p>
+                      <p class="text-gray-700">
+                        Instead of wasting this opportunity in doing something pretty but harmless, we decided to design it to increase interactions between participants. To do so, I've been doing some NLP on the submitted abstracts, and scrapping some of arxiv publications to extract participants' research interests into latent vectors. Then, I've extracted the dominant clusters and computed the participants' affinity with each cluster. 
+                      </p>
+                      <p class="text-gray-700">
+                        Finally, I've designed a badge that shares the design direction adopted by the conference and that communicates the inferred research interests. The idea is each cluster is represented by a color and the top 5 clusters for a participant are indicated by the color of the five nodes, in descending order of affinity. For example, two participants with the first node of the same color have high probability of sharing scientific interest.
+                      </p>
+                      <div class="form-row">
+                        
+                        <div class="col-12">
+
+                           <!-- Image -->
+                          <a class="d-block " data-fancybox="" data-width="1400" data-height="432" href="assets/img/badges/example.png">
+                            <img src="assets/img/badges/example.png" alt="..." class="img-fluid rounded">
+                          </a>
+
+
+                        </div>
+                        <div class="col-6">
+
+                          
+                          <!-- Image -->
+                          <a class="d-block mb-4 " data-fancybox="" data-width="585" data-height="471" href="assets/img/badges/badge3.png">
+                            <img src="assets/img/badges/badge3.png" alt="..." class="img-fluid rounded">
+                          </a>
+
+
+                        </div>
+                        <div class="col-6">
+
+                           <!-- Image -->
+                          <a class="d-block " data-fancybox="" data-width="578" data-height="484" href="assets/img/badges/badge2.png">
+                            <img src="assets/img/badges/badge2.png" alt="..." class="img-fluid rounded">
+                          </a>
+
+                         
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- /.list-group-item -->
+
+                <div class="list-group-item">
+                  
+                  <!-- Toggle -->
+                  <a class="d-flex align-items-center text-reset text-decoration-none collapsed" data-toggle="collapse" href="#helpTwo" role="button" aria-expanded="false" aria-controls="helpTwo">
+                      
+                    <!-- Title -->
+                    <span class="mr-4">
+                     New paper in PRX
+                    </span>
+                    
+                    <!-- Metadata -->
+                    <div class="text-muted ml-auto">
+
+                      <!-- Text -->
+                      <span class="font-size-sm mr-4 d-none d-md-inline">
+                        March 4, 2019
+                      </span>
+                      
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </div>
+
+                  </a>
+                  
+                  <!-- Collapse -->
+                  <div class="collapse" id="helpTwo" data-parent="#helpAccordionOne" style="">
+                    <div class="py-5">
+
+                      <!-- Text -->
+                      <p class="text-gray-700">
+                        This new paper proposes a formalism to reduce large systems of differential equations coupled by graphs. We expose how the spectral properties of the graph can be leveraged to obtain an effective low-dimensional representation. Our work leads to a highly interpretable analysis of resilience of complex systems. PRX (abbreviation for Physical Review X) is an open-source journal from the APS society.
+                      </p>
+                    </div>
+                  </div>
+                </div><!-- /.list-group-item -->
+                
+                <div class="list-group-item">
+                  
+                  <!-- Toggle -->
+                  <a class="d-flex align-items-center text-reset text-decoration-none collapsed" data-toggle="collapse" href="#helpThree" role="button" aria-expanded="false" aria-controls="helpThree">
+                      
+                    <!-- Title -->
+                    <span class="mr-4">
+                     Leading a workshop in Charlevoix
+                    </span>
+                    
+                    <!-- Metadata -->
+                    <div class="text-muted ml-auto">
+
+                      <!-- Text -->
+                      <span class="font-size-sm mr-4 d-none d-md-inline">
+                        February 4, 2019
+                      </span>
+                      
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </div>
+
+                  </a>
+                  
+                  <!-- Collapse -->
+                  <div class="collapse" id="helpThree" data-parent="#helpAccordionOne" style="">
+                    <div class="py-5">
+
+                      <!-- Text -->
+                      <p class="text-gray-700">
+                        How can we detect an attack on a complex system by measuring the activity of its components? The Dynamica group has been retreated in Charlevoix to provide an answer to this prime importance question. The endeavor has been an indubitable success as we developed machine learning and Bayesian methods to pinpoint the disrupted components. A publication is soon to come!
+                      </p>
+                    </div>
+                  </div>
+                </div><!-- /.list-group-item -->
+                
+
+                <div class="list-group-item">
+                  
+                  <!-- Toggle -->
+                  <a class="d-flex align-items-center text-reset text-decoration-none collapsed" data-toggle="collapse" href="#help-4" role="button" aria-expanded="false" aria-controls="help-4">
+                      
+                    <!-- Title -->
+                    <span class="mr-4">
+                     Joining Hectiq.ai's team
+                    </span>
+                    
+                    <!-- Metadata -->
+                    <div class="text-muted ml-auto">
+
+                      <!-- Text -->
+                      <span class="font-size-sm mr-4 d-none d-md-inline">
+                        September 4, 2018
+                      </span>
+                      
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </div>
+
+                  </a>
+                  
+                  <!-- Collapse -->
+                  <div class="collapse" id="help-4" data-parent="#helpAccordionOne" style="">
+                    <div class="py-5">
+
+                      <!-- Text -->
+                      <p class="text-gray-700">
+                        I’m happy to announce that I have accepted a position as data scientist at Hectiq.ai. This company is based in Quebec city and is specialized in solving artificial intelligence problems. The exciting aspect of the job is that by working as a consultant, we have the change to explore many branches of machine learning. Depeding on the client needs, I'll be expecting to drill into Bayesian inference, graph theory, image segmentation, classification, just to name a few! 
+                      </p>
+                    </div>
+                  </div>
+                </div><!-- /.list-group-item -->
+                
+                <div class="list-group-item">
+                  
+                  <!-- Toggle -->
+                  <a class="d-flex align-items-center text-reset text-decoration-none collapsed" data-toggle="collapse" href="#help-siam" role="button" aria-expanded="false" aria-controls="help-siam">
+                      
+                    <!-- Title -->
+                    <span class="mr-4">
+                     Flying to Portland (OR) to attend SIAM 18.
+                    </span>
+                    
+                    <!-- Metadata -->
+                    <div class="text-muted ml-auto">
+
+                      <!-- Text -->
+                      <span class="font-size-sm mr-4 d-none d-md-inline">
+                        July 7, 2018
+                      </span>
+                      
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </div>
+
+                  </a>
+                  
+                  <!-- Collapse -->
+                  <div class="collapse" id="help-siam" data-parent="#helpAccordionOne" style="">
+                    <div class="py-5">
+
+                      <!-- Text -->
+                      <p class="text-gray-700">
+                        From the 8th to the 14th of July, I’ll be attending SIAM18 conference, in Portland (Oregon, USA) and present my latest project named <i>A New Dimension-reduction Method for Complex Dynamical Networks</i>. SIAM’s Annual Meeting provides a broad view of the state of the art in applied mathematics, computational science, and their applications.
+                      </p>
+                    </div>
+                  </div>
+                </div><!-- /.list-group-item -->
+                
+                <div class="list-group-item">
+                  
+                  <!-- Toggle -->
+                  <a class="d-flex align-items-center text-reset text-decoration-none collapsed" data-toggle="collapse" href="#help-dl" role="button" aria-expanded="false" aria-controls="help-dl">
+                      
+                    <!-- Title -->
+                    <span class="mr-4">
+                     Deep learning assignment
+                    </span>
+                    
+                    <!-- Metadata -->
+                    <div class="text-muted ml-auto">
+
+                      <!-- Text -->
+                      <span class="font-size-sm mr-4 d-none d-md-inline">
+                        June 20, 2018
+                      </span>
+                      
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </div>
+
+                  </a>
+                  
+                  <!-- Collapse -->
+                  <div class="collapse" id="help-dl" data-parent="#helpAccordionOne" style="">
+                    <div class="py-5">
+
+                      <!-- Text -->
+                      <p class="text-gray-700">
+                        During the semester of winter 2018, I’ve taken a deep learning course that covers fully connected and convolutional networks, state-of-the-art architectures and regulations mechanisms, recurrent networks, natural language processing, GAN, and miscellaneous topics. For the final assignment, we have chosen to construct our own dataset by scraping Unsplash website and to infer the EXIF metadata of the images (final paper and image below). We have learned so much... particularly that the learning can only be as good as the dataset.
+                      </p>
+
+                      <h4>Summary</h4>
+                      <p class="font-size-sm  text-muted">
+                        We used deep convolutional networks to estimate the camera settings, lens aperture, ISO sensibility and exposure time, known as the EXIF metadata solely based on the pixels of the photos. The training has been performed on a novel dataset of 19 000 high quality photos labeled with the camera settings. The results indicated that deep convolutionnal networks have trouble solving the task and achieving high accuracy. We find that the general low performances we obtained are due to the dataset corruption, some class imbalances and possibly the lack of information in the picture alone.
+                      </p>
+                      <a  class="badge badge-primary-soft" href="/assets/pdf/exif.pdf">Link to paper</a>
+                    </div>
+                  </div>
+                </div><!-- /.list-group-item -->
+                
+                <div class="list-group-item">
+                  
+                  <!-- Toggle -->
+                  <a class="d-flex align-items-center text-reset text-decoration-none collapsed" data-toggle="collapse" href="#help-fastconverter" role="button" aria-expanded="false" aria-controls="help-fastconverter">
+                      
+                    <!-- Title -->
+                    <span class="mr-4">
+                     Release of a fast image converter
+                    </span>
+                    
+                    <!-- Metadata -->
+                    <div class="text-muted ml-auto">
+
+                      <!-- Text -->
+                      <span class="font-size-sm mr-4 d-none d-md-inline">
+                        March 28, 2018
+                      </span>
+                      
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </div>
+
+                  </a>
+                  
+                  <!-- Collapse -->
+                  <div class="collapse" id="help-fastconverter" data-parent="#helpAccordionOne" style="">
+                    <div class="py-5">
+
+                      <!-- Text -->
+                      <p class="text-gray-700">
+                        I’ve created a Github repo to host the code for the fast networks generator. It basicaly reads real images (portrait, animal) and converts it to networks. 
+                      </p>
+
+                      <div class="form-row">
+                        
+                        <div class="col-6">
+
+                           <!-- Image -->
+                          <a class="d-block " data-fancybox="" data-width="400" data-height="343" href="assets/img/photos/zebra_small.jpg">
+                            <img src="assets/img/photos/zebra_small.jpg" alt="..." class="img-fluid rounded">
+                          </a>
+
+
+                        </div>
+                        <div class="col-6">
+
+                          
+                          <!-- Image -->
+                          <a class="d-block mb-4 " data-fancybox="" data-width="400" data-height="343" href="assets/img/photos/zebra_small.png">
+                            <img src="assets/img/photos/zebra_small.png" alt="..." class="img-fluid rounded">
+                          </a>
+
+                         
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- /.list-group-item -->
+                
+              </div> 
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </main>
+
+    <!-- CURVE
+    ================================================== -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>
+      </div>
     </div>
-  </li>
-  {% if forloop.last == false %}
-  {% endif %}
-  {% endif %}
-  {% endfor %}
-</ul>
 
-<nav class="pagination" role="navigation">
-	<p>
-    {% if paginator.previous_page %}
-			{% if paginator.page == 2 %}
-			<a class="newer-posts" href="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-chevron-circle-left fa-stack-1x fa-inverse pagination-icon"></i>
-        </span>
-      </a>
-			{% else %}
-			<a class="newer-posts" href="{{ site.baseurl }}/page{{paginator.previous_page}}">
-				<span class="fa-stack fa-lg">
-					<i class="fa fa-chevron-circle-left fa-stack-1x fa-inverse pagination-icon"></i>
-				</span>
-			</a>
-			{% endif %}
-		{% else %}
-		<span class="fa-stack fa-lg ">
-      <i class="fa fa-chevron-circle-left fa-stack-1x fa-inverse pagination-icon inactive-icon"></i>
-    </span>
-		{% endif %}
-		<span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages | minus: 1 }}</span>
-    <!-- Next statements in jekyll is for the portfolio -->
-    {% assign npage = paginator.page %}
-    {% assign totpage = paginator.total_pages | minus: 1 %}
-		{% if npage != totpage %}
-		<a class="newer-posts" href="{{ site.baseurl }}/page{{paginator.next_page}}">
-      <span class="fa-stack fa-lg">
-        <i class="fa fa-chevron-circle-right fa-stack-1x fa-inverse pagination-icon"></i>
-      </span>
-    </a>
-		{% else %}
-		<span class="fa-stack fa-lg">
-      <i class="fa fa-chevron-circle-right fa-stack-1x fa-inverse pagination-icon inactive-icon"></i>
-    </span>
-		{% endif %}
-	</p>
-</nav>
+    <!-- FOOTER
+    ================================================== -->
+    
 
-</div>
-</div>
+    <!-- JAVASCRIPT
+    ================================================== -->
+    <!-- Libs JS -->
+    <script src="./assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="./assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+    <script src="./assets/libs/aos/dist/aos.js"></script>
+    <script src="./assets/libs/choices.js/public/assets/scripts/choices.min.js"></script>
+    <script src="./assets/libs/countup.js/dist/countUp.min.js"></script>
+    <script src="./assets/libs/dropzone/dist/min/dropzone.min.js"></script>
+    <script src="./assets/libs/flickity/dist/flickity.pkgd.min.js"></script>
+    <script src="./assets/libs/flickity-fade/flickity-fade.js"></script>
+    <script src="./assets/libs/highlightjs/highlight.pack.min.js"></script>
+    <script src="./assets/libs/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="./assets/libs/isotope-layout/dist/isotope.pkgd.min.js"></script>
+    <script src="./assets/libs/jarallax/dist/jarallax.min.js"></script>
+    <script src="./assets/libs/jarallax/dist/jarallax-video.min.js"></script>
+    <script src="./assets/libs/jarallax/dist/jarallax-element.min.js"></script>
+    <script src="./assets/libs/quill/dist/quill.min.js"></script>
+    <script src="./assets/libs/smooth-scroll/dist/smooth-scroll.min.js"></script>
+    <script src="./assets/libs/typed.js/lib/typed.min.js"></script>
+
+    <!-- Map -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+
+    <!-- Theme JS -->
+    <script src="./assets/js/theme.min.js"></script>
 
 
-
-
+  </body>
+</html>
